@@ -22,30 +22,30 @@ use Andy87\PhpClientSdk\Runtime\ClientRuntime;
  * Главный клиент HeadHunter API с ленивым доступом к provider-разделам.
  *
  * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantCommentsProvider $applicantComments
- * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantInfoProvider $applicantInfo
- * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantNegotiationMessagesProvider $applicantNegotiationMessages
- * @property-read \Andy87\ClientsHh\Generated\Provider\AppAuthorizationProvider $appAuthorization
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantNegotiationsProvider $applicantNegotiations
  * @property-read \Andy87\ClientsHh\Generated\Provider\ChatsProvider $chats
  * @property-read \Andy87\ClientsHh\Generated\Provider\ClickmeStatisticsProvider $clickmeStatistics
- * @property-read \Andy87\ClientsHh\Generated\Provider\CommonDictionariesProvider $commonDictionaries
- * @property-read \Andy87\ClientsHh\Generated\Provider\CompanySuggestsProvider $companySuggests
- * @property-read \Andy87\ClientsHh\Generated\Provider\DictionariesProvider $dictionaries
+ * @property-read \Andy87\ClientsHh\Generated\Provider\CommonReferenceDataProvider $commonReferenceData
+ * @property-read \Andy87\ClientsHh\Generated\Provider\CompanySuggestionsProvider $companySuggestions
+ * @property-read \Andy87\ClientsHh\Generated\Provider\CurrentUserProvider $currentUser
  * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerAddressesProvider $employerAddresses
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerAuthorizationProvider $employerAuthorization
  * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerInfoProvider $employerInfo
  * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerManagersProvider $employerManagers
  * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerNegotiationsProvider $employerNegotiations
  * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerProvider $employer
  * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerServicesProvider $employerServices
- * @property-read \Andy87\ClientsHh\Generated\Provider\KeywordSuggestsProvider $keywordSuggests
+ * @property-read \Andy87\ClientsHh\Generated\Provider\KeywordSuggestionsProvider $keywordSuggestions
  * @property-read \Andy87\ClientsHh\Generated\Provider\ManagerInfoProvider $managerInfo
+ * @property-read \Andy87\ClientsHh\Generated\Provider\OAuthProvider $oauth
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeDetailsProvider $resumeDetails
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeReferenceDataProvider $resumeReferenceData
  * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeSearchProvider $resumeSearch
- * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeViewProvider $resumeView
- * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryDatabaseProvider $salaryDatabase
- * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryDictionariesProvider $salaryDictionaries
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryAnalyticsProvider $salaryAnalytics
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryReferenceDataProvider $salaryReferenceData
  * @property-read \Andy87\ClientsHh\Generated\Provider\SavedResumeSearchesProvider $savedResumeSearches
- * @property-read \Andy87\ClientsHh\Generated\Provider\SuggestsProvider $suggests
- * @property-read \Andy87\ClientsHh\Generated\Provider\VacanciesProvider $vacancies
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SuggestionsProvider $suggestions
+ * @property-read \Andy87\ClientsHh\Generated\Provider\TokenManagementProvider $tokenManagement
+ * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyDetailsProvider $vacancyDetails
  * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyDraftsProvider $vacancyDrafts
  * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyManagementProvider $vacancyManagement
  * @property-read \Andy87\ClientsHh\Generated\Provider\VacancySearchProvider $vacancySearch

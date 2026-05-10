@@ -30,6 +30,10 @@ const classNames = new Map();
 const leafMethodNames = new Map();
 const schemaClassNames = new Map();
 
+const pascalTokenOverrides = new Map([
+    ['oauth', 'OAuth'],
+]);
+
 const operationVerbs = new Set([
     'accept', 'add', 'apply', 'archive', 'cancel', 'change', 'check', 'confirm',
     'create', 'delete', 'download', 'edit', 'generate', 'get', 'link', 'list',
@@ -39,29 +43,29 @@ const operationVerbs = new Set([
 ]);
 
 const providerTagAliases = new Map([
-    ['Авторизация приложения', { property: 'appAuthorization', enumCase: 'AppAuthorization' }],
-    ['Авторизация работодателя', { property: 'employerAuthorization', enumCase: 'EmployerAuthorization' }],
+    ['Авторизация приложения', { property: 'oauth', enumCase: 'OAuth' }],
+    ['Авторизация работодателя', { property: 'tokenManagement', enumCase: 'TokenManagement' }],
     ['Адреса работодателя', { property: 'employerAddresses', enumCase: 'EmployerAddresses' }],
-    ['Банк данных о зарплатах', { property: 'salaryDatabase', enumCase: 'SalaryDatabase' }],
-    ['Вакансии', { property: 'vacancies', enumCase: 'Vacancies' }],
+    ['Банк данных о зарплатах', { property: 'salaryAnalytics', enumCase: 'SalaryAnalytics' }],
+    ['Вакансии', { property: 'vacancyDetails', enumCase: 'VacancyDetails' }],
     ['Информация о менеджере', { property: 'managerInfo', enumCase: 'ManagerInfo' }],
     ['Информация о работодателе', { property: 'employerInfo', enumCase: 'EmployerInfo' }],
-    ['Информация о соискателе', { property: 'applicantInfo', enumCase: 'ApplicantInfo' }],
+    ['Информация о соискателе', { property: 'currentUser', enumCase: 'CurrentUser' }],
     ['Комментарии к соискателю', { property: 'applicantComments', enumCase: 'ApplicantComments' }],
     ['Менеджеры работодателя', { property: 'employerManagers', enumCase: 'EmployerManagers' }],
-    ['Общие справочники', { property: 'commonDictionaries', enumCase: 'CommonDictionaries' }],
+    ['Общие справочники', { property: 'commonReferenceData', enumCase: 'CommonReferenceData' }],
     ['Отклики/приглашения работодателя', { property: 'employerNegotiations', enumCase: 'EmployerNegotiations' }],
-    ['Переписка (отклики/приглашения) для соискателя', { property: 'applicantNegotiationMessages', enumCase: 'ApplicantNegotiationMessages' }],
-    ['Подсказки', { property: 'suggests', enumCase: 'Suggests' }],
-    ['Подсказки по ключевым словам', { property: 'keywordSuggests', enumCase: 'KeywordSuggests' }],
-    ['Подсказки по компаниям', { property: 'companySuggests', enumCase: 'CompanySuggests' }],
+    ['Переписка (отклики/приглашения) для соискателя', { property: 'applicantNegotiations', enumCase: 'ApplicantNegotiations' }],
+    ['Подсказки', { property: 'suggestions', enumCase: 'Suggestions' }],
+    ['Подсказки по ключевым словам', { property: 'keywordSuggestions', enumCase: 'KeywordSuggestions' }],
+    ['Подсказки по компаниям', { property: 'companySuggestions', enumCase: 'CompanySuggestions' }],
     ['Поиск вакансий', { property: 'vacancySearch', enumCase: 'VacancySearch' }],
     ['Поиск резюме', { property: 'resumeSearch', enumCase: 'ResumeSearch' }],
-    ['Просмотр резюме', { property: 'resumeView', enumCase: 'ResumeView' }],
+    ['Просмотр резюме', { property: 'resumeDetails', enumCase: 'ResumeDetails' }],
     ['Работодатель', { property: 'employer', enumCase: 'Employer' }],
     ['Сохраненные поиски резюме', { property: 'savedResumeSearches', enumCase: 'SavedResumeSearches' }],
-    ['Справочники', { property: 'dictionaries', enumCase: 'Dictionaries' }],
-    ['Справочники Банка данных заработных плат', { property: 'salaryDictionaries', enumCase: 'SalaryDictionaries' }],
+    ['Справочники', { property: 'resumeReferenceData', enumCase: 'ResumeReferenceData' }],
+    ['Справочники Банка данных заработных плат', { property: 'salaryReferenceData', enumCase: 'SalaryReferenceData' }],
     ['Статистика рекламных кампаний в Clickme', { property: 'clickmeStatistics', enumCase: 'ClickmeStatistics' }],
     ['Управление вакансиями', { property: 'vacancyManagement', enumCase: 'VacancyManagement' }],
     ['Услуги работодателя', { property: 'employerServices', enumCase: 'EmployerServices' }],
@@ -121,7 +125,10 @@ function words(value) {
 }
 
 function pascal(value) {
-    const result = words(value).map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join('');
+    const result = words(value)
+        .map((part) => pascalTokenOverrides.get(part.toLowerCase()) || (part.charAt(0).toUpperCase() + part.slice(1)))
+        .join('');
+
     return /^[0-9]/.test(result) ? `N${result}` : (result || 'Operation');
 }
 

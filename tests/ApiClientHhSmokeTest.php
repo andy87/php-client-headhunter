@@ -8,7 +8,7 @@ use Andy87\ClientsHh\ApiClientHh;
 use Andy87\ClientsHh\BaseHhProvider;
 use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
 use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Provider\ApplicantInfoProvider;
+use Andy87\ClientsHh\Generated\Provider\CurrentUserProvider;
 use Andy87\ClientsHh\Generated\Provider\VacancySearchProvider;
 use Andy87\ClientsHh\Generated\ProviderKey;
 use Andy87\ClientsHh\Generated\ProviderRegistry;
@@ -72,9 +72,47 @@ class ApiClientHhSmokeTest extends TestCase
     public function testProviderAliasesAreAsciiAndEnumBacked(): void
     {
         $client = new ApiClientHh(['baseUrl' => 'https://api.hh.test']);
+        $expectedAliases = [
+            ProviderKey::CurrentUser->value,
+            ProviderKey::ApplicantNegotiations->value,
+            ProviderKey::VacancyDetails->value,
+            ProviderKey::ResumeDetails->value,
+            ProviderKey::Suggestions->value,
+            ProviderKey::KeywordSuggestions->value,
+            ProviderKey::CompanySuggestions->value,
+            ProviderKey::CommonReferenceData->value,
+            ProviderKey::ResumeReferenceData->value,
+            ProviderKey::SalaryReferenceData->value,
+            ProviderKey::SalaryAnalytics->value,
+            ProviderKey::OAuth->value,
+            ProviderKey::TokenManagement->value,
+        ];
+        $removedAliases = [
+            'applicantInfo',
+            'applicantNegotiationMessages',
+            'vacancies',
+            'resumeView',
+            'suggests',
+            'keywordSuggests',
+            'companySuggests',
+            'commonDictionaries',
+            'dictionaries',
+            'salaryDictionaries',
+            'salaryDatabase',
+            'appAuthorization',
+            'employerAuthorization',
+        ];
 
         foreach ($client->providerNames() as $providerName) {
             self::assertMatchesRegularExpression('/^[A-Za-z][A-Za-z0-9]*$/', $providerName);
+        }
+
+        foreach ($expectedAliases as $alias) {
+            self::assertContains($alias, $client->providerNames());
+        }
+
+        foreach ($removedAliases as $alias) {
+            self::assertNotContains($alias, $client->providerNames());
         }
 
         self::assertContains(ProviderKey::VacancySearch, $client->providerKeys());
@@ -129,9 +167,9 @@ class ApiClientHhSmokeTest extends TestCase
             'accessToken' => 'test-token',
         ], $transport);
 
-        $provider = $client->provider(ProviderKey::ApplicantInfo);
+        $provider = $client->provider(ProviderKey::CurrentUser);
 
-        self::assertInstanceOf(ApplicantInfoProvider::class, $provider);
+        self::assertInstanceOf(CurrentUserProvider::class, $provider);
 
         $provider->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
 

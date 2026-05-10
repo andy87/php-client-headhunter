@@ -63,7 +63,7 @@ $client = new ApiClientHh([
     ],
 ]);
 
-$response = $client->provider(ProviderKey::ApplicantInfo)->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
+$response = $client->provider(ProviderKey::CurrentUser)->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
 
 echo $response->id . PHP_EOL;
 ```
