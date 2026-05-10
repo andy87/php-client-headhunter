@@ -8,6 +8,9 @@ use Andy87\ClientsHh\ApiClientHh;
 use Andy87\ClientsHh\BaseHhProvider;
 use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
 use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
+use Andy87\ClientsHh\Generated\Provider\ApplicantInfoProvider;
+use Andy87\ClientsHh\Generated\Provider\VacancySearchProvider;
+use Andy87\ClientsHh\Generated\ProviderKey;
 use Andy87\ClientsHh\Generated\ProviderRegistry;
 use Andy87\ClientsHh\HhConfig;
 use Andy87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
@@ -52,12 +55,33 @@ class ApiClientHhSmokeTest extends TestCase
         $client = new ApiClientHh(['baseUrl' => 'https://api.hh.test']);
 
         self::assertSame(array_keys(ProviderRegistry::providers()), $client->providerNames());
+        self::assertSame(array_map(static fn (ProviderKey $key): string => $key->value, ProviderKey::cases()), $client->providerNames());
         self::assertNotSame([], $client->providerNames());
 
         foreach ($client->providerNames() as $providerName) {
             self::assertTrue(isset($client->{$providerName}));
             self::assertInstanceOf(BaseHhProvider::class, $client->provider($providerName));
         }
+    }
+
+    /**
+     * Проверяет стабильные ASCII aliases для ключевых provider-разделов.
+     *
+     * @return void
+     */
+    public function testProviderAliasesAreAsciiAndEnumBacked(): void
+    {
+        $client = new ApiClientHh(['baseUrl' => 'https://api.hh.test']);
+
+        foreach ($client->providerNames() as $providerName) {
+            self::assertMatchesRegularExpression('/^[A-Za-z][A-Za-z0-9]*$/', $providerName);
+        }
+
+        self::assertContains(ProviderKey::VacancySearch, $client->providerKeys());
+        self::assertInstanceOf(VacancySearchProvider::class, $client->provider(ProviderKey::VacancySearch));
+        self::assertInstanceOf(VacancySearchProvider::class, $client->vacancySearch);
+        self::assertTrue(isset($client->vacancySearch));
+        self::assertFalse(isset($client->поискВакансий));
     }
 
     /**
@@ -105,12 +129,11 @@ class ApiClientHhSmokeTest extends TestCase
             'accessToken' => 'test-token',
         ], $transport);
 
-        $provider = $client->provider('информацияОСоискателе');
+        $provider = $client->provider(ProviderKey::ApplicantInfo);
 
-        self::assertTrue(method_exists($provider, 'getCurrentUserInfo'));
+        self::assertInstanceOf(ApplicantInfoProvider::class, $provider);
 
-        $method = new \ReflectionMethod($provider, 'getCurrentUserInfo');
-        $method->invoke($provider, new GetCurrentUserInfoPrompt());
+        $provider->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
 
         self::assertCount(1, $requests);
         self::assertSame('Bearer test-token', $requests[0]->headers['Authorization'] ?? null);

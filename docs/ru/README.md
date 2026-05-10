@@ -40,7 +40,7 @@ $prompt = new GetVacanciesPrompt();
 $prompt->text = 'php developer';
 $prompt->per_page = 10;
 
-$response = $client->provider('поискВакансий')->getVacancies($prompt);
+$response = $client->vacancySearch->getVacancies($prompt);
 
 foreach ($response->items ?? [] as $vacancy) {
     echo $vacancy->name . PHP_EOL;
@@ -54,6 +54,7 @@ foreach ($response->items ?? [] as $vacancy) {
 
 use Andy87\ClientsHh\ApiClientHh;
 use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
+use Andy87\ClientsHh\Generated\ProviderKey;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -62,7 +63,7 @@ $client = new ApiClientHh([
     ],
 ]);
 
-$response = $client->provider('информацияОСоискателе')->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
+$response = $client->provider(ProviderKey::ApplicantInfo)->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
 
 echo $response->id . PHP_EOL;
 ```
@@ -135,6 +136,7 @@ $client = new ApiClientHh([
 - `Andy87\ClientsHh\ApiClientHh` - главный клиент с ленивым доступом к provider-разделам.
 - `Andy87\ClientsHh\HhConfig` - конфигурация подключения.
 - `Andy87\ClientsHh\BaseHhProvider` - базовый provider для сгенерированных разделов API.
+- `Andy87\ClientsHh\Generated\ProviderKey` - enum со стабильными ASCII-ключами provider-разделов.
 - `Andy87\ClientsHh\Generated\Provider` - сгенерированные provider-разделы.
 - `Andy87\ClientsHh\Generated\Prompt` - сгенерированные DTO запросов.
 - `Andy87\ClientsHh\Generated\Response` - сгенерированные DTO ответов.

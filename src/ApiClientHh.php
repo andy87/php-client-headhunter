@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Andy87\ClientsHh;
 
 use Andy87\ClientsHh\Generated\ProviderRegistry;
+use Andy87\ClientsHh\Generated\ProviderKey;
 use Andy87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
 use Andy87\PhpClientSdk\Auth\NullAuthorizationStrategy;
 use Andy87\PhpClientSdk\Config\ClientOptions;
@@ -19,6 +20,36 @@ use Andy87\PhpClientSdk\Runtime\ClientRuntime;
 
 /**
  * Главный клиент HeadHunter API с ленивым доступом к provider-разделам.
+ *
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantCommentsProvider $applicantComments
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantInfoProvider $applicantInfo
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantNegotiationMessagesProvider $applicantNegotiationMessages
+ * @property-read \Andy87\ClientsHh\Generated\Provider\AppAuthorizationProvider $appAuthorization
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ChatsProvider $chats
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ClickmeStatisticsProvider $clickmeStatistics
+ * @property-read \Andy87\ClientsHh\Generated\Provider\CommonDictionariesProvider $commonDictionaries
+ * @property-read \Andy87\ClientsHh\Generated\Provider\CompanySuggestsProvider $companySuggests
+ * @property-read \Andy87\ClientsHh\Generated\Provider\DictionariesProvider $dictionaries
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerAddressesProvider $employerAddresses
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerAuthorizationProvider $employerAuthorization
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerInfoProvider $employerInfo
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerManagersProvider $employerManagers
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerNegotiationsProvider $employerNegotiations
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerProvider $employer
+ * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerServicesProvider $employerServices
+ * @property-read \Andy87\ClientsHh\Generated\Provider\KeywordSuggestsProvider $keywordSuggests
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ManagerInfoProvider $managerInfo
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeSearchProvider $resumeSearch
+ * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeViewProvider $resumeView
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryDatabaseProvider $salaryDatabase
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryDictionariesProvider $salaryDictionaries
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SavedResumeSearchesProvider $savedResumeSearches
+ * @property-read \Andy87\ClientsHh\Generated\Provider\SuggestsProvider $suggests
+ * @property-read \Andy87\ClientsHh\Generated\Provider\VacanciesProvider $vacancies
+ * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyDraftsProvider $vacancyDrafts
+ * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyManagementProvider $vacancyManagement
+ * @property-read \Andy87\ClientsHh\Generated\Provider\VacancySearchProvider $vacancySearch
+ * @property-read \Andy87\ClientsHh\Generated\Provider\WebhookApiProvider $webhookApi
  */
 class ApiClientHh
 {
@@ -124,14 +155,16 @@ class ApiClientHh
     /**
      * Возвращает provider-раздел по имени.
      *
-     * @param string $name Имя provider-раздела.
+     * @param string|ProviderKey $name Имя provider-раздела или enum-ключ.
      *
      * @return BaseHhProvider Provider-раздел.
      *
      * @throws \OutOfBoundsException Если раздел не зарегистрирован.
      */
-    public function provider(string $name): BaseHhProvider
+    public function provider(string|ProviderKey $name): BaseHhProvider
     {
+        $name = $name instanceof ProviderKey ? $name->value : $name;
+
         if (isset($this->providers[$name])) {
             return $this->providers[$name];
         }
@@ -161,6 +194,16 @@ class ApiClientHh
     public function providerNames(): array
     {
         return array_keys(ProviderRegistry::providers());
+    }
+
+    /**
+     * Возвращает список enum-ключей provider-разделов.
+     *
+     * @return list<ProviderKey> Enum-ключи provider-разделов.
+     */
+    public function providerKeys(): array
+    {
+        return ProviderKey::cases();
     }
 
     /**

@@ -42,7 +42,7 @@ $prompt = new GetVacanciesPrompt();
 $prompt->text = 'php developer';
 $prompt->per_page = 10;
 
-$response = $client->provider('поискВакансий')->getVacancies($prompt);
+$response = $client->vacancySearch->getVacancies($prompt);
 
 foreach ($response->items ?? [] as $vacancy) {
     echo $vacancy->name . PHP_EOL;
@@ -56,6 +56,7 @@ Protected methods need an OAuth access token:
 
 use Andy87\ClientsHh\ApiClientHh;
 use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
+use Andy87\ClientsHh\Generated\ProviderKey;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -64,7 +65,7 @@ $client = new ApiClientHh([
     ],
 ]);
 
-$response = $client->provider('информацияОСоискателе')->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
+$response = $client->provider(ProviderKey::ApplicantInfo)->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
 
 echo $response->id . PHP_EOL;
 ```
@@ -137,6 +138,7 @@ $client = new ApiClientHh([
 - `Andy87\ClientsHh\ApiClientHh` - main client with lazy provider access.
 - `Andy87\ClientsHh\HhConfig` - connection configuration.
 - `Andy87\ClientsHh\BaseHhProvider` - base provider for generated API sections.
+- `Andy87\ClientsHh\Generated\ProviderKey` - enum with stable ASCII provider keys.
 - `Andy87\ClientsHh\Generated\Provider` - generated provider sections.
 - `Andy87\ClientsHh\Generated\Prompt` - generated request DTOs.
 - `Andy87\ClientsHh\Generated\Response` - generated response DTOs.

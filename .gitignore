@@ -6,5 +6,3 @@ tools/*
 !tools/generate-hh-openapi.mjs
 
 .idea/
-
-tools/

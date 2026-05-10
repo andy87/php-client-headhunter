@@ -38,6 +38,38 @@ const operationVerbs = new Set([
     'upload',
 ]);
 
+const providerTagAliases = new Map([
+    ['Авторизация приложения', { property: 'appAuthorization', enumCase: 'AppAuthorization' }],
+    ['Авторизация работодателя', { property: 'employerAuthorization', enumCase: 'EmployerAuthorization' }],
+    ['Адреса работодателя', { property: 'employerAddresses', enumCase: 'EmployerAddresses' }],
+    ['Банк данных о зарплатах', { property: 'salaryDatabase', enumCase: 'SalaryDatabase' }],
+    ['Вакансии', { property: 'vacancies', enumCase: 'Vacancies' }],
+    ['Информация о менеджере', { property: 'managerInfo', enumCase: 'ManagerInfo' }],
+    ['Информация о работодателе', { property: 'employerInfo', enumCase: 'EmployerInfo' }],
+    ['Информация о соискателе', { property: 'applicantInfo', enumCase: 'ApplicantInfo' }],
+    ['Комментарии к соискателю', { property: 'applicantComments', enumCase: 'ApplicantComments' }],
+    ['Менеджеры работодателя', { property: 'employerManagers', enumCase: 'EmployerManagers' }],
+    ['Общие справочники', { property: 'commonDictionaries', enumCase: 'CommonDictionaries' }],
+    ['Отклики/приглашения работодателя', { property: 'employerNegotiations', enumCase: 'EmployerNegotiations' }],
+    ['Переписка (отклики/приглашения) для соискателя', { property: 'applicantNegotiationMessages', enumCase: 'ApplicantNegotiationMessages' }],
+    ['Подсказки', { property: 'suggests', enumCase: 'Suggests' }],
+    ['Подсказки по ключевым словам', { property: 'keywordSuggests', enumCase: 'KeywordSuggests' }],
+    ['Подсказки по компаниям', { property: 'companySuggests', enumCase: 'CompanySuggests' }],
+    ['Поиск вакансий', { property: 'vacancySearch', enumCase: 'VacancySearch' }],
+    ['Поиск резюме', { property: 'resumeSearch', enumCase: 'ResumeSearch' }],
+    ['Просмотр резюме', { property: 'resumeView', enumCase: 'ResumeView' }],
+    ['Работодатель', { property: 'employer', enumCase: 'Employer' }],
+    ['Сохраненные поиски резюме', { property: 'savedResumeSearches', enumCase: 'SavedResumeSearches' }],
+    ['Справочники', { property: 'dictionaries', enumCase: 'Dictionaries' }],
+    ['Справочники Банка данных заработных плат', { property: 'salaryDictionaries', enumCase: 'SalaryDictionaries' }],
+    ['Статистика рекламных кампаний в Clickme', { property: 'clickmeStatistics', enumCase: 'ClickmeStatistics' }],
+    ['Управление вакансиями', { property: 'vacancyManagement', enumCase: 'VacancyManagement' }],
+    ['Услуги работодателя', { property: 'employerServices', enumCase: 'EmployerServices' }],
+    ['Чаты', { property: 'chats', enumCase: 'Chats' }],
+    ['Черновики вакансий', { property: 'vacancyDrafts', enumCase: 'VacancyDrafts' }],
+    ['Webhook API', { property: 'webhookApi', enumCase: 'WebhookApi' }],
+]);
+
 const propertyNameOverrides = new Map();
 
 function phpString(value) {
@@ -189,6 +221,32 @@ function uniqueMethod(operationId, slug, path) {
 
 function fallbackOperationId(httpMethod, path) {
     return camel(`${httpMethod} ${path.replace(/[{}]/g, ' ')}`);
+}
+
+function ensureAsciiProviderName(value, label) {
+    if (!/^[A-Za-z][A-Za-z0-9]*$/.test(value)) {
+        throw new Error(`Provider ${label} must be ASCII alnum and start with a letter, got "${value}".`);
+    }
+
+    return value;
+}
+
+function providerAliasForTag(tag) {
+    const alias = providerTagAliases.get(tag);
+
+    if (alias) {
+        return {
+            property: ensureAsciiProviderName(alias.property, `${tag} property`),
+            enumCase: ensureAsciiProviderName(alias.enumCase, `${tag} enum case`),
+        };
+    }
+
+    const property = providerProperty(slugFromTag(tag));
+
+    return {
+        property: ensureAsciiProviderName(property, `${tag} property`),
+        enumCase: ensureAsciiProviderName(pascal(property), `${tag} enum case`),
+    };
 }
 
 function operationTokens(methodName) {
@@ -1203,7 +1261,7 @@ async function assertCoverage(operations, groups, schemas) {
 function providerRegistryFile(groups) {
     const rows = groups
         .sort((a, b) => a.property.localeCompare(b.property))
-        .map((group) => `            '${group.property}' => Provider\\${group.providerClass}::class,`)
+        .map((group) => `            ProviderKey::${group.enumCase}->value => Provider\\${group.providerClass}::class,`)
         .join('\n');
 
     return `<?php
@@ -1228,6 +1286,28 @@ class ProviderRegistry
 ${rows}
         ];
     }
+}
+`;
+}
+
+function providerKeyEnumFile(groups) {
+    const rows = groups
+        .sort((a, b) => a.property.localeCompare(b.property))
+        .map((group) => `    case ${group.enumCase} = '${group.property}';`)
+        .join('\n');
+
+    return `<?php
+
+declare(strict_types=1);
+
+namespace ${namespace};
+
+/**
+ * Стабильные ASCII-ключи provider-разделов HeadHunter API.
+ */
+enum ProviderKey: string
+{
+${rows}
 }
 `;
 }
@@ -1292,10 +1372,13 @@ function primaryOperationTag(operation) {
     const tag = Array.isArray(operation.tags) && operation.tags.length > 0
         ? String(operation.tags[0])
         : 'General';
+    const alias = providerAliasForTag(tag);
 
     return {
         title: tag,
-        slug: slugFromTag(tag),
+        slug: alias.property,
+        property: alias.property,
+        enumCase: alias.enumCase,
     };
 }
 
@@ -1336,9 +1419,10 @@ async function main() {
             const group = groups.get(tag.slug) || {
                 slug: tag.slug,
                 title: tag.title,
-                property: providerProperty(tag.slug),
-                providerClass: providerClass(tag.slug),
-                providerNamespacePart: pascal(tag.slug),
+                property: tag.property,
+                enumCase: tag.enumCase,
+                providerClass: providerClass(tag.property),
+                providerNamespacePart: pascal(tag.property),
             };
             const secondLevelGroup = operationGroup(methodName, tag.slug);
             const nestedClassBase = pascal(secondLevelGroup.methodName);
@@ -1418,6 +1502,7 @@ async function main() {
     }
 
     await write(join(out, 'ProviderRegistry.php'), providerRegistryFile([...groups.values()]));
+    await write(join(out, 'ProviderKey.php'), providerKeyEnumFile([...groups.values()]));
     const coverage = await assertCoverage(operations, [...groups.values()], schemas);
     console.log(`Generated ${coverage.operations} HeadHunter operations in ${coverage.providers} providers.`);
     console.log(`Coverage: ${coverage.flatPrompts} flat prompts, ${coverage.flatResponses} flat responses, ${coverage.nestedPrompts} nested prompts, ${coverage.nestedResponses} nested responses.`);
