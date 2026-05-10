@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\CommonReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\CommonReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAreasFromSpecifiedPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetAreasPrompt;
-use Andy87\ClientsHh\Generated\Response\CommonReferenceData\Areas\GetFromSpecifiedResponse;
-use Andy87\ClientsHh\Generated\Response\CommonReferenceData\Areas\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasFromSpecifiedPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasPrompt;
+use and_y87\ClientsHh\Generated\Response\CommonReferenceData\Areas\GetFromSpecifiedResponse;
+use and_y87\ClientsHh\Generated\Response\CommonReferenceData\Areas\GetResponse;
 
 /**
  * Группа методов "areas" раздела HeadHunter API "Общие справочники".

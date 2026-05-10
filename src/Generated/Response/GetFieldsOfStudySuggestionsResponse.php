@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /suggests/fields_of_study.
@@ -19,10 +19,10 @@ class GetFieldsOfStudySuggestionsResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\SuggestsFieldsOfStudyItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\SuggestsFieldsOfStudyItem::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\SuggestsFieldsOfStudy::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\SuggestsFieldsOfStudy::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\SuggestsFieldsOfStudyItem> Информация о найденных специализациях */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\SuggestsFieldsOfStudyItem> Информация о найденных специализациях */
     public array $items;
 }

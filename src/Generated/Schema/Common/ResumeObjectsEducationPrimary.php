@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ResumeObjectsEducationPrimary.
@@ -17,10 +17,10 @@ class ResumeObjectsEducationPrimary extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['id', 'name_id', 'organization', 'organization_id', 'result', 'result_id', 'university_acronym'];
 
-    protected const CASTS = ['education_level' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesEducationLevel::class];
+    protected const CASTS = ['education_level' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesEducationLevel::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesEducationLevel|null Уровень образования. Возможные значения приведены в поле `education_level` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries) */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesEducationLevel $education_level = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesEducationLevel|null Уровень образования. Возможные значения приведены в поле `education_level` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries) */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesEducationLevel $education_level = null;
 
     /** @var string|null Идентификатор */
     public ?string $id = null;

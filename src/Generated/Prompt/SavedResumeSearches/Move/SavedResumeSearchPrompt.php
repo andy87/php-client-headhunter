@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\SavedResumeSearches\Move;
+namespace and_y87\ClientsHh\Generated\Prompt\SavedResumeSearches\Move;
 
-use Andy87\ClientsHh\Generated\Prompt\MoveSavedResumeSearchPrompt as BaseMoveSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Prompt\MoveSavedResumeSearchPrompt as BaseMoveSavedResumeSearchPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /saved_searches/resumes/{saved_search_id}/managers/{manager_id}.

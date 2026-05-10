@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\TokenManagement;
+namespace and_y87\ClientsHh\Generated\Provider\TokenManagement;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\InvalidateTokenPrompt;
-use Andy87\ClientsHh\Generated\Response\TokenManagement\Invalidate\TokenResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\InvalidateTokenPrompt;
+use and_y87\ClientsHh\Generated\Response\TokenManagement\Invalidate\TokenResponse;
 
 /**
  * Группа методов "invalidate" раздела HeadHunter API "Авторизация работодателя".

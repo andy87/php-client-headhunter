@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyDraftDraftResponseSchema.
@@ -17,7 +17,7 @@ class VacancyDraftDraftResponseSchema extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['validation_errors' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError::class]];
+    protected const CASTS = ['validation_errors' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError::class]];
 
     /** @var string Идентификатор созданного объекта */
     public string $id;
@@ -31,6 +31,6 @@ class VacancyDraftDraftResponseSchema extends AbstractSchemaModel
     /** @var bool Готовность черновика к публикации */
     public bool $publication_ready;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError>|null Поля, которые были сохранены при создании черновика, с соответствующими ошибками, которые необходимо поправить для успешной публикации вакансии на основе черновика */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError>|null Поля, которые были сохранены при создании черновика, с соответствующими ошибками, которые необходимо поправить для успешной публикации вакансии на основе черновика */
     public ?array $validation_errors = null;
 }

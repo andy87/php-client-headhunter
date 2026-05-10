@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerManagers\Employer;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerManagers\Employer;
 
-use Andy87\ClientsHh\Generated\Prompt\DeleteEmployerManagerPrompt as BaseDeleteEmployerManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteEmployerManagerPrompt as BaseDeleteEmployerManagerPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /employers/{employer_id}/managers/{manager_id}.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\TokenManagement\Invalidate;
+namespace and_y87\ClientsHh\Generated\Prompt\TokenManagement\Invalidate;
 
-use Andy87\ClientsHh\Generated\Prompt\InvalidateTokenPrompt as BaseInvalidateTokenPrompt;
+use and_y87\ClientsHh\Generated\Prompt\InvalidateTokenPrompt as BaseInvalidateTokenPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /token.

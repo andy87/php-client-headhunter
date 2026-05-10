@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\WebhookApi\Webhook;
+namespace and_y87\ClientsHh\Generated\Response\WebhookApi\Webhook;
 
-use Andy87\ClientsHh\Generated\Response\CancelWebhookSubscriptionResponse as BaseCancelWebhookSubscriptionResponse;
+use and_y87\ClientsHh\Generated\Response\CancelWebhookSubscriptionResponse as BaseCancelWebhookSubscriptionResponse;
 
 /**
  * Ответ HeadHunter API [DELETE] /webhook/subscriptions/{subscription_id}.

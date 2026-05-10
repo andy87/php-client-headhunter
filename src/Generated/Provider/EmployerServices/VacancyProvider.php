@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerServices;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerServices;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyAvailableServicesListPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerServices\Vacancy\GetAvailableServicesListResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyAvailableServicesListPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerServices\Vacancy\GetAvailableServicesListResponse;
 
 /**
  * Группа методов "vacancy" раздела HeadHunter API "Услуги работодателя".

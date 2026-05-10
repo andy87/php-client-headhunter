@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyManagement\Vacancy;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyManagement\Vacancy;
 
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyUpgradeListPrompt as BaseGetVacancyUpgradeListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyUpgradeListPrompt as BaseGetVacancyUpgradeListPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /vacancies/{vacancy_id}/upgrades.

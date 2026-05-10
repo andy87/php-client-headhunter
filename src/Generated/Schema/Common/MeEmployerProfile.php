@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter MeEmployerProfile.
@@ -17,7 +17,7 @@ class MeEmployerProfile extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['auth_type'];
 
-    protected const CASTS = ['employer' => \Andy87\ClientsHh\Generated\Schema\Common\MeEmployerProfileCompany::class, 'personal_manager' => \Andy87\ClientsHh\Generated\Schema\Common\MeEmployerProfilePersonalManager::class];
+    protected const CASTS = ['employer' => \and_y87\ClientsHh\Generated\Schema\Common\MeEmployerProfileCompany::class, 'personal_manager' => \and_y87\ClientsHh\Generated\Schema\Common\MeEmployerProfilePersonalManager::class];
 
     /** @var string|null Тип авторизации */
     public ?string $auth_type;
@@ -37,9 +37,9 @@ class MeEmployerProfile extends AbstractSchemaModel
     /** @var bool Является ли текущий пользователь работодателем */
     public bool $is_employer_integration;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\MeEmployerProfileCompany|null Schema field employer */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\MeEmployerProfileCompany $employer = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\MeEmployerProfileCompany|null Schema field employer */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\MeEmployerProfileCompany $employer = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\MeEmployerProfilePersonalManager|null Schema field personal_manager */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\MeEmployerProfilePersonalManager $personal_manager = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\MeEmployerProfilePersonalManager|null Schema field personal_manager */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\MeEmployerProfilePersonalManager $personal_manager = null;
 }

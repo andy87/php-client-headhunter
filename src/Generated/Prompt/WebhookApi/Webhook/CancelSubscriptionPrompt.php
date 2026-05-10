@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\WebhookApi\Webhook;
+namespace and_y87\ClientsHh\Generated\Prompt\WebhookApi\Webhook;
 
-use Andy87\ClientsHh\Generated\Prompt\CancelWebhookSubscriptionPrompt as BaseCancelWebhookSubscriptionPrompt;
+use and_y87\ClientsHh\Generated\Prompt\CancelWebhookSubscriptionPrompt as BaseCancelWebhookSubscriptionPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /webhook/subscriptions/{subscription_id}.

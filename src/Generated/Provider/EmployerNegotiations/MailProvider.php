@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerNegotiations;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerNegotiations;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetMailTemplatesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutMailTemplatesItemPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Mail\GetTemplatesResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Mail\PutTemplatesItemResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetMailTemplatesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutMailTemplatesItemPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Mail\GetTemplatesResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Mail\PutTemplatesItemResponse;
 
 /**
  * Группа методов "mail" раздела HeadHunter API "Отклики/приглашения работодателя".

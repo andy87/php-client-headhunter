@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\CommonReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\CommonReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetMetroStationsInCityPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetMetroStationsPrompt;
-use Andy87\ClientsHh\Generated\Response\CommonReferenceData\Metro\GetStationsInCityResponse;
-use Andy87\ClientsHh\Generated\Response\CommonReferenceData\Metro\GetStationsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetMetroStationsInCityPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetMetroStationsPrompt;
+use and_y87\ClientsHh\Generated\Response\CommonReferenceData\Metro\GetStationsInCityResponse;
+use and_y87\ClientsHh\Generated\Response\CommonReferenceData\Metro\GetStationsResponse;
 
 /**
  * Группа методов "metro" раздела HeadHunter API "Общие справочники".

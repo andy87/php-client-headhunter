@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Chats;
+namespace and_y87\ClientsHh\Generated\Provider\Chats;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\SetLastViewedMessagePrompt;
-use Andy87\ClientsHh\Generated\Response\Chats\Last\SetViewedMessageResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\SetLastViewedMessagePrompt;
+use and_y87\ClientsHh\Generated\Response\Chats\Last\SetViewedMessageResponse;
 
 /**
  * Группа методов "last" раздела HeadHunter API "Чаты".

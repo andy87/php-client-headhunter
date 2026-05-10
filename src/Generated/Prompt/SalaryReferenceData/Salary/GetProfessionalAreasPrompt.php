@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\SalaryReferenceData\Salary;
+namespace and_y87\ClientsHh\Generated\Prompt\SalaryReferenceData\Salary;
 
-use Andy87\ClientsHh\Generated\Prompt\GetSalaryProfessionalAreasPrompt as BaseGetSalaryProfessionalAreasPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSalaryProfessionalAreasPrompt as BaseGetSalaryProfessionalAreasPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /salary_statistics/dictionaries/professional_areas.

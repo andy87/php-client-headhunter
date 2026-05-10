@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Professional;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Professional;
 
-use Andy87\ClientsHh\Generated\Prompt\GetProfessionalRolesDictionaryPrompt as BaseGetProfessionalRolesDictionaryPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetProfessionalRolesDictionaryPrompt as BaseGetProfessionalRolesDictionaryPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /professional_roles.

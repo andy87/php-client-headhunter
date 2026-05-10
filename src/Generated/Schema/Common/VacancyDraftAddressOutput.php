@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyDraftAddressOutput.
@@ -17,7 +17,7 @@ class VacancyDraftAddressOutput extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['building', 'city', 'lat', 'lng', 'street', 'description', 'id', 'show_metro_only'];
 
-    protected const CASTS = ['metro_stations' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class]];
+    protected const CASTS = ['metro_stations' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class]];
 
     /** @var string|null Дом */
     public ?string $building = null;
@@ -37,7 +37,7 @@ class VacancyDraftAddressOutput extends AbstractSchemaModel
     /** @var string|null Описание */
     public ?string $description = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null Schema field metro_stations */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null Schema field metro_stations */
     public ?array $metro_stations = null;
 
     /** @var string|null Адрес из [списка доступных адресов работодателя](#tag/Adresa-rabotodatelya/operation/get-employer-addresses) */

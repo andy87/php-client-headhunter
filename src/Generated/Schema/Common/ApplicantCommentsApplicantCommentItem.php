@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ApplicantCommentsApplicantCommentItem.
@@ -17,13 +17,13 @@ class ApplicantCommentsApplicantCommentItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['access_type' => \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType::class, 'author' => \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor::class];
+    protected const CASTS = ['access_type' => \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType::class, 'author' => \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType Тип доступа для комментария. Возможные значения перечислены [в справочнике](#tag/Obshie-spravochniki/operation/get-dictionaries) в поле `applicant_comment_access_type` */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType $access_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType Тип доступа для комментария. Возможные значения перечислены [в справочнике](#tag/Obshie-spravochniki/operation/get-dictionaries) в поле `applicant_comment_access_type` */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType $access_type;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor Автор комментария */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor $author;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor Автор комментария */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor $author;
 
     /** @var string Дата создания комментария */
     public string $created_at;

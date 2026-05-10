@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\ChangeVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\CreateVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DeleteVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DisableAutomaticVacancyPublicationPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyDraftListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PublishVacancyFromDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\SearchForVacancyDraftDuplicatesPrompt;
-use Andy87\ClientsHh\Generated\Response\ChangeVacancyDraftResponse;
-use Andy87\ClientsHh\Generated\Response\CreateVacancyDraftResponse;
-use Andy87\ClientsHh\Generated\Response\DeleteVacancyDraftResponse;
-use Andy87\ClientsHh\Generated\Response\DisableAutomaticVacancyPublicationResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyDraftListResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyDraftResponse;
-use Andy87\ClientsHh\Generated\Response\PublishVacancyFromDraftResponse;
-use Andy87\ClientsHh\Generated\Response\SearchForVacancyDraftDuplicatesResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\ChangeVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\CreateVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DisableAutomaticVacancyPublicationPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyDraftListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PublishVacancyFromDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SearchForVacancyDraftDuplicatesPrompt;
+use and_y87\ClientsHh\Generated\Response\ChangeVacancyDraftResponse;
+use and_y87\ClientsHh\Generated\Response\CreateVacancyDraftResponse;
+use and_y87\ClientsHh\Generated\Response\DeleteVacancyDraftResponse;
+use and_y87\ClientsHh\Generated\Response\DisableAutomaticVacancyPublicationResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyDraftListResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyDraftResponse;
+use and_y87\ClientsHh\Generated\Response\PublishVacancyFromDraftResponse;
+use and_y87\ClientsHh\Generated\Response\SearchForVacancyDraftDuplicatesResponse;
 
 /**
  * Provider раздела HeadHunter API "Черновики вакансий".

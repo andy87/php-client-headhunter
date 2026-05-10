@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesItemsOfClusterItem.
@@ -22,11 +22,11 @@ class VacanciesItemsOfClusterItem extends AbstractSchemaModel
     /** @var float Количество вакансий в данном элементе кластера */
     public float $count;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field metro_line */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $metro_line = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field metro_line */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $metro_line = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field metro_station */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $metro_station = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field metro_station */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $metro_station = null;
 
     /** @var string Название элемента кластера */
     public string $name;

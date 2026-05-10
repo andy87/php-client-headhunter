@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter DictionariesBranchItem.
@@ -17,12 +17,12 @@ class DictionariesBranchItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['industries' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
+    protected const CASTS = ['industries' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
 
     /** @var string Идентификатор отрасли */
     public string $id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Сферы деятельности */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Сферы деятельности */
     public array $industries;
 
     /** @var string Название отрасли */

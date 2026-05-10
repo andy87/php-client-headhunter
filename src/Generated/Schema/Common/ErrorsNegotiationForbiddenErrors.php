@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ErrorsNegotiationForbiddenErrors.
@@ -17,7 +17,7 @@ class ErrorsNegotiationForbiddenErrors extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['errors' => [\Andy87\ClientsHh\Generated\Schema\Common\ErrorsNegotiationForbiddenError::class]];
+    protected const CASTS = ['errors' => [\and_y87\ClientsHh\Generated\Schema\Common\ErrorsNegotiationForbiddenError::class]];
 
     /** @var string Идентификатор запроса */
     public string $request_id;
@@ -25,7 +25,7 @@ class ErrorsNegotiationForbiddenErrors extends AbstractSchemaModel
     /** @var string|null Описание ошибки */
     public ?string $description = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ErrorsNegotiationForbiddenError> Массив с данными ошибок */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ErrorsNegotiationForbiddenError> Массив с данными ошибок */
     public array $errors;
 
     /** @var string|null Ошибки авторизации:

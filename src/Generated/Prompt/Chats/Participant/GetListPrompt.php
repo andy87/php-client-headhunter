@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Participant;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Participant;
 
-use Andy87\ClientsHh\Generated\Prompt\GetParticipantListPrompt as BaseGetParticipantListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetParticipantListPrompt as BaseGetParticipantListPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /common/chats/{chat_id}/participants.

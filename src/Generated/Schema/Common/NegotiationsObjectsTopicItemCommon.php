@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsObjectsTopicItemCommon.
@@ -17,7 +17,7 @@ class NegotiationsObjectsTopicItemCommon extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['counters' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters::class, 'has_updates' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates::class, 'state' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['counters' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters::class, 'has_updates' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates::class, 'state' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
     /** @var bool|null Является ли вопросом до отклика */
     public ?bool $applicant_question_state = null;
@@ -25,14 +25,14 @@ class NegotiationsObjectsTopicItemCommon extends AbstractSchemaModel
     /** @var float|null Идентификатор чата */
     public ?float $chat_id = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters|null Schema field counters */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters $counters = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters|null Schema field counters */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters $counters = null;
 
     /** @var string Дата и время создания отклика/приглашения */
     public string $created_at;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates Schema field has_updates */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates $has_updates;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates Schema field has_updates */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates $has_updates;
 
     /** @var string Идентификатор отклика/приглашения */
     public string $id;
@@ -46,17 +46,17 @@ class NegotiationsObjectsTopicItemCommon extends AbstractSchemaModel
  */
     public string $messaging_status;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles|null Schema field professional_roles */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles $professional_roles = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles|null Schema field professional_roles */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles $professional_roles = null;
 
     /** @var string|null Источник отклика/приглашения */
     public ?string $source = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Текущее состояние отклика/приглашения.
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Текущее состояние отклика/приглашения.
 
 Возможные значения приведены в поле `negotiations_state` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries)
  */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
 
     /** @var string Дата и время последнего обновления отклика/приглашения */
     public string $updated_at;

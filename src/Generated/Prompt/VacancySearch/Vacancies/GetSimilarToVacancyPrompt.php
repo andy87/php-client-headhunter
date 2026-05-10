@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancySearch\Vacancies;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancySearch\Vacancies;
 
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesSimilarToVacancyPrompt as BaseGetVacanciesSimilarToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesSimilarToVacancyPrompt as BaseGetVacanciesSimilarToVacancyPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /vacancies/{vacancy_id}/similar_vacancies.

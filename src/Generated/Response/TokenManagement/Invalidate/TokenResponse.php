@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\TokenManagement\Invalidate;
+namespace and_y87\ClientsHh\Generated\Response\TokenManagement\Invalidate;
 
-use Andy87\ClientsHh\Generated\Response\InvalidateTokenResponse as BaseInvalidateTokenResponse;
+use and_y87\ClientsHh\Generated\Response\InvalidateTokenResponse as BaseInvalidateTokenResponse;
 
 /**
  * Ответ HeadHunter API [DELETE] /token.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyVariantVacancyProperties.
@@ -17,8 +17,8 @@ class VacancyVariantVacancyProperties extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['required' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyRequiredVacancyProperties::class];
+    protected const CASTS = ['required' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyRequiredVacancyProperties::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyRequiredVacancyProperties Schema field required */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyRequiredVacancyProperties $required;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyRequiredVacancyProperties Schema field required */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyRequiredVacancyProperties $required;
 }

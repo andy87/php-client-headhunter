@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter SuggestsCompanyItem.
@@ -17,13 +17,13 @@ class SuggestsCompanyItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['logo_urls' => \Andy87\ClientsHh\Generated\Schema\Common\SuggestsLogoUrl::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\SuggestsArea::class, 'industries' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
+    protected const CASTS = ['logo_urls' => \and_y87\ClientsHh\Generated\Schema\Common\SuggestsLogoUrl::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\SuggestsArea::class, 'industries' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
 
     /** @var string Идентификатор организации */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SuggestsLogoUrl|null Ссылка на логотип организации */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\SuggestsLogoUrl $logo_urls = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SuggestsLogoUrl|null Ссылка на логотип организации */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\SuggestsLogoUrl $logo_urls = null;
 
     /** @var string Название организации */
     public string $text;
@@ -31,9 +31,9 @@ class SuggestsCompanyItem extends AbstractSchemaModel
     /** @var string|null Сайт организации */
     public ?string $url = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SuggestsArea Schema field area */
-    public \Andy87\ClientsHh\Generated\Schema\Common\SuggestsArea $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SuggestsArea Schema field area */
+    public \and_y87\ClientsHh\Generated\Schema\Common\SuggestsArea $area;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Сферы деятельности */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Сферы деятельности */
     public ?array $industries = null;
 }

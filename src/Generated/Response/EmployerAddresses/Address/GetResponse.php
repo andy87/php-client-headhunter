@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerAddresses\Address;
+namespace and_y87\ClientsHh\Generated\Response\EmployerAddresses\Address;
 
-use Andy87\ClientsHh\Generated\Response\GetAddressResponse as BaseGetAddressResponse;
+use and_y87\ClientsHh\Generated\Response\GetAddressResponse as BaseGetAddressResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/addresses/{address_id}.
@@ -20,7 +20,7 @@ use Andy87\ClientsHh\Generated\Response\GetAddressResponse as BaseGetAddressResp
  * @property float|null $lat Географическая широта
  * @property float|null $lng Географическая долгота
  * @property array<string, mixed>|null $manager Информация о менеджере, создавшем адрес
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null $metro_stations Response field metro_stations
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null $metro_stations Response field metro_stations
  * @property string|null $rawData Полный адрес
  * @property string|null $street Улица
  */

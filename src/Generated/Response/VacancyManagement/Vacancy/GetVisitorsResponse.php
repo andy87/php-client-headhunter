@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy;
+namespace and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy;
 
-use Andy87\ClientsHh\Generated\Response\GetVacancyVisitorsResponse as BaseGetVacancyVisitorsResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyVisitorsResponse as BaseGetVacancyVisitorsResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/{vacancy_id}/visitors.

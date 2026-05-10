@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacanciesResponse.
@@ -17,9 +17,9 @@ class VacanciesVacanciesResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['clusters', 'arguments', 'alternate_url'];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesItem::class], 'clusters' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem::class], 'arguments' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesArgumentItem::class], 'fixes' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesFixes::class, 'suggests' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesSuggests::class];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesItem::class], 'clusters' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem::class], 'arguments' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesArgumentItem::class], 'fixes' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesFixes::class, 'suggests' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesSuggests::class];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesItem> Список вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesItem> Список вакансий */
     public array $items;
 
     /** @var int Найдено результатов */
@@ -34,10 +34,10 @@ class VacanciesVacanciesResponse extends AbstractSchemaModel
     /** @var int Результатов на странице */
     public int $per_page;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem>|null Массив [кластеров поиска](#tag/Poisk-vakansij/Klastery-v-poiske-vakansij) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem>|null Массив [кластеров поиска](#tag/Poisk-vakansij/Klastery-v-poiske-vakansij) */
     public ?array $clusters = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesArgumentItem>|null Массив параметров поиска, переданных в запросе.
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesArgumentItem>|null Массив параметров поиска, переданных в запросе.
 
 Возвращается только если в запросе передан параметр `describe_arguments=true`. В массиве выдаются только те параметры, которые влияют на поиск вакансий. Неизвестные параметры игнорируются. Элемент списка с одним значением `argument` может повторяться несколько раз, если параметр имеет несколько значений
  */
@@ -46,9 +46,9 @@ class VacanciesVacanciesResponse extends AbstractSchemaModel
     /** @var string|null Ссылка на вакансию */
     public ?string $alternate_url = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesFixes|null Schema field fixes */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesFixes $fixes = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesFixes|null Schema field fixes */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesFixes $fixes = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesSuggests|null Schema field suggests */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesSuggests $suggests = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesSuggests|null Schema field suggests */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesSuggests $suggests = null;
 }

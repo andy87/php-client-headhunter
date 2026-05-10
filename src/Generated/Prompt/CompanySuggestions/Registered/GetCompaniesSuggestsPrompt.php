@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CompanySuggestions\Registered;
+namespace and_y87\ClientsHh\Generated\Prompt\CompanySuggestions\Registered;
 
-use Andy87\ClientsHh\Generated\Prompt\GetRegisteredCompaniesSuggestsPrompt as BaseGetRegisteredCompaniesSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetRegisteredCompaniesSuggestsPrompt as BaseGetRegisteredCompaniesSuggestsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/companies.

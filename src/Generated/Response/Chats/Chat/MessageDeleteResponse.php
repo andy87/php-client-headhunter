@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Chat;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Chat;
 
-use Andy87\ClientsHh\Generated\Response\ChatMessageDeleteResponse as BaseChatMessageDeleteResponse;
+use and_y87\ClientsHh\Generated\Response\ChatMessageDeleteResponse as BaseChatMessageDeleteResponse;
 
 /**
  * Ответ HeadHunter API [DELETE] /common/chats/{chat_id}/messages/{message_id}.

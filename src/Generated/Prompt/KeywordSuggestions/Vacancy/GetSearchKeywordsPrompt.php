@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\KeywordSuggestions\Vacancy;
+namespace and_y87\ClientsHh\Generated\Prompt\KeywordSuggestions\Vacancy;
 
-use Andy87\ClientsHh\Generated\Prompt\GetVacancySearchKeywordsPrompt as BaseGetVacancySearchKeywordsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancySearchKeywordsPrompt as BaseGetVacancySearchKeywordsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/vacancy_search_keyword.

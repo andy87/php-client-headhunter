@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [POST] /vacancies/drafts.
@@ -19,9 +19,9 @@ class CreateVacancyDraftResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['validation_errors' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError::class]];
+    protected const CASTS = ['validation_errors' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftResponseSchema::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftResponseSchema::class;
 
     /** @var string Идентификатор созданного объекта */
     public string $id;
@@ -35,6 +35,6 @@ class CreateVacancyDraftResponse extends AbstractResponse
     /** @var bool Готовность черновика к публикации */
     public bool $publication_ready;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError>|null Поля, которые были сохранены при создании черновика, с соответствующими ошибками, которые необходимо поправить для успешной публикации вакансии на основе черновика */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError>|null Поля, которые были сохранены при создании черновика, с соответствующими ошибками, которые необходимо поправить для успешной публикации вакансии на основе черновика */
     public ?array $validation_errors = null;
 }

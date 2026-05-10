@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyVacancyConstructorTemplate.
@@ -19,8 +19,8 @@ class VacancyVacancyConstructorTemplate extends AbstractSchemaModel
 
     protected const CASTS = [];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Информация по нижней картинке шаблона */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $bottom_picture = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Информация по нижней картинке шаблона */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $bottom_picture = null;
 
     /** @var float|null ID шаблона */
     public ?float $id = null;
@@ -28,6 +28,6 @@ class VacancyVacancyConstructorTemplate extends AbstractSchemaModel
     /** @var string|null Название шаблона */
     public ?string $name = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Информация по верхней картинке шаблона */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $top_picture = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Информация по верхней картинке шаблона */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $top_picture = null;
 }

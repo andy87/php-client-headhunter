@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyContactsOutput.
@@ -17,7 +17,7 @@ class VacancyContactsOutput extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['call_tracking_enabled', 'email', 'name', 'phones'];
 
-    protected const CASTS = ['phones' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyPhoneItem::class]];
+    protected const CASTS = ['phones' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyPhoneItem::class]];
 
     /** @var bool|null Флаг подключения виртуального номера */
     public ?bool $call_tracking_enabled = null;
@@ -28,6 +28,6 @@ class VacancyContactsOutput extends AbstractSchemaModel
     /** @var string|null Имя контакта */
     public ?string $name = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyPhoneItem>|null Список телефонов для связи */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyPhoneItem>|null Список телефонов для связи */
     public ?array $phones = null;
 }

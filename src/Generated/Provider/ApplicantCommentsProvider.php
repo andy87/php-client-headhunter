@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\AddApplicantCommentPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetApplicantCommentsListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\UpdateApplicantCommentPrompt;
-use Andy87\ClientsHh\Generated\Response\AddApplicantCommentResponse;
-use Andy87\ClientsHh\Generated\Response\DeleteApplicantCommentResponse;
-use Andy87\ClientsHh\Generated\Response\GetApplicantCommentsListResponse;
-use Andy87\ClientsHh\Generated\Response\UpdateApplicantCommentResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\AddApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetApplicantCommentsListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\UpdateApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Response\AddApplicantCommentResponse;
+use and_y87\ClientsHh\Generated\Response\DeleteApplicantCommentResponse;
+use and_y87\ClientsHh\Generated\Response\GetApplicantCommentsListResponse;
+use and_y87\ClientsHh\Generated\Response\UpdateApplicantCommentResponse;
 
 /**
  * Provider раздела HeadHunter API "Комментарии к соискателю".

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy;
+namespace and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy;
 
-use Andy87\ClientsHh\Generated\Response\DeleteVacancyDraftResponse as BaseDeleteVacancyDraftResponse;
+use and_y87\ClientsHh\Generated\Response\DeleteVacancyDraftResponse as BaseDeleteVacancyDraftResponse;
 
 /**
  * Ответ HeadHunter API [DELETE] /vacancies/drafts/{draft_id}.

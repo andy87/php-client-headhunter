@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ApplicantNegotiations;
+namespace and_y87\ClientsHh\Generated\Provider\ApplicantNegotiations;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationsPrompt;
-use Andy87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiations\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationsPrompt;
+use and_y87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiations\GetResponse;
 
 /**
  * Группа методов "negotiations" раздела HeadHunter API "Переписка (отклики/приглашения) для соискателя".

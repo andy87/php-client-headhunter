@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesClusters.
@@ -17,8 +17,8 @@ class VacanciesClusters extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['clusters'];
 
-    protected const CASTS = ['clusters' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem::class]];
+    protected const CASTS = ['clusters' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem>|null Массив [кластеров поиска](#tag/Poisk-vakansij/Klastery-v-poiske-vakansij) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem>|null Массив [кластеров поиска](#tag/Poisk-vakansij/Klastery-v-poiske-vakansij) */
     public ?array $clusters = null;
 }

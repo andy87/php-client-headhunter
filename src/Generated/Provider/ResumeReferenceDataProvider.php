@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsDictionaryPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetFacultiesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetLocalesForResumePrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSkillsPrompt;
-use Andy87\ClientsHh\Generated\Response\GetEducationalInstitutionsDictionaryResponse;
-use Andy87\ClientsHh\Generated\Response\GetFacultiesResponse;
-use Andy87\ClientsHh\Generated\Response\GetLocalesForResumeResponse;
-use Andy87\ClientsHh\Generated\Response\GetSkillsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsDictionaryPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetFacultiesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetLocalesForResumePrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSkillsPrompt;
+use and_y87\ClientsHh\Generated\Response\GetEducationalInstitutionsDictionaryResponse;
+use and_y87\ClientsHh\Generated\Response\GetFacultiesResponse;
+use and_y87\ClientsHh\Generated\Response\GetLocalesForResumeResponse;
+use and_y87\ClientsHh\Generated\Response\GetSkillsResponse;
 
 /**
  * Provider раздела HeadHunter API "Справочники".

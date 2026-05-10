@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\WebhookApi;
+namespace and_y87\ClientsHh\Generated\Provider\WebhookApi;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\CancelWebhookSubscriptionPrompt;
-use Andy87\ClientsHh\Generated\Prompt\ChangeWebhookSubscriptionPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetWebhookSubscriptionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PostWebhookSubscriptionPrompt;
-use Andy87\ClientsHh\Generated\Response\WebhookApi\Webhook\CancelSubscriptionResponse;
-use Andy87\ClientsHh\Generated\Response\WebhookApi\Webhook\ChangeSubscriptionResponse;
-use Andy87\ClientsHh\Generated\Response\WebhookApi\Webhook\GetSubscriptionsResponse;
-use Andy87\ClientsHh\Generated\Response\WebhookApi\Webhook\PostSubscriptionResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\CancelWebhookSubscriptionPrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChangeWebhookSubscriptionPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetWebhookSubscriptionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PostWebhookSubscriptionPrompt;
+use and_y87\ClientsHh\Generated\Response\WebhookApi\Webhook\CancelSubscriptionResponse;
+use and_y87\ClientsHh\Generated\Response\WebhookApi\Webhook\ChangeSubscriptionResponse;
+use and_y87\ClientsHh\Generated\Response\WebhookApi\Webhook\GetSubscriptionsResponse;
+use and_y87\ClientsHh\Generated\Response\WebhookApi\Webhook\PostSubscriptionResponse;
 
 /**
  * Группа методов "webhook" раздела HeadHunter API "Webhook API".

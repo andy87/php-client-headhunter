@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\CommonReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\CommonReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetCountriesPrompt;
-use Andy87\ClientsHh\Generated\Response\CommonReferenceData\Countries\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetCountriesPrompt;
+use and_y87\ClientsHh\Generated\Response\CommonReferenceData\Countries\GetResponse;
 
 /**
  * Группа методов "countries" раздела HeadHunter API "Общие справочники".

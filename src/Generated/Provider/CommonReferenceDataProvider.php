@@ -2,31 +2,31 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAllDistrictsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetAreasFromSpecifiedPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetAreasPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCountriesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetDictionariesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetIndustriesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetLanguagesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetLocalesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetMetroStationsInCityPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetMetroStationsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetProfessionalRolesDictionaryPrompt;
-use Andy87\ClientsHh\Generated\Response\GetAllDistrictsResponse;
-use Andy87\ClientsHh\Generated\Response\GetAreasFromSpecifiedResponse;
-use Andy87\ClientsHh\Generated\Response\GetAreasResponse;
-use Andy87\ClientsHh\Generated\Response\GetCountriesResponse;
-use Andy87\ClientsHh\Generated\Response\GetDictionariesResponse;
-use Andy87\ClientsHh\Generated\Response\GetIndustriesResponse;
-use Andy87\ClientsHh\Generated\Response\GetLanguagesResponse;
-use Andy87\ClientsHh\Generated\Response\GetLocalesResponse;
-use Andy87\ClientsHh\Generated\Response\GetMetroStationsInCityResponse;
-use Andy87\ClientsHh\Generated\Response\GetMetroStationsResponse;
-use Andy87\ClientsHh\Generated\Response\GetProfessionalRolesDictionaryResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAllDistrictsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasFromSpecifiedPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCountriesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetDictionariesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetIndustriesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetLanguagesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetLocalesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetMetroStationsInCityPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetMetroStationsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetProfessionalRolesDictionaryPrompt;
+use and_y87\ClientsHh\Generated\Response\GetAllDistrictsResponse;
+use and_y87\ClientsHh\Generated\Response\GetAreasFromSpecifiedResponse;
+use and_y87\ClientsHh\Generated\Response\GetAreasResponse;
+use and_y87\ClientsHh\Generated\Response\GetCountriesResponse;
+use and_y87\ClientsHh\Generated\Response\GetDictionariesResponse;
+use and_y87\ClientsHh\Generated\Response\GetIndustriesResponse;
+use and_y87\ClientsHh\Generated\Response\GetLanguagesResponse;
+use and_y87\ClientsHh\Generated\Response\GetLocalesResponse;
+use and_y87\ClientsHh\Generated\Response\GetMetroStationsInCityResponse;
+use and_y87\ClientsHh\Generated\Response\GetMetroStationsResponse;
+use and_y87\ClientsHh\Generated\Response\GetProfessionalRolesDictionaryResponse;
 
 /**
  * Provider раздела HeadHunter API "Общие справочники".

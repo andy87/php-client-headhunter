@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/{id}/preferred_negotiations_order.
@@ -19,10 +19,10 @@ class GetPrefNegotiationsOrderResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['order_type' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['order_type' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacanciesPreferredNegotiationsOrder::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\VacanciesPreferredNegotiationsOrder::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Тип сортировки */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $order_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Тип сортировки */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $order_type;
 }

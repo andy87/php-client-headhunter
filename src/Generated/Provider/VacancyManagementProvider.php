@@ -2,37 +2,37 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\AddVacancyToArchivePrompt;
-use Andy87\ClientsHh\Generated\Prompt\AddVacancyToHiddenPrompt;
-use Andy87\ClientsHh\Generated\Prompt\EditVacancyPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetActiveVacancyListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetArchivedVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetHiddenVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetProlongationVacancyInfoPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyConditionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyStatsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyUpgradeListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyVisitorsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PublishVacancyPrompt;
-use Andy87\ClientsHh\Generated\Prompt\RestoreVacancyFromHiddenPrompt;
-use Andy87\ClientsHh\Generated\Prompt\VacancyProlongationPrompt;
-use Andy87\ClientsHh\Generated\Response\AddVacancyToArchiveResponse;
-use Andy87\ClientsHh\Generated\Response\AddVacancyToHiddenResponse;
-use Andy87\ClientsHh\Generated\Response\EditVacancyResponse;
-use Andy87\ClientsHh\Generated\Response\GetActiveVacancyListResponse;
-use Andy87\ClientsHh\Generated\Response\GetArchivedVacanciesResponse;
-use Andy87\ClientsHh\Generated\Response\GetHiddenVacanciesResponse;
-use Andy87\ClientsHh\Generated\Response\GetProlongationVacancyInfoResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyConditionsResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyStatsResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyUpgradeListResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyVisitorsResponse;
-use Andy87\ClientsHh\Generated\Response\PublishVacancyResponse;
-use Andy87\ClientsHh\Generated\Response\RestoreVacancyFromHiddenResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyProlongationResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\AddVacancyToArchivePrompt;
+use and_y87\ClientsHh\Generated\Prompt\AddVacancyToHiddenPrompt;
+use and_y87\ClientsHh\Generated\Prompt\EditVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetActiveVacancyListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetArchivedVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetHiddenVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetProlongationVacancyInfoPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyConditionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyStatsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyUpgradeListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyVisitorsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PublishVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\RestoreVacancyFromHiddenPrompt;
+use and_y87\ClientsHh\Generated\Prompt\VacancyProlongationPrompt;
+use and_y87\ClientsHh\Generated\Response\AddVacancyToArchiveResponse;
+use and_y87\ClientsHh\Generated\Response\AddVacancyToHiddenResponse;
+use and_y87\ClientsHh\Generated\Response\EditVacancyResponse;
+use and_y87\ClientsHh\Generated\Response\GetActiveVacancyListResponse;
+use and_y87\ClientsHh\Generated\Response\GetArchivedVacanciesResponse;
+use and_y87\ClientsHh\Generated\Response\GetHiddenVacanciesResponse;
+use and_y87\ClientsHh\Generated\Response\GetProlongationVacancyInfoResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyConditionsResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyStatsResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyUpgradeListResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyVisitorsResponse;
+use and_y87\ClientsHh\Generated\Response\PublishVacancyResponse;
+use and_y87\ClientsHh\Generated\Response\RestoreVacancyFromHiddenResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyProlongationResponse;
 
 /**
  * Provider раздела HeadHunter API "Управление вакансиями".

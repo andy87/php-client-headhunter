@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Suggestions\Fields;
+namespace and_y87\ClientsHh\Generated\Prompt\Suggestions\Fields;
 
-use Andy87\ClientsHh\Generated\Prompt\GetFieldsOfStudySuggestionsPrompt as BaseGetFieldsOfStudySuggestionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetFieldsOfStudySuggestionsPrompt as BaseGetFieldsOfStudySuggestionsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/fields_of_study.

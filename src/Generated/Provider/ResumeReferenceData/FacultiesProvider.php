@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ResumeReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\ResumeReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetFacultiesPrompt;
-use Andy87\ClientsHh\Generated\Response\ResumeReferenceData\Faculties\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetFacultiesPrompt;
+use and_y87\ClientsHh\Generated\Response\ResumeReferenceData\Faculties\GetResponse;
 
 /**
  * Группа методов "faculties" раздела HeadHunter API "Справочники".

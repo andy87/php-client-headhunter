@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /manager_accounts/mine.
@@ -19,9 +19,9 @@ class GetManagerAccountsResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\ManagerAccount::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\ManagerAccount::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ManagerAccounts::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ManagerAccounts::class;
 
     /** @var string Идентификатор текущего рабочего аккаунта менеджера. Совпадает со значением переданного в заголовке `X-Manager-Account-Id`
  */
@@ -30,7 +30,7 @@ class GetManagerAccountsResponse extends AbstractResponse
     /** @var bool Заблокирован ли главный рабочий аккаунт менеджера */
     public bool $is_primary_account_blocked;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ManagerAccount> Список рабочих аккаунтов менеджера */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ManagerAccount> Список рабочих аккаунтов менеджера */
     public array $items;
 
     /** @var string Идентификатор главного рабочего аккаунта менеджера */

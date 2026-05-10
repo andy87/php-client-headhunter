@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt;
+namespace and_y87\ClientsHh\Generated\Prompt;
 
-use Andy87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /employers/{employer_id}/managers/{manager_id}.
@@ -27,7 +27,7 @@ class EditEmployerManagerPrompt extends PrivatePrompt
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['additional_phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'permissions' => [\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions::class], 'phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
+    protected const CASTS = ['additional_phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'permissions' => [\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions::class], 'phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
 
     protected const PATH_FIELDS = ['employer_id', 'manager_id'];
 
@@ -57,14 +57,14 @@ class EditEmployerManagerPrompt extends PrivatePrompt
  */
     public ?string $HH_User_Agent = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions>|null Список прав, которые можно дать данному типу менеджера */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions>|null Список прав, которые можно дать данному типу менеджера */
     public ?array $permissions = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Основной телефон менеджера */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Основной телефон менеджера */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone = null;
 
     /** @var string|null Body field position */
     public ?string $position = null;

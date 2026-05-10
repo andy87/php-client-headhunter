@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Unread;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Unread;
 
-use Andy87\ClientsHh\Generated\Prompt\UnreadChatsCountPrompt as BaseUnreadChatsCountPrompt;
+use and_y87\ClientsHh\Generated\Prompt\UnreadChatsCountPrompt as BaseUnreadChatsCountPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /common/chats/counters/unread.

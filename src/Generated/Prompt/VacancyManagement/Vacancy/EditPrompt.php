@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyManagement\Vacancy;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyManagement\Vacancy;
 
-use Andy87\ClientsHh\Generated\Prompt\EditVacancyPrompt as BaseEditVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\EditVacancyPrompt as BaseEditVacancyPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /vacancies/{vacancy_id}.
@@ -17,7 +17,7 @@ use Andy87\ClientsHh\Generated\Prompt\EditVacancyPrompt as BaseEditVacancyPrompt
  * @property string|null $host Доменное имя сайта (см. [Выбор сайта](#section/Obshaya-informaciya/Vybor-sajta))
  * @property string|null $locale Идентификатор локали (см. [Локализация](#tag/Obshie-spravochniki/operation/get-locales))
  * @property string|null $HH_User_Agent Название приложения и контактная почта разработчика (см. [Информация о клиенте](#section/Obshaya-informaciya/Trebovaniya-k-zaprosam))
- * @property \Andy87\ClientsHh\Generated\Schema\Common\VacancyEdit $body Request body
+ * @property \and_y87\ClientsHh\Generated\Schema\Common\VacancyEdit $body Request body
  */
 class EditPrompt extends BaseEditVacancyPrompt
 {

@@ -29,8 +29,8 @@ declare(strict_types=1);
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
 
 $client = new ApiClientHh([
     'headers' => [
@@ -54,9 +54,9 @@ Protected methods need an OAuth access token:
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
-use Andy87\ClientsHh\Generated\ProviderKey;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
+use and_y87\ClientsHh\Generated\ProviderKey;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -77,7 +77,7 @@ You can pass configuration as an array:
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\ApiClientHh;
 
 $client = new ApiClientHh([
     'access_token' => 'your-oauth-access-token',
@@ -95,8 +95,8 @@ Or from environment variables:
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\HhConfig;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\HhConfig;
 
 $client = new ApiClientHh(HhConfig::fromEnv());
 ```
@@ -116,8 +116,8 @@ By default, `HhConfig::fromEnv()` reads:
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\PhpClientSdk\Event\BeforeRequestEvent;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\PhpClientSdk\Event\BeforeRequestEvent;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -135,14 +135,14 @@ $client = new ApiClientHh([
 
 ## Public API
 
-- `Andy87\ClientsHh\ApiClientHh` - main client with lazy provider access.
-- `Andy87\ClientsHh\HhConfig` - connection configuration.
-- `Andy87\ClientsHh\BaseHhProvider` - base provider for generated API sections.
-- `Andy87\ClientsHh\Generated\ProviderKey` - enum with stable ASCII provider keys.
-- `Andy87\ClientsHh\Generated\Provider` - generated provider sections.
-- `Andy87\ClientsHh\Generated\Prompt` - generated request DTOs.
-- `Andy87\ClientsHh\Generated\Response` - generated response DTOs.
-- `Andy87\ClientsHh\Generated\Schema` - generated schema DTOs.
+- `and_y87\ClientsHh\ApiClientHh` - main client with lazy provider access.
+- `and_y87\ClientsHh\HhConfig` - connection configuration.
+- `and_y87\ClientsHh\BaseHhProvider` - base provider for generated API sections.
+- `and_y87\ClientsHh\Generated\ProviderKey` - enum with stable ASCII provider keys.
+- `and_y87\ClientsHh\Generated\Provider` - generated provider sections.
+- `and_y87\ClientsHh\Generated\Prompt` - generated request DTOs.
+- `and_y87\ClientsHh\Generated\Response` - generated response DTOs.
+- `and_y87\ClientsHh\Generated\Schema` - generated schema DTOs.
 
 Generated prompt DTOs are filled through public properties. Create a prompt object first, then assign request values directly to its fields.
 

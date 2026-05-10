@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\KeywordSuggestions;
+namespace and_y87\ClientsHh\Generated\Provider\KeywordSuggestions;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetResumeSearchKeywordsSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Response\KeywordSuggestions\Get\ResumeSearchKeywordsSuggestsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetResumeSearchKeywordsSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Response\KeywordSuggestions\Get\ResumeSearchKeywordsSuggestsResponse;
 
 /**
  * Группа методов "get" раздела HeadHunter API "Подсказки по ключевым словам".

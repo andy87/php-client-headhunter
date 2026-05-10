@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerServices\Payable;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerServices\Payable;
 
-use Andy87\ClientsHh\Generated\Prompt\GetPayableApiMethodAccessPrompt as BaseGetPayableApiMethodAccessPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetPayableApiMethodAccessPrompt as BaseGetPayableApiMethodAccessPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/managers/{manager_id}/method_access.

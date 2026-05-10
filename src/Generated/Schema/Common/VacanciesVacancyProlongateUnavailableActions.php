@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacancyProlongateUnavailableActions.
@@ -17,7 +17,7 @@ class VacanciesVacancyProlongateUnavailableActions extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['disable_reason' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['disable_reason' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
     /** @var array<string, mixed> Schema field disable_reason */
     public array $disable_reason;

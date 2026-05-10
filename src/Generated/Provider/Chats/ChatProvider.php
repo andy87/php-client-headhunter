@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Chats;
+namespace and_y87\ClientsHh\Generated\Provider\Chats;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\ChatMessageDeletePrompt;
-use Andy87\ClientsHh\Generated\Prompt\ChatMessagePostPrompt;
-use Andy87\ClientsHh\Generated\Prompt\ChatMessagePutPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetChatMessagesPrompt;
-use Andy87\ClientsHh\Generated\Response\Chats\Chat\GetMessagesResponse;
-use Andy87\ClientsHh\Generated\Response\Chats\Chat\MessageDeleteResponse;
-use Andy87\ClientsHh\Generated\Response\Chats\Chat\MessagePostResponse;
-use Andy87\ClientsHh\Generated\Response\Chats\Chat\MessagePutResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessageDeletePrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessagePostPrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessagePutPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetChatMessagesPrompt;
+use and_y87\ClientsHh\Generated\Response\Chats\Chat\GetMessagesResponse;
+use and_y87\ClientsHh\Generated\Response\Chats\Chat\MessageDeleteResponse;
+use and_y87\ClientsHh\Generated\Response\Chats\Chat\MessagePostResponse;
+use and_y87\ClientsHh\Generated\Response\Chats\Chat\MessagePutResponse;
 
 /**
  * Группа методов "chat" раздела HeadHunter API "Чаты".

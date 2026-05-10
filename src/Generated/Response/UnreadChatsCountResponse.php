@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /common/chats/counters/unread.
@@ -21,7 +21,7 @@ class UnreadChatsCountResponse extends AbstractResponse
 
     protected const CASTS = [];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonUnreadChatsCountResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonUnreadChatsCountResponse::class;
 
     /** @var string Количестве непрочитанных чатов */
     public string $unread_chats_count;

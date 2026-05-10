@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Employer;
+namespace and_y87\ClientsHh\Generated\Provider\Employer;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerInfoPrompt;
-use Andy87\ClientsHh\Generated\Prompt\SearchEmployerPrompt;
-use Andy87\ClientsHh\Generated\Response\Employer\Employer\GetInfoResponse;
-use Andy87\ClientsHh\Generated\Response\Employer\Employer\SearchResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerInfoPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SearchEmployerPrompt;
+use and_y87\ClientsHh\Generated\Response\Employer\Employer\GetInfoResponse;
+use and_y87\ClientsHh\Generated\Response\Employer\Employer\SearchResponse;
 
 /**
  * Группа методов "employer" раздела HeadHunter API "Работодатель".

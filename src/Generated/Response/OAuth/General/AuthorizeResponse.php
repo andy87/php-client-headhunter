@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\OAuth\General;
+namespace and_y87\ClientsHh\Generated\Response\OAuth\General;
 
-use Andy87\ClientsHh\Generated\Response\AuthorizeResponse as BaseAuthorizeResponse;
+use and_y87\ClientsHh\Generated\Response\AuthorizeResponse as BaseAuthorizeResponse;
 
 /**
  * Ответ HeadHunter API [POST] /token.

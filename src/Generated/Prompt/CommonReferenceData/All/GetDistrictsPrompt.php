@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\All;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\All;
 
-use Andy87\ClientsHh\Generated\Prompt\GetAllDistrictsPrompt as BaseGetAllDistrictsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAllDistrictsPrompt as BaseGetAllDistrictsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /districts.

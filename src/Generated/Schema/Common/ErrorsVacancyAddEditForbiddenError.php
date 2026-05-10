@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ErrorsVacancyAddEditForbiddenError.
@@ -17,7 +17,7 @@ class ErrorsVacancyAddEditForbiddenError extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['description', 'found', 'items'];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesNumericId::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesNumericId::class]];
 
     /** @var string|null Описание ошибки
  */
@@ -27,7 +27,7 @@ class ErrorsVacancyAddEditForbiddenError extends AbstractSchemaModel
  */
     public ?float $found = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesNumericId>|null Ограниченное количество записей с информацией о дубликатах. Не гарантирует выдачу всех дубликатов. Возвращается только для `"value": "duplicate"`
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesNumericId>|null Ограниченное количество записей с информацией о дубликатах. Не гарантирует выдачу всех дубликатов. Возвращается только для `"value": "duplicate"`
  */
     public ?array $items = null;
 

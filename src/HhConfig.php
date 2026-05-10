@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh;
+namespace and_y87\ClientsHh;
 
-use Andy87\PhpClientSdk\Config\BaseUrl;
+use and_y87\PhpClientSdk\Config\BaseUrl;
 
 /**
  * Хранит настройки подключения к HeadHunter API.

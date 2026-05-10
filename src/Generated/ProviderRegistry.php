@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated;
+namespace and_y87\ClientsHh\Generated;
 
 /**
  * Хранит карту лениво доступных provider-разделов HeadHunter API.

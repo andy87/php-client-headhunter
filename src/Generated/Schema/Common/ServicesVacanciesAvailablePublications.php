@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ServicesVacanciesAvailablePublications.
@@ -17,17 +17,17 @@ class ServicesVacanciesAvailablePublications extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['suitable_packages'];
 
-    protected const CASTS = ['appearance' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance::class, 'suitable_packages' => [\Andy87\ClientsHh\Generated\Schema\Common\ServicesPublicSuitablePackage::class], 'vacancy_properties' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyVariantVacancyProperties::class];
+    protected const CASTS = ['appearance' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance::class, 'suitable_packages' => [\and_y87\ClientsHh\Generated\Schema\Common\ServicesPublicSuitablePackage::class], 'vacancy_properties' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyVariantVacancyProperties::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance Переводы для отображения варианта публикации */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance $appearance;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance Переводы для отображения варианта публикации */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance $appearance;
 
     /** @var float Количество доступных публикаций */
     public float $available_publications_count;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ServicesPublicSuitablePackage>|null Подходящие для списания пакеты услуг в наличии у работодателя */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ServicesPublicSuitablePackage>|null Подходящие для списания пакеты услуг в наличии у работодателя */
     public ?array $suitable_packages;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyVariantVacancyProperties Свойства варианта, такие как тариф, анонимность и другие */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyVariantVacancyProperties $vacancy_properties;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyVariantVacancyProperties Свойства варианта, такие как тариф, анонимность и другие */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyVariantVacancyProperties $vacancy_properties;
 }

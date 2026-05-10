@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ClickmeStatistics\Clickme;
+namespace and_y87\ClientsHh\Generated\Prompt\ClickmeStatistics\Clickme;
 
-use Andy87\ClientsHh\Generated\Prompt\GetClickmeStatisticsPrompt as BaseGetClickmeStatisticsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetClickmeStatisticsPrompt as BaseGetClickmeStatisticsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /clickme/statistics.

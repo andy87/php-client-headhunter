@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Suggestions\Educational;
+namespace and_y87\ClientsHh\Generated\Prompt\Suggestions\Educational;
 
-use Andy87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsSuggestsPrompt as BaseGetEducationalInstitutionsSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsSuggestsPrompt as BaseGetEducationalInstitutionsSuggestsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/educational_institutions.

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ResumeReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\ResumeReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsDictionaryPrompt;
-use Andy87\ClientsHh\Generated\Response\ResumeReferenceData\Educational\GetInstitutionsDictionaryResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsDictionaryPrompt;
+use and_y87\ClientsHh\Generated\Response\ResumeReferenceData\Educational\GetInstitutionsDictionaryResponse;
 
 /**
  * Группа методов "educational" раздела HeadHunter API "Справочники".

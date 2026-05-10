@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesPreferredNegotiationsOrder.
@@ -17,8 +17,8 @@ class VacanciesPreferredNegotiationsOrder extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['order_type' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['order_type' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Тип сортировки */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $order_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Тип сортировки */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $order_type;
 }

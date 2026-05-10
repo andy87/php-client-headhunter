@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /salary_statistics/paid/salary_evaluation/{area_id}.
@@ -19,13 +19,13 @@ class GetSalaryEvaluationResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['market_salary' => \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary::class, 'resulting_parameters' => \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters::class];
+    protected const CASTS = ['market_salary' => \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary::class, 'resulting_parameters' => \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsEvaluationResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsEvaluationResponse::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary Response field market_salary */
-    public \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary $market_salary;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary Response field market_salary */
+    public \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary $market_salary;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters Response field resulting_parameters */
-    public \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters $resulting_parameters;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters Response field resulting_parameters */
+    public \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters $resulting_parameters;
 }

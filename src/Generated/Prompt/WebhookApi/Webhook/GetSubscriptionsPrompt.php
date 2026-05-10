@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\WebhookApi\Webhook;
+namespace and_y87\ClientsHh\Generated\Prompt\WebhookApi\Webhook;
 
-use Andy87\ClientsHh\Generated\Prompt\GetWebhookSubscriptionsPrompt as BaseGetWebhookSubscriptionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetWebhookSubscriptionsPrompt as BaseGetWebhookSubscriptionsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /webhook/subscriptions.

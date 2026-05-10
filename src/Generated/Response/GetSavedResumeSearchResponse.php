@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /saved_searches/resumes/{id}.
@@ -19,9 +19,9 @@ class GetSavedResumeSearchResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class, 'new_items' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class];
+    protected const CASTS = ['items' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class, 'new_items' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\SavedSearchesSavedSearchItem::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\SavedSearchesSavedSearchItem::class;
 
     /** @var string Дата и время создания */
     public string $created_at;
@@ -29,14 +29,14 @@ class GetSavedResumeSearchResponse extends AbstractResponse
     /** @var string Идентификатор поиска */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Response field items */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $items;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Response field items */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $items;
 
     /** @var string Название поиска */
     public string $name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Response field new_items */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $new_items;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Response field new_items */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $new_items;
 
     /** @var bool Статус подписки */
     public bool $subscription;

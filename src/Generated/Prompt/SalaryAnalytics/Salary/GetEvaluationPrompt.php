@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\SalaryAnalytics\Salary;
+namespace and_y87\ClientsHh\Generated\Prompt\SalaryAnalytics\Salary;
 
-use Andy87\ClientsHh\Generated\Prompt\GetSalaryEvaluationPrompt as BaseGetSalaryEvaluationPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSalaryEvaluationPrompt as BaseGetSalaryEvaluationPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /salary_statistics/paid/salary_evaluation/{area_id}.

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerAddresses\Employer;
+namespace and_y87\ClientsHh\Generated\Response\EmployerAddresses\Employer;
 
-use Andy87\ClientsHh\Generated\Response\GetEmployerAddressesResponse as BaseGetEmployerAddressesResponse;
+use and_y87\ClientsHh\Generated\Response\GetEmployerAddressesResponse as BaseGetEmployerAddressesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/addresses.
  *
  * @documentation https://api.hh.ru/openapi/redoc#operation/get-employer-addresses
  *
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerAddressesEmployerAddressItem> $items Список адресов работодателя
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerAddressesEmployerAddressItem> $items Список адресов работодателя
  * @property int $found Найдено результатов
  * @property int $page Номер страницы
  * @property int $pages Всего страниц

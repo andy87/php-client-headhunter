@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Tests;
+namespace and_y87\ClientsHh\Tests;
 
 use PHPUnit\Framework\TestCase;
 
@@ -159,7 +159,7 @@ JS;
             }
 
             $relativePath = str_replace(dirname(__DIR__) . '/src/', '', $file->getPathname());
-            $className = 'Andy87\\ClientsHh\\' . str_replace(['/', '.php'], ['\\', ''], $relativePath);
+            $className = 'and_y87\\ClientsHh\\' . str_replace(['/', '.php'], ['\\', ''], $relativePath);
 
             if (!class_exists($className)) {
                 continue;

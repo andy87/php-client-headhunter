@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt;
+namespace and_y87\ClientsHh\Generated\Prompt;
 
-use Andy87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /common/chats/{chat_id}/messages.
@@ -27,7 +27,7 @@ class ChatMessagePostPrompt extends PrivatePrompt
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['body' => \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagePost::class];
+    protected const CASTS = ['body' => \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagePost::class];
 
     protected const PATH_FIELDS = ['chat_id'];
 
@@ -54,6 +54,6 @@ class ChatMessagePostPrompt extends PrivatePrompt
  */
     public ?string $HH_User_Agent = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagePost Request body */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagePost $body;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagePost Request body */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagePost $body;
 }

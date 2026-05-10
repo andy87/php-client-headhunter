@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [POST] /applicant_comments/{applicant_id}.
@@ -19,15 +19,15 @@ class AddApplicantCommentResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['access_type' => \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType::class, 'author' => \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor::class];
+    protected const CASTS = ['access_type' => \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType::class, 'author' => \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsApplicantCommentItem::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsApplicantCommentItem::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType Тип доступа для комментария. Возможные значения перечислены [в справочнике](#tag/Obshie-spravochniki/operation/get-dictionaries) в поле `applicant_comment_access_type` */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType $access_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType Тип доступа для комментария. Возможные значения перечислены [в справочнике](#tag/Obshie-spravochniki/operation/get-dictionaries) в поле `applicant_comment_access_type` */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAccessType $access_type;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor Автор комментария */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor $author;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor Автор комментария */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ApplicantCommentsAuthor $author;
 
     /** @var string Дата создания комментария */
     public string $created_at;

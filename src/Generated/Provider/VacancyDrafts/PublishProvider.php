@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyDrafts;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyDrafts;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\PublishVacancyFromDraftPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\Publish\VacancyFromDraftResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\PublishVacancyFromDraftPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\Publish\VacancyFromDraftResponse;
 
 /**
  * Группа методов "publish" раздела HeadHunter API "Черновики вакансий".

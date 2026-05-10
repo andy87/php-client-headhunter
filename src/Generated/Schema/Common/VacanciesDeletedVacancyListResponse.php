@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesDeletedVacancyListResponse.
@@ -17,7 +17,7 @@ class VacanciesDeletedVacancyListResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived::class]];
 
     /** @var int Найдено результатов */
     public int $found;
@@ -31,6 +31,6 @@ class VacanciesDeletedVacancyListResponse extends AbstractSchemaModel
     /** @var int Результатов на странице */
     public int $per_page;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived> Список удаленных вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived> Список удаленных вакансий */
     public array $items;
 }

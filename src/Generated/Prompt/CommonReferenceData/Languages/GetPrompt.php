@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Languages;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Languages;
 
-use Andy87\ClientsHh\Generated\Prompt\GetLanguagesPrompt as BaseGetLanguagesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetLanguagesPrompt as BaseGetLanguagesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /languages.

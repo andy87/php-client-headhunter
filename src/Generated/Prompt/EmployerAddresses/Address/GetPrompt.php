@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerAddresses\Address;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerAddresses\Address;
 
-use Andy87\ClientsHh\Generated\Prompt\GetAddressPrompt as BaseGetAddressPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAddressPrompt as BaseGetAddressPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/addresses/{address_id}.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ProfessionalRolesCategory.
@@ -17,7 +17,7 @@ class ProfessionalRolesCategory extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['name'];
 
-    protected const CASTS = ['roles' => [\Andy87\ClientsHh\Generated\Schema\Common\ProfessionalRolesRole::class]];
+    protected const CASTS = ['roles' => [\and_y87\ClientsHh\Generated\Schema\Common\ProfessionalRolesRole::class]];
 
     /** @var string Идентификатор категории профессиональной роли */
     public string $id;
@@ -25,7 +25,7 @@ class ProfessionalRolesCategory extends AbstractSchemaModel
     /** @var string|null Имя категории профессиональной роли */
     public ?string $name;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ProfessionalRolesRole> Список профессиональных ролей, входящих в эту категорию
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ProfessionalRolesRole> Список профессиональных ролей, входящих в эту категорию
  */
     public array $roles;
 }

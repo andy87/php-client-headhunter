@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsNegotiationsStatisticsManagerResponse.
@@ -17,8 +17,8 @@ class NegotiationsNegotiationsStatisticsManagerResponse extends AbstractSchemaMo
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['manager_statistics' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics::class];
+    protected const CASTS = ['manager_statistics' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics Schema field manager_statistics */
-    public \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics $manager_statistics;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics Schema field manager_statistics */
+    public \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics $manager_statistics;
 }

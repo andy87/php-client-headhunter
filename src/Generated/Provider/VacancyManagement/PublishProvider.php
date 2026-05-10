@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyManagement;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyManagement;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\PublishVacancyPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Publish\VacancyResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\PublishVacancyPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Publish\VacancyResponse;
 
 /**
  * Группа методов "publish" раздела HeadHunter API "Управление вакансиями".

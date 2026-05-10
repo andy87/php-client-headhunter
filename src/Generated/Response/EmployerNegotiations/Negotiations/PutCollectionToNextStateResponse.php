@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations;
+namespace and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations;
 
-use Andy87\ClientsHh\Generated\Response\PutNegotiationsCollectionToNextStateResponse as BasePutNegotiationsCollectionToNextStateResponse;
+use and_y87\ClientsHh\Generated\Response\PutNegotiationsCollectionToNextStateResponse as BasePutNegotiationsCollectionToNextStateResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /negotiations/{id}.

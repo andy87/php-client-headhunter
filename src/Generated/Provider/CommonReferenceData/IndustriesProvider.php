@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\CommonReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\CommonReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetIndustriesPrompt;
-use Andy87\ClientsHh\Generated\Response\CommonReferenceData\Industries\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetIndustriesPrompt;
+use and_y87\ClientsHh\Generated\Response\CommonReferenceData\Industries\GetResponse;
 
 /**
  * Группа методов "industries" раздела HeadHunter API "Общие справочники".

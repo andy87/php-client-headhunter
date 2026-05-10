@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/tests.
@@ -19,10 +19,10 @@ class GetTestsDictionaryResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\EmployerDictionariesTestItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\EmployerDictionariesTestItem::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\EmployerDictionariesTestsResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\EmployerDictionariesTestsResponse::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerDictionariesTestItem> Response field items */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerDictionariesTestItem> Response field items */
     public array $items;
 }

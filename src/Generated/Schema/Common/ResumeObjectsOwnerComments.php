@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ResumeObjectsOwnerComments.
@@ -17,10 +17,10 @@ class ResumeObjectsOwnerComments extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['counters' => \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwnerCommentsCounters::class];
+    protected const CASTS = ['counters' => \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwnerCommentsCounters::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwnerCommentsCounters Информация о количестве комментариев */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwnerCommentsCounters $counters;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwnerCommentsCounters Информация о количестве комментариев */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwnerCommentsCounters $counters;
 
     /** @var string URL, на который нужно сделать GET-запрос, чтобы получить список комментариев */
     public string $url;

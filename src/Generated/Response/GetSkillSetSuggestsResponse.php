@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /suggests/skill_set.
@@ -19,10 +19,10 @@ class GetSkillSetSuggestsResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesSkillSetItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesSkillSetItem::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\SuggestsSkillSet::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\SuggestsSkillSet::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesSkillSetItem> Массив найденных ключевых навыков */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesSkillSetItem> Массив найденных ключевых навыков */
     public array $items;
 }

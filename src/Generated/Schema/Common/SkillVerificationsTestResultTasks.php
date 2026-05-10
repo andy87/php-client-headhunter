@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter SkillVerificationsTestResultTasks.
@@ -22,8 +22,8 @@ class SkillVerificationsTestResultTasks extends AbstractSchemaModel
     /** @var array<int, array<string, mixed>> Варианты ответов на закрытые вопросы */
     public array $closed_answers;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SkillVerificationsOpenedAnswer|null Вариант ответа на открытый вопрос */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\SkillVerificationsOpenedAnswer $opened_answer = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SkillVerificationsOpenedAnswer|null Вариант ответа на открытый вопрос */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\SkillVerificationsOpenedAnswer $opened_answer = null;
 
     /** @var string Текст вопроса */
     public string $question;

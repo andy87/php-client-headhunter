@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationItemPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationMessagesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\SendNegotiationMessagePrompt;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationItemResponse;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationMessagesResponse;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationsResponse;
-use Andy87\ClientsHh\Generated\Response\SendNegotiationMessageResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationItemPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationMessagesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SendNegotiationMessagePrompt;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationItemResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationMessagesResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationsResponse;
+use and_y87\ClientsHh\Generated\Response\SendNegotiationMessageResponse;
 
 /**
  * Provider раздела HeadHunter API "Переписка (отклики/приглашения) для соискателя".

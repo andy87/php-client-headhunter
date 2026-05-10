@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [POST] /employers/{employer_id}/managers.
@@ -21,7 +21,7 @@ class AddEmployerManagerResponse extends AbstractResponse
 
     protected const CASTS = [];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersEmployerManagerId::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersEmployerManagerId::class;
 
     /** @var string Идентификатор менеджера */
     public string $id;

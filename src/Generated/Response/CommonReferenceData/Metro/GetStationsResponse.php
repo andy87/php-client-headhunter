@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\CommonReferenceData\Metro;
+namespace and_y87\ClientsHh\Generated\Response\CommonReferenceData\Metro;
 
-use Andy87\ClientsHh\Generated\Response\GetMetroStationsResponse as BaseGetMetroStationsResponse;
+use and_y87\ClientsHh\Generated\Response\GetMetroStationsResponse as BaseGetMetroStationsResponse;
 
 /**
  * Ответ HeadHunter API [GET] /metro.

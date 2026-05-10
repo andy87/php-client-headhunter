@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\SalaryReferenceData\Salary;
+namespace and_y87\ClientsHh\Generated\Response\SalaryReferenceData\Salary;
 
-use Andy87\ClientsHh\Generated\Response\GetSalaryIndustriesResponse as BaseGetSalaryIndustriesResponse;
+use and_y87\ClientsHh\Generated\Response\GetSalaryIndustriesResponse as BaseGetSalaryIndustriesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /salary_statistics/dictionaries/salary_industries.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ErrorsCommonBadAuthorizationEmployerError.
@@ -17,9 +17,9 @@ class ErrorsCommonBadAuthorizationEmployerError extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['allowed_accounts' => [\Andy87\ClientsHh\Generated\Schema\Common\ManagerAccount::class]];
+    protected const CASTS = ['allowed_accounts' => [\and_y87\ClientsHh\Generated\Schema\Common\ManagerAccount::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ManagerAccount>|null Список доступных для токена аккаунтов менеджера в случае, если используемый рабочий аккаунт заблокирован.
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ManagerAccount>|null Список доступных для токена аккаунтов менеджера в случае, если используемый рабочий аккаунт заблокирован.
 Актуально только в случае авторизации работодателя
  */
     public ?array $allowed_accounts = null;

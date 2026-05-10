@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyDrafts\ForValue;
+namespace and_y87\ClientsHh\Generated\Response\VacancyDrafts\ForValue;
 
-use Andy87\ClientsHh\Generated\Response\SearchForVacancyDraftDuplicatesResponse as BaseSearchForVacancyDraftDuplicatesResponse;
+use and_y87\ClientsHh\Generated\Response\SearchForVacancyDraftDuplicatesResponse as BaseSearchForVacancyDraftDuplicatesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/drafts/{draft_id}/duplicates.

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyDrafts;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyDrafts;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\ChangeVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\CreateVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DeleteVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyDraftListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyDraftPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\ChangeDraftResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\CreateDraftResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\DeleteDraftResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\GetDraftListResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\GetDraftResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\ChangeVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\CreateVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyDraftListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\ChangeDraftResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\CreateDraftResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\DeleteDraftResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\GetDraftListResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy\GetDraftResponse;
 
 /**
  * Группа методов "vacancy" раздела HeadHunter API "Черновики вакансий".

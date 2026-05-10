@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter EmployerManagersEmployerManagerItem.
@@ -17,13 +17,13 @@ class EmployerManagersEmployerManagerItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['additional_phone', 'middle_name', 'special_note_1', 'special_note_2', 'vacancies_count'];
 
-    protected const CASTS = ['additional_phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersArea::class, 'phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
+    protected const CASTS = ['additional_phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersArea::class, 'phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersArea Schema field area */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersArea $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersArea Schema field area */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersArea $area;
 
     /** @var string Адрес электронной почты менеджера */
     public string $email;
@@ -49,8 +49,8 @@ class EmployerManagersEmployerManagerItem extends AbstractSchemaModel
     /** @var string|null Полное имя менеджера */
     public ?string $name = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Основной телефон менеджера */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Основной телефон менеджера */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone = null;
 
     /** @var string Должность менеджера */
     public string $position;

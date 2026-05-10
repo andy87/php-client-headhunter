@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ResumeReferenceData\Educational;
+namespace and_y87\ClientsHh\Generated\Prompt\ResumeReferenceData\Educational;
 
-use Andy87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsDictionaryPrompt as BaseGetEducationalInstitutionsDictionaryPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsDictionaryPrompt as BaseGetEducationalInstitutionsDictionaryPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /educational_institutions.

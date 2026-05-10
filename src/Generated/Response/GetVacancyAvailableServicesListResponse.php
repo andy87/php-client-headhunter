@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/services/available_publications.
@@ -19,10 +19,10 @@ class GetVacancyAvailableServicesListResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['publication_variants' => [\Andy87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications::class]];
+    protected const CASTS = ['publication_variants' => [\and_y87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ServicesVacancyAvailablePublication::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ServicesVacancyAvailablePublication::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications> Список доступных типов публикаций */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications> Список доступных типов публикаций */
     public array $publication_variants;
 }

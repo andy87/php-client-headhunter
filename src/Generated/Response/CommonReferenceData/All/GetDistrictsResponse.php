@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\CommonReferenceData\All;
+namespace and_y87\ClientsHh\Generated\Response\CommonReferenceData\All;
 
-use Andy87\ClientsHh\Generated\Response\GetAllDistrictsResponse as BaseGetAllDistrictsResponse;
+use and_y87\ClientsHh\Generated\Response\GetAllDistrictsResponse as BaseGetAllDistrictsResponse;
 
 /**
  * Ответ HeadHunter API [GET] /districts.

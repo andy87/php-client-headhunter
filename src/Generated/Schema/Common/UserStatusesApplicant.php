@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter UserStatusesApplicant.
@@ -17,8 +17,8 @@ class UserStatusesApplicant extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['job_search_status' => \Andy87\ClientsHh\Generated\Schema\Common\UserStatusesJobSearchStatus::class];
+    protected const CASTS = ['job_search_status' => \and_y87\ClientsHh\Generated\Schema\Common\UserStatusesJobSearchStatus::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\UserStatusesJobSearchStatus|null Schema field job_search_status */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\UserStatusesJobSearchStatus $job_search_status = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\UserStatusesJobSearchStatus|null Schema field job_search_status */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\UserStatusesJobSearchStatus $job_search_status = null;
 }

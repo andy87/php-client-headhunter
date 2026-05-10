@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\WebhookApi\Webhook;
+namespace and_y87\ClientsHh\Generated\Response\WebhookApi\Webhook;
 
-use Andy87\ClientsHh\Generated\Response\PostWebhookSubscriptionResponse as BasePostWebhookSubscriptionResponse;
+use and_y87\ClientsHh\Generated\Response\PostWebhookSubscriptionResponse as BasePostWebhookSubscriptionResponse;
 
 /**
  * Ответ HeadHunter API [POST] /webhook/subscriptions.

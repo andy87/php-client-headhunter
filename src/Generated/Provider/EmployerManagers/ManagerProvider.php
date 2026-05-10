@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerManagers;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerManagers;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetManagerAccountsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetManagerSettingsPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Manager\GetAccountsResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Manager\GetSettingsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetManagerAccountsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetManagerSettingsPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Manager\GetAccountsResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Manager\GetSettingsResponse;
 
 /**
  * Группа методов "manager" раздела HeadHunter API "Менеджеры работодателя".

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyDraftVacancyDraftItems.
@@ -17,12 +17,12 @@ class VacancyDraftVacancyDraftItems extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem::class]];
 
     /** @var int Schema field found */
     public int $found;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem> Список черновиков */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem> Список черновиков */
     public array $items;
 
     /** @var int Schema field page */

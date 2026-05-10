@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAddressPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerAddressesPrompt;
-use Andy87\ClientsHh\Generated\Response\GetAddressResponse;
-use Andy87\ClientsHh\Generated\Response\GetEmployerAddressesResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAddressPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerAddressesPrompt;
+use and_y87\ClientsHh\Generated\Response\GetAddressResponse;
+use and_y87\ClientsHh\Generated\Response\GetEmployerAddressesResponse;
 
 /**
  * Provider раздела HeadHunter API "Адреса работодателя".

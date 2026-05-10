@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Areas;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Areas;
 
-use Andy87\ClientsHh\Generated\Prompt\GetAreasFromSpecifiedPrompt as BaseGetAreasFromSpecifiedPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasFromSpecifiedPrompt as BaseGetAreasFromSpecifiedPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /areas/{area_id}.

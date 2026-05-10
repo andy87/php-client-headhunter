@@ -2,54 +2,54 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh;
+namespace and_y87\ClientsHh;
 
-use Andy87\ClientsHh\Generated\ProviderRegistry;
-use Andy87\ClientsHh\Generated\ProviderKey;
-use Andy87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
-use Andy87\PhpClientSdk\Auth\NullAuthorizationStrategy;
-use Andy87\PhpClientSdk\Config\ClientOptions;
-use Andy87\PhpClientSdk\Contracts\AuthorizationStrategyResolverInterface;
-use Andy87\PhpClientSdk\Contracts\AuthorizationStrategyInterface;
-use Andy87\PhpClientSdk\Contracts\HttpTransportInterface;
-use Andy87\PhpClientSdk\Event\AfterInitEvent;
-use Andy87\PhpClientSdk\Event\ClientEvents;
-use Andy87\PhpClientSdk\Http\NativeHttpTransport;
-use Andy87\PhpClientSdk\Http\TraceableTransport;
-use Andy87\PhpClientSdk\Runtime\ClientRuntime;
+use and_y87\ClientsHh\Generated\ProviderRegistry;
+use and_y87\ClientsHh\Generated\ProviderKey;
+use and_y87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
+use and_y87\PhpClientSdk\Auth\NullAuthorizationStrategy;
+use and_y87\PhpClientSdk\Config\ClientOptions;
+use and_y87\PhpClientSdk\Contracts\AuthorizationStrategyResolverInterface;
+use and_y87\PhpClientSdk\Contracts\AuthorizationStrategyInterface;
+use and_y87\PhpClientSdk\Contracts\HttpTransportInterface;
+use and_y87\PhpClientSdk\Event\AfterInitEvent;
+use and_y87\PhpClientSdk\Event\ClientEvents;
+use and_y87\PhpClientSdk\Http\NativeHttpTransport;
+use and_y87\PhpClientSdk\Http\TraceableTransport;
+use and_y87\PhpClientSdk\Runtime\ClientRuntime;
 
 /**
  * Главный клиент HeadHunter API с ленивым доступом к provider-разделам.
  *
- * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantCommentsProvider $applicantComments
- * @property-read \Andy87\ClientsHh\Generated\Provider\ApplicantNegotiationsProvider $applicantNegotiations
- * @property-read \Andy87\ClientsHh\Generated\Provider\ChatsProvider $chats
- * @property-read \Andy87\ClientsHh\Generated\Provider\ClickmeStatisticsProvider $clickmeStatistics
- * @property-read \Andy87\ClientsHh\Generated\Provider\CommonReferenceDataProvider $commonReferenceData
- * @property-read \Andy87\ClientsHh\Generated\Provider\CompanySuggestionsProvider $companySuggestions
- * @property-read \Andy87\ClientsHh\Generated\Provider\CurrentUserProvider $currentUser
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerAddressesProvider $employerAddresses
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerInfoProvider $employerInfo
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerManagersProvider $employerManagers
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerNegotiationsProvider $employerNegotiations
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerProvider $employer
- * @property-read \Andy87\ClientsHh\Generated\Provider\EmployerServicesProvider $employerServices
- * @property-read \Andy87\ClientsHh\Generated\Provider\KeywordSuggestionsProvider $keywordSuggestions
- * @property-read \Andy87\ClientsHh\Generated\Provider\ManagerInfoProvider $managerInfo
- * @property-read \Andy87\ClientsHh\Generated\Provider\OAuthProvider $oauth
- * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeDetailsProvider $resumeDetails
- * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeReferenceDataProvider $resumeReferenceData
- * @property-read \Andy87\ClientsHh\Generated\Provider\ResumeSearchProvider $resumeSearch
- * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryAnalyticsProvider $salaryAnalytics
- * @property-read \Andy87\ClientsHh\Generated\Provider\SalaryReferenceDataProvider $salaryReferenceData
- * @property-read \Andy87\ClientsHh\Generated\Provider\SavedResumeSearchesProvider $savedResumeSearches
- * @property-read \Andy87\ClientsHh\Generated\Provider\SuggestionsProvider $suggestions
- * @property-read \Andy87\ClientsHh\Generated\Provider\TokenManagementProvider $tokenManagement
- * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyDetailsProvider $vacancyDetails
- * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyDraftsProvider $vacancyDrafts
- * @property-read \Andy87\ClientsHh\Generated\Provider\VacancyManagementProvider $vacancyManagement
- * @property-read \Andy87\ClientsHh\Generated\Provider\VacancySearchProvider $vacancySearch
- * @property-read \Andy87\ClientsHh\Generated\Provider\WebhookApiProvider $webhookApi
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ApplicantCommentsProvider $applicantComments
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ApplicantNegotiationsProvider $applicantNegotiations
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ChatsProvider $chats
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ClickmeStatisticsProvider $clickmeStatistics
+ * @property-read \and_y87\ClientsHh\Generated\Provider\CommonReferenceDataProvider $commonReferenceData
+ * @property-read \and_y87\ClientsHh\Generated\Provider\CompanySuggestionsProvider $companySuggestions
+ * @property-read \and_y87\ClientsHh\Generated\Provider\CurrentUserProvider $currentUser
+ * @property-read \and_y87\ClientsHh\Generated\Provider\EmployerAddressesProvider $employerAddresses
+ * @property-read \and_y87\ClientsHh\Generated\Provider\EmployerInfoProvider $employerInfo
+ * @property-read \and_y87\ClientsHh\Generated\Provider\EmployerManagersProvider $employerManagers
+ * @property-read \and_y87\ClientsHh\Generated\Provider\EmployerNegotiationsProvider $employerNegotiations
+ * @property-read \and_y87\ClientsHh\Generated\Provider\EmployerProvider $employer
+ * @property-read \and_y87\ClientsHh\Generated\Provider\EmployerServicesProvider $employerServices
+ * @property-read \and_y87\ClientsHh\Generated\Provider\KeywordSuggestionsProvider $keywordSuggestions
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ManagerInfoProvider $managerInfo
+ * @property-read \and_y87\ClientsHh\Generated\Provider\OAuthProvider $oauth
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ResumeDetailsProvider $resumeDetails
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ResumeReferenceDataProvider $resumeReferenceData
+ * @property-read \and_y87\ClientsHh\Generated\Provider\ResumeSearchProvider $resumeSearch
+ * @property-read \and_y87\ClientsHh\Generated\Provider\SalaryAnalyticsProvider $salaryAnalytics
+ * @property-read \and_y87\ClientsHh\Generated\Provider\SalaryReferenceDataProvider $salaryReferenceData
+ * @property-read \and_y87\ClientsHh\Generated\Provider\SavedResumeSearchesProvider $savedResumeSearches
+ * @property-read \and_y87\ClientsHh\Generated\Provider\SuggestionsProvider $suggestions
+ * @property-read \and_y87\ClientsHh\Generated\Provider\TokenManagementProvider $tokenManagement
+ * @property-read \and_y87\ClientsHh\Generated\Provider\VacancyDetailsProvider $vacancyDetails
+ * @property-read \and_y87\ClientsHh\Generated\Provider\VacancyDraftsProvider $vacancyDrafts
+ * @property-read \and_y87\ClientsHh\Generated\Provider\VacancyManagementProvider $vacancyManagement
+ * @property-read \and_y87\ClientsHh\Generated\Provider\VacancySearchProvider $vacancySearch
+ * @property-read \and_y87\ClientsHh\Generated\Provider\WebhookApiProvider $webhookApi
  */
 class ApiClientHh
 {

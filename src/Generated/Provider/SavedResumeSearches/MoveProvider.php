@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\SavedResumeSearches;
+namespace and_y87\ClientsHh\Generated\Provider\SavedResumeSearches;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\MoveSavedResumeSearchPrompt;
-use Andy87\ClientsHh\Generated\Response\SavedResumeSearches\Move\SavedResumeSearchResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\MoveSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Response\SavedResumeSearches\Move\SavedResumeSearchResponse;
 
 /**
  * Группа методов "move" раздела HeadHunter API "Сохраненные поиски резюме".

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\CurrentUser;
+namespace and_y87\ClientsHh\Generated\Provider\CurrentUser;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
-use Andy87\ClientsHh\Generated\Response\CurrentUser\Current\GetUserInfoResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
+use and_y87\ClientsHh\Generated\Response\CurrentUser\Current\GetUserInfoResponse;
 
 /**
  * Группа методов "current" раздела HeadHunter API "Информация о соискателе".

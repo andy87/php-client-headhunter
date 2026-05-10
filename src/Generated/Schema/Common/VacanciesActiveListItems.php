@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesActiveListItems.
@@ -17,9 +17,9 @@ class VacanciesActiveListItems extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesActiveListItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesActiveListItem::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesActiveListItem> Список опубликованных вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesActiveListItem> Список опубликованных вакансий */
     public array $items;
 
     /** @var int Найдено результатов */

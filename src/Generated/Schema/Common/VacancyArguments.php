@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyArguments.
@@ -17,7 +17,7 @@ class VacancyArguments extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['required_arguments' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesId::class]];
+    protected const CASTS = ['required_arguments' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesId::class]];
 
     /** @var string Идентификатор аргумента. Возможные значения:
 
@@ -32,6 +32,6 @@ class VacancyArguments extends AbstractSchemaModel
     /** @var bool Обязательность аргумента */
     public bool $required;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesId> Идентификаторы аргументов, которые необходимо приложить, если указан данный аргумент. Например, адрес является необязательным, но при его указании необходимо указать также и сообщение */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesId> Идентификаторы аргументов, которые необходимо приложить, если указан данный аргумент. Например, адрес является необязательным, но при его указании необходимо указать также и сообщение */
     public array $required_arguments;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy;
+namespace and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy;
 
-use Andy87\ClientsHh\Generated\Response\GetVacancyUpgradeListResponse as BaseGetVacancyUpgradeListResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyUpgradeListResponse as BaseGetVacancyUpgradeListResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/{vacancy_id}/upgrades.
@@ -12,7 +12,7 @@ use Andy87\ClientsHh\Generated\Response\GetVacancyUpgradeListResponse as BaseGet
  * @documentation https://api.hh.ru/openapi/redoc#operation/get-vacancy-upgrade-list
  *
  * @property string|null $error_reason Описание ошибки в случае невозможности смены тарифа
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyUpgradeListItem> $items Список улучшений для вакансий
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyUpgradeListItem> $items Список улучшений для вакансий
  */
 class GetUpgradeListResponse extends BaseGetVacancyUpgradeListResponse
 {

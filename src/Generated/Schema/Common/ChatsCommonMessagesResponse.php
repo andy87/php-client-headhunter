@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ChatsCommonMessagesResponse.
@@ -17,16 +17,16 @@ class ChatsCommonMessagesResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['block_reason', 'vacancy_id'];
 
-    protected const CASTS = ['display' => \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo::class];
+    protected const CASTS = ['display' => \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason|null Schema field block_reason */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason $block_reason;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason|null Schema field block_reason */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason $block_reason;
 
     /** @var string Время создания чата */
     public string $creation_time;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo Schema field display */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo $display;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo Schema field display */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo $display;
 
     /** @var string Идентификатор чата */
     public string $id;

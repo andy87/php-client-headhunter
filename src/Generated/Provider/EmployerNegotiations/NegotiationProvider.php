@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerNegotiations;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerNegotiations;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\ChangeNegotiationActionPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationMessageTemplatesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationTestResultsPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation\ChangeActionResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation\GetMessageTemplatesResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation\GetTestResultsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\ChangeNegotiationActionPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationMessageTemplatesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationTestResultsPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation\ChangeActionResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation\GetMessageTemplatesResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation\GetTestResultsResponse;
 
 /**
  * Группа методов "negotiation" раздела HeadHunter API "Отклики/приглашения работодателя".

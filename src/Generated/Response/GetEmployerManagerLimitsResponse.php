@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/managers/{manager_id}/limits/resume.
@@ -19,16 +19,16 @@ class GetEmployerManagerLimitsResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['left' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView::class, 'limits' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView::class, 'spend' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView::class];
+    protected const CASTS = ['left' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView::class, 'limits' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView::class, 'spend' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersEmployerManagerLimits::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersEmployerManagerLimits::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView Количество оставшихся просмотров резюме. В этом параметре содержится лимит просмотров на компанию. Из-за этого он может быть меньше, чем доступно текущему пользователю */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView $left;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView Количество оставшихся просмотров резюме. В этом параметре содержится лимит просмотров на компанию. Из-за этого он может быть меньше, чем доступно текущему пользователю */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView $left;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView Лимит на просмотр резюме */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView $limits;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView Лимит на просмотр резюме */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView $limits;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView Количество просмотренных резюме */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView $spend;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView Количество просмотренных резюме */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersResumeView $spend;
 }

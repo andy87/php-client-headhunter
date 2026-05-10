@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyPublicationVacancyProperties.
@@ -17,10 +17,10 @@ class VacancyPublicationVacancyProperties extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['appearance' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance::class];
+    protected const CASTS = ['appearance' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance|null Переводы */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance $appearance = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance|null Переводы */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyVacancyPropertiesAppearance $appearance = null;
 
     /** @var array<int, array<string, mixed>>|null Список свойств вакансии */
     public ?array $properties = null;

@@ -25,7 +25,7 @@ jobs:
 
       - name: Guard legacy SDK namespace
         run: |
-          if grep -RInE "Andy87\\\\ClientsBase|andy87/clients-base" src tests tools README.md docs composer.json; then
+          if grep -RInE "ClientsBase|andy87/clients-base" src tests tools README.md docs composer.json; then
             echo "php-client-hh must use andy87/php-client-sdk, not the legacy clients-base package."
             exit 1
           fi

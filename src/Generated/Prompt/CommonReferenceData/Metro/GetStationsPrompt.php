@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Metro;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Metro;
 
-use Andy87\ClientsHh\Generated\Prompt\GetMetroStationsPrompt as BaseGetMetroStationsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetMetroStationsPrompt as BaseGetMetroStationsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /metro.

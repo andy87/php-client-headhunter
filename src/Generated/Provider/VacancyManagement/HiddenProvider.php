@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyManagement;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyManagement;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetHiddenVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Hidden\GetVacanciesResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetHiddenVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Hidden\GetVacanciesResponse;
 
 /**
  * Группа методов "hidden" раздела HeadHunter API "Управление вакансиями".

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsCollectionNegotiationsResponse.
@@ -17,10 +17,10 @@ class NegotiationsCollectionNegotiationsResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['hidden_count'];
 
-    protected const CASTS = ['ordered_by' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['ordered_by' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Применяемый тип сортировки */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $ordered_by;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Применяемый тип сортировки */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $ordered_by;
 
     /** @var int Найдено результатов */
     public int $found;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer;
+namespace and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer;
 
-use Andy87\ClientsHh\Generated\Response\DeleteEmployerManagerResponse as BaseDeleteEmployerManagerResponse;
+use and_y87\ClientsHh\Generated\Response\DeleteEmployerManagerResponse as BaseDeleteEmployerManagerResponse;
 
 /**
  * Ответ HeadHunter API [DELETE] /employers/{employer_id}/managers/{manager_id}.

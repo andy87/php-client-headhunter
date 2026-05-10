@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyManagement\Archived;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyManagement\Archived;
 
-use Andy87\ClientsHh\Generated\Prompt\GetArchivedVacanciesPrompt as BaseGetArchivedVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetArchivedVacanciesPrompt as BaseGetArchivedVacanciesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/vacancies/archived.

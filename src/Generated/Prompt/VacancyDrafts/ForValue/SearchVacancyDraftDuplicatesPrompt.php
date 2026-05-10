@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyDrafts\ForValue;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyDrafts\ForValue;
 
-use Andy87\ClientsHh\Generated\Prompt\SearchForVacancyDraftDuplicatesPrompt as BaseSearchForVacancyDraftDuplicatesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SearchForVacancyDraftDuplicatesPrompt as BaseSearchForVacancyDraftDuplicatesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /vacancies/drafts/{draft_id}/duplicates.

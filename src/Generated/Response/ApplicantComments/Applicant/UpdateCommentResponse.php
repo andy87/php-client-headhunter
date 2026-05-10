@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\ApplicantComments\Applicant;
+namespace and_y87\ClientsHh\Generated\Response\ApplicantComments\Applicant;
 
-use Andy87\ClientsHh\Generated\Response\UpdateApplicantCommentResponse as BaseUpdateApplicantCommentResponse;
+use and_y87\ClientsHh\Generated\Response\UpdateApplicantCommentResponse as BaseUpdateApplicantCommentResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /applicant_comments/{applicant_id}/{comment_id}.

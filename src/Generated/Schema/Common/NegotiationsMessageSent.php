@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsMessageSent.
@@ -17,10 +17,10 @@ class NegotiationsMessageSent extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['text', 'address'];
 
-    protected const CASTS = ['author' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor::class, 'state' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['author' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor::class, 'state' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor Schema field author */
-    public \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor $author;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor Schema field author */
+    public \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor $author;
 
     /** @var string Дата и время создания сообщения */
     public string $created_at;
@@ -34,8 +34,8 @@ class NegotiationsMessageSent extends AbstractSchemaModel
     /** @var bool|null Можно ли прочитать сообщение */
     public ?bool $read = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Состояние сообщения */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Состояние сообщения */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
 
     /** @var string|null Текст сообщения */
     public ?string $text;
@@ -46,6 +46,6 @@ class NegotiationsMessageSent extends AbstractSchemaModel
     /** @var bool Прочитано ли сообщение работодателем (для сообщений работодателя - true) */
     public bool $viewed_by_opponent;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput|null Schema field address */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput $address;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput|null Schema field address */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput $address;
 }

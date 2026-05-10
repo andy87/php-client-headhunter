@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\ResumeReferenceData\Locales;
+namespace and_y87\ClientsHh\Generated\Response\ResumeReferenceData\Locales;
 
-use Andy87\ClientsHh\Generated\Response\GetLocalesForResumeResponse as BaseGetLocalesForResumeResponse;
+use and_y87\ClientsHh\Generated\Response\GetLocalesForResumeResponse as BaseGetLocalesForResumeResponse;
 
 /**
  * Ответ HeadHunter API [GET] /locales/resume.

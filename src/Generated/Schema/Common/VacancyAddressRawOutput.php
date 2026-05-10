@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyAddressRawOutput.
@@ -17,7 +17,7 @@ class VacancyAddressRawOutput extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['building', 'city', 'description', 'id', 'lat', 'lng', 'metro', 'rawData', 'street'];
 
-    protected const CASTS = ['metro_stations' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class]];
+    protected const CASTS = ['metro_stations' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class]];
 
     /** @var string|null Дом */
     public ?string $building = null;
@@ -37,10 +37,10 @@ class VacancyAddressRawOutput extends AbstractSchemaModel
     /** @var float|null Долгота */
     public ?float $lng = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field metro */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $metro = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field metro */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $metro = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null Schema field metro_stations */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null Schema field metro_stations */
     public ?array $metro_stations = null;
 
     /** @var string|null Полный адрес */

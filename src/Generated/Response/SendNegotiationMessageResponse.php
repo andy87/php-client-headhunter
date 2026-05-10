@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [POST] /negotiations/{nid}/messages.
@@ -19,12 +19,12 @@ class SendNegotiationMessageResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = ['text', 'address'];
 
-    protected const CASTS = ['author' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor::class, 'state' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['author' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor::class, 'state' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsMessageSent::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsMessageSent::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor Response field author */
-    public \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor $author;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor Response field author */
+    public \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAuthor $author;
 
     /** @var string Дата и время создания сообщения */
     public string $created_at;
@@ -38,8 +38,8 @@ class SendNegotiationMessageResponse extends AbstractResponse
     /** @var bool|null Можно ли прочитать сообщение */
     public ?bool $read = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Состояние сообщения */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Состояние сообщения */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
 
     /** @var string|null Текст сообщения */
     public ?string $text;
@@ -50,6 +50,6 @@ class SendNegotiationMessageResponse extends AbstractResponse
     /** @var bool Прочитано ли сообщение работодателем (для сообщений работодателя - true) */
     public bool $viewed_by_opponent;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput|null Response field address */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput $address;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput|null Response field address */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressOutput $address;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter SavedSearchesSavedSearchItem.
@@ -17,7 +17,7 @@ class SavedSearchesSavedSearchItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class, 'new_items' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class];
+    protected const CASTS = ['items' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class, 'new_items' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl::class];
 
     /** @var string Дата и время создания */
     public string $created_at;
@@ -25,14 +25,14 @@ class SavedSearchesSavedSearchItem extends AbstractSchemaModel
     /** @var string Идентификатор поиска */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Schema field items */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $items;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Schema field items */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $items;
 
     /** @var string Название поиска */
     public string $name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Schema field new_items */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $new_items;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl Schema field new_items */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesCountUrl $new_items;
 
     /** @var bool Статус подписки */
     public bool $subscription;

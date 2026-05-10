@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter MetroMetroLineWithStations.
@@ -17,7 +17,7 @@ class MetroMetroLineWithStations extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['stations' => [\Andy87\ClientsHh\Generated\Schema\Common\MetroLineStation::class]];
+    protected const CASTS = ['stations' => [\and_y87\ClientsHh\Generated\Schema\Common\MetroLineStation::class]];
 
     /** @var string Цвет линии в HEX-формате `RRGGBB` (от `000000` до `FFFFFF`) */
     public string $hex_color;
@@ -28,6 +28,6 @@ class MetroMetroLineWithStations extends AbstractSchemaModel
     /** @var string Название линии */
     public string $name;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\MetroLineStation> Список станций метро на линии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\MetroLineStation> Список станций метро на линии */
     public array $stations;
 }

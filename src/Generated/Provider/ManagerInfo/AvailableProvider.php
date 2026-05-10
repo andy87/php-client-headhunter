@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ManagerInfo;
+namespace and_y87\ClientsHh\Generated\Provider\ManagerInfo;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAvailableVacancyTypesPrompt;
-use Andy87\ClientsHh\Generated\Response\ManagerInfo\Available\GetVacancyTypesResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAvailableVacancyTypesPrompt;
+use and_y87\ClientsHh\Generated\Response\ManagerInfo\Available\GetVacancyTypesResponse;
 
 /**
  * Группа методов "available" раздела HeadHunter API "Информация о менеджере".

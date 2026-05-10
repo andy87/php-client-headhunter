@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ManagerInfo\Available;
+namespace and_y87\ClientsHh\Generated\Prompt\ManagerInfo\Available;
 
-use Andy87\ClientsHh\Generated\Prompt\GetAvailableVacancyTypesPrompt as BaseGetAvailableVacancyTypesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAvailableVacancyTypesPrompt as BaseGetAvailableVacancyTypesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/managers/{manager_id}/vacancies/available_types.

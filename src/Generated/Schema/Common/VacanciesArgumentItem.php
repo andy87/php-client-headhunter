@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesArgumentItem.
@@ -22,8 +22,8 @@ class VacanciesArgumentItem extends AbstractSchemaModel
     /** @var string Параметр поиска вакансии */
     public string $argument;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName|null Группа кластеров, которая связана с данным параметром */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $cluster_group = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName|null Группа кластеров, которая связана с данным параметром */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $cluster_group = null;
 
     /** @var string URL поиска вакансий, который получится, если перестать учитывать в поиске данный параметр */
     public string $disable_url;

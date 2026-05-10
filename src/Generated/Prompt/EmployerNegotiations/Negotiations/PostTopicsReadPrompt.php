@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Negotiations;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Negotiations;
 
-use Andy87\ClientsHh\Generated\Prompt\PostNegotiationsTopicsReadPrompt as BasePostNegotiationsTopicsReadPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PostNegotiationsTopicsReadPrompt as BasePostNegotiationsTopicsReadPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /negotiations/read.

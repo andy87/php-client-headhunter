@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy;
+namespace and_y87\ClientsHh\Generated\Response\VacancyDrafts\Vacancy;
 
-use Andy87\ClientsHh\Generated\Response\ChangeVacancyDraftResponse as BaseChangeVacancyDraftResponse;
+use and_y87\ClientsHh\Generated\Response\ChangeVacancyDraftResponse as BaseChangeVacancyDraftResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /vacancies/drafts/{draft_id}.
@@ -15,7 +15,7 @@ use Andy87\ClientsHh\Generated\Response\ChangeVacancyDraftResponse as BaseChange
  * @property array<int, string>|null $ignored_fields Поля, которые не были сохранены при создании черновика, вследствие не верного заполнения
  * @property string $name Заголовок черновика
  * @property bool $publication_ready Готовность черновика к публикации
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError>|null $validation_errors Поля, которые были сохранены при создании черновика, с соответствующими ошибками, которые необходимо поправить для успешной публикации вакансии на основе черновика
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftDraftVacancyError>|null $validation_errors Поля, которые были сохранены при создании черновика, с соответствующими ошибками, которые необходимо поправить для успешной публикации вакансии на основе черновика
  */
 class ChangeDraftResponse extends BaseChangeVacancyDraftResponse
 {

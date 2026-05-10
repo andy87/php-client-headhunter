@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation;
+namespace and_y87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation;
 
-use Andy87\ClientsHh\Generated\Response\GetNegotiationMessagesResponse as BaseGetNegotiationMessagesResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationMessagesResponse as BaseGetNegotiationMessagesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /negotiations/{nid}/messages.
@@ -15,7 +15,7 @@ use Andy87\ClientsHh\Generated\Response\GetNegotiationMessagesResponse as BaseGe
  * @property int $page Номер страницы
  * @property int $pages Всего страниц
  * @property int $per_page Результатов на странице
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsMessagesGet>|null $items Список сообщений
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsMessagesGet>|null $items Список сообщений
  */
 class GetMessagesResponse extends BaseGetNegotiationMessagesResponse
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter DictionariesDictResponse.
@@ -17,191 +17,191 @@ class DictionariesDictResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['salary_range_frequency', 'salary_range_mode'];
 
-    protected const CASTS = ['age_restriction' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'applicant_comment_access_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'applicant_comments_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'applicant_negotiation_status' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'business_trip_readiness' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'civil_law_contracts' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'currency' => [\Andy87\ClientsHh\Generated\Schema\Common\DictionariesCurrencyItem::class], 'driver_license_types' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesId::class], 'education_level' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_active_vacancies_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_archived_vacancies_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_hidden_vacancies_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_relation' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employment' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'experience' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'fly_in_fly_out_duration' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'gender' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'job_search_statuses_applicant' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'job_search_statuses_employer' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'language_level' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'linked_socials' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'messaging_status' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'negotiations_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'negotiations_participant_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'negotiations_state' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'phone_call_status' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'preferred_contact_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'relocation_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_access_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_contacts_site_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_employment_form' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_hidden_fields' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_moderation_note' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_experience_period' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_fields' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_label' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_logic' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_relocation' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_status' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_work_format' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'salary_range_frequency' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'salary_range_mode' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'schedule' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameUid::class], 'travel_time' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_billing_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_cluster' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_label' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_not_prolonged_reason' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_relation' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_search_employment_form' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_search_fields' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_search_order' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_type' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'work_format' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'work_schedule_by_days' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_days' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_hours' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_time_intervals' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_time_modes' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
+    protected const CASTS = ['age_restriction' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'applicant_comment_access_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'applicant_comments_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'applicant_negotiation_status' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'business_trip_readiness' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'civil_law_contracts' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'currency' => [\and_y87\ClientsHh\Generated\Schema\Common\DictionariesCurrencyItem::class], 'driver_license_types' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesId::class], 'education_level' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_active_vacancies_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_archived_vacancies_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_hidden_vacancies_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_relation' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employer_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'employment' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'experience' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'fly_in_fly_out_duration' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'gender' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'job_search_statuses_applicant' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'job_search_statuses_employer' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'language_level' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'linked_socials' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'messaging_status' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'negotiations_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'negotiations_participant_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'negotiations_state' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'phone_call_status' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'preferred_contact_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'relocation_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_access_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_contacts_site_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_employment_form' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_hidden_fields' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_moderation_note' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_experience_period' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_fields' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_label' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_logic' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_search_relocation' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_status' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'resume_work_format' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'salary_range_frequency' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'salary_range_mode' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'schedule' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameUid::class], 'travel_time' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_billing_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_cluster' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_label' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_not_prolonged_reason' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_relation' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_search_employment_form' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_search_fields' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_search_order' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'vacancy_type' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'work_format' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'work_schedule_by_days' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_days' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_hours' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_time_intervals' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'working_time_modes' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Доступ к вакансии от 14 или 16 лет. Используется для поля age_restriction в вакансиях и черновиках */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Доступ к вакансии от 14 или 16 лет. Используется для поля age_restriction в вакансиях и черновиках */
     public ?array $age_restriction = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип доступа для комментария к соискателю */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип доступа для комментария к соискателю */
     public array $applicant_comment_access_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы сортировки [списка комментариев к соискателю](#tag/Kommentarii-k-soiskatelyu/operation/get-applicant-comments-list) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы сортировки [списка комментариев к соискателю](#tag/Kommentarii-k-soiskatelyu/operation/get-applicant-comments-list) */
     public array $applicant_comments_order;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статусы откликов/приглашений */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статусы откликов/приглашений */
     public array $applicant_negotiation_status;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Готовность к командировкам */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Готовность к командировкам */
     public array $business_trip_readiness;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Варианты договора гражданско-правового характера. Используется для поля civil_law_contracts в вакансиях и черновиках */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Варианты договора гражданско-правового характера. Используется для поля civil_law_contracts в вакансиях и черновиках */
     public ?array $civil_law_contracts = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\DictionariesCurrencyItem> Справочник валют */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\DictionariesCurrencyItem> Справочник валют */
     public array $currency;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesId> Категории водительских прав */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesId> Категории водительских прав */
     public array $driver_license_types;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Образование в резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Образование в резюме */
     public array $education_level;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сортировки списка опубликованных вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сортировки списка опубликованных вакансий */
     public array $employer_active_vacancies_order;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сортировки списка архивных вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сортировки списка архивных вакансий */
     public array $employer_archived_vacancies_order;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Тип сортировки скрытых вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Тип сортировки скрытых вакансий */
     public ?array $employer_hidden_vacancies_order = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы связи компании с пользователем */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы связи компании с пользователем */
     public array $employer_relation;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип работодателя */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип работодателя */
     public array $employer_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип занятости */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип занятости */
     public array $employment;
 
     /** @var array<int, array<string, mixed>>|null Тип занятости. Используется для поля employment_form в вакансиях и черновиках */
     public ?array $employment_form = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Опыт работы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Опыт работы */
     public array $experience;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Длительность вахты. Используется для поля fly_in_fly_out_duration в вакансиях и черновиках */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Длительность вахты. Используется для поля fly_in_fly_out_duration в вакансиях и черновиках */
     public ?array $fly_in_fly_out_duration = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Пол */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Пол */
     public array $gender;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статусы поиска соискателей для установки и отображения самому соискателю */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статусы поиска соискателей для установки и отображения самому соискателю */
     public array $job_search_statuses_applicant;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статусы поиска соискателей для отображения работодателям */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статусы поиска соискателей для отображения работодателям */
     public array $job_search_statuses_employer;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Уровень владения языком */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Уровень владения языком */
     public array $language_level;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Соцсеть для привязки в качестве способа входа */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Соцсеть для привязки в качестве способа входа */
     public ?array $linked_socials = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статус возможности отправки сообщения в переписке */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статус возможности отправки сообщения в переписке */
     public array $messaging_status;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы порядка отображения откликов */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы порядка отображения откликов */
     public array $negotiations_order;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы участников переписки */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы участников переписки */
     public array $negotiations_participant_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы состояний откликов */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы состояний откликов */
     public array $negotiations_state;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статус звонка, зафиксированного в системе кол-трекинг */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статус звонка, зафиксированного в системе кол-трекинг */
     public array $phone_call_status;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Предпочитаемый способ связи */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Предпочитаемый способ связи */
     public array $preferred_contact_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Готовность к переезду */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Готовность к переезду */
     public array $relocation_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Уровень доступа к резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Уровень доступа к резюме */
     public array $resume_access_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сайта в поле «контакты» */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сайта в поле «контакты» */
     public array $resume_contacts_site_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип занятости. Используется для поля employment_form в резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип занятости. Используется для поля employment_form в резюме */
     public array $resume_employment_form;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Поля резюме, которые могут быть скрыты */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Поля резюме, которые могут быть скрыты */
     public array $resume_hidden_fields;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Комментарий модератора */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Комментарий модератора */
     public array $resume_moderation_note;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Условие поиска по опыту работы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Условие поиска по опыту работы */
     public ?array $resume_search_experience_period = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Область поиска в резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Область поиска в резюме */
     public ?array $resume_search_fields = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Метки поиска резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Метки поиска резюме */
     public ?array $resume_search_label = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Условие поиска резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Условие поиска резюме */
     public ?array $resume_search_logic = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Тип сортировки резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Тип сортировки резюме */
     public ?array $resume_search_order = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Условие поиска по проживанию в регионе и готовности к переезду */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Условие поиска по проживанию в регионе и готовности к переезду */
     public ?array $resume_search_relocation = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статус резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Статус резюме */
     public array $resume_status;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Формат работы. Используется для поля work_format в резюме */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Формат работы. Используется для поля work_format в резюме */
     public array $resume_work_format;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Частота выплаты зарплаты. Используется для поля frequency внутри salary_range */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Частота выплаты зарплаты. Используется для поля frequency внутри salary_range */
     public ?array $salary_range_frequency = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Тип грануляции зарплаты. Используется для поля mode внутри salary_range */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Тип грануляции зарплаты. Используется для поля mode внутри salary_range */
     public ?array $salary_range_mode = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameUid> График работы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameUid> График работы */
     public array $schedule;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Время в пути */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Время в пути */
     public array $travel_time;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Варианты размещения вакансии с точки зрения биллинга */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Варианты размещения вакансии с точки зрения биллинга */
     public array $vacancy_billing_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип кластеров */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип кластеров */
     public array $vacancy_cluster;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Метки вакансии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Метки вакансии */
     public array $vacancy_label;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Причины, из-за которых невозможно [продлить вакансию](#tag/Upravlenie-vakansiyami/operation/get-prolongation-vacancy-info) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Причины, из-за которых невозможно [продлить вакансию](#tag/Upravlenie-vakansiyami/operation/get-prolongation-vacancy-info) */
     public array $vacancy_not_prolonged_reason;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы связи вакансии с пользователем */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Типы связи вакансии с пользователем */
     public array $vacancy_relation;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип занятости. Используется в параметре employment_form в поиске вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип занятости. Используется в параметре employment_form в поиске вакансий */
     public array $vacancy_search_employment_form;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Область поиска в вакансии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Область поиска в вакансии */
     public array $vacancy_search_fields;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сортировки вакансии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип сортировки вакансии */
     public array $vacancy_search_order;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип вакансии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Тип вакансии */
     public array $vacancy_type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Формат работы. Используется для поля work_format в вакансиях и черновиках */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Формат работы. Используется для поля work_format в вакансиях и черновиках */
     public ?array $work_format = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Расписание на неделю. Используется для поля work_schedule_by_days в вакансиях и черновиках */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Расписание на неделю. Используется для поля work_schedule_by_days в вакансиях и черновиках */
     public ?array $work_schedule_by_days = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Рабочие дни */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Рабочие дни */
     public array $working_days;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Рабочие часы в сутки. Используется для поля working_hours в вакансиях и черновиках */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName>|null Рабочие часы в сутки. Используется для поля working_hours в вакансиях и черновиках */
     public ?array $working_hours = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Временные интервалы работы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Временные интервалы работы */
     public array $working_time_intervals;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Режимы времени работы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Режимы времени работы */
     public array $working_time_modes;
 }

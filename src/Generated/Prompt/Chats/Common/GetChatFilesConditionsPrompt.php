@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Common;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Common;
 
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatFilesConditionsPrompt as BaseGetCommonChatFilesConditionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatFilesConditionsPrompt as BaseGetCommonChatFilesConditionsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /common/chats/files/conditions.

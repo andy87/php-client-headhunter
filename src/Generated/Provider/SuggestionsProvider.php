@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAreaLeavesSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetAreasSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetFieldsOfStudySuggestionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetPositionsSuggestionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetProfessionalRolesSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSkillSetSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyPositionsSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Response\GetAreaLeavesSuggestsResponse;
-use Andy87\ClientsHh\Generated\Response\GetAreasSuggestsResponse;
-use Andy87\ClientsHh\Generated\Response\GetEducationalInstitutionsSuggestsResponse;
-use Andy87\ClientsHh\Generated\Response\GetFieldsOfStudySuggestionsResponse;
-use Andy87\ClientsHh\Generated\Response\GetPositionsSuggestionsResponse;
-use Andy87\ClientsHh\Generated\Response\GetProfessionalRolesSuggestsResponse;
-use Andy87\ClientsHh\Generated\Response\GetSkillSetSuggestsResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancyPositionsSuggestsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAreaLeavesSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEducationalInstitutionsSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetFieldsOfStudySuggestionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetPositionsSuggestionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetProfessionalRolesSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSkillSetSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyPositionsSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Response\GetAreaLeavesSuggestsResponse;
+use and_y87\ClientsHh\Generated\Response\GetAreasSuggestsResponse;
+use and_y87\ClientsHh\Generated\Response\GetEducationalInstitutionsSuggestsResponse;
+use and_y87\ClientsHh\Generated\Response\GetFieldsOfStudySuggestionsResponse;
+use and_y87\ClientsHh\Generated\Response\GetPositionsSuggestionsResponse;
+use and_y87\ClientsHh\Generated\Response\GetProfessionalRolesSuggestsResponse;
+use and_y87\ClientsHh\Generated\Response\GetSkillSetSuggestsResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyPositionsSuggestsResponse;
 
 /**
  * Provider раздела HeadHunter API "Подсказки".

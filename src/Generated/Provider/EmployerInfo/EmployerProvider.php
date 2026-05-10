@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerInfo;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerInfo;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerDepartmentsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerVacancyAreasPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerInfo\Employer\GetDepartmentsResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerInfo\Employer\GetVacancyAreasResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerDepartmentsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerVacancyAreasPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerInfo\Employer\GetDepartmentsResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerInfo\Employer\GetVacancyAreasResponse;
 
 /**
  * Группа методов "employer" раздела HeadHunter API "Информация о работодателе".

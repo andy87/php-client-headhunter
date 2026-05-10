@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\CommonReferenceData\Languages;
+namespace and_y87\ClientsHh\Generated\Response\CommonReferenceData\Languages;
 
-use Andy87\ClientsHh\Generated\Response\GetLanguagesResponse as BaseGetLanguagesResponse;
+use and_y87\ClientsHh\Generated\Response\GetLanguagesResponse as BaseGetLanguagesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /languages.

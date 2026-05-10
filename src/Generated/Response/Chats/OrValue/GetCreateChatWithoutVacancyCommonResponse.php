@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\OrValue;
+namespace and_y87\ClientsHh\Generated\Response\Chats\OrValue;
 
-use Andy87\ClientsHh\Generated\Response\GetOrCreateChatWithoutVacancyCommonResponse as BaseGetOrCreateChatWithoutVacancyCommonResponse;
+use and_y87\ClientsHh\Generated\Response\GetOrCreateChatWithoutVacancyCommonResponse as BaseGetOrCreateChatWithoutVacancyCommonResponse;
 
 /**
  * Ответ HeadHunter API [POST] /common/chats/without_vacancy.

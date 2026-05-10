@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Collection;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Collection;
 
-use Andy87\ClientsHh\Generated\Prompt\GetCollectionNegotiationsListPrompt as BaseGetCollectionNegotiationsListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCollectionNegotiationsListPrompt as BaseGetCollectionNegotiationsListPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /negotiations/response.

@@ -2,37 +2,37 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\ChangeNegotiationActionPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCollectionNegotiationsListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetMailTemplatesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationMessageTemplatesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationTestResultsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsEmployerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsManagerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetPrefNegotiationsOrderPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetResumeNegotiationsHistoryPrompt;
-use Andy87\ClientsHh\Generated\Prompt\InviteApplicantToVacancyPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PostNegotiationsTopicsReadPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutMailTemplatesItemPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutNegotiationsCollectionToNextStatePrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutPrefNegotiationsOrderPrompt;
-use Andy87\ClientsHh\Generated\Response\ChangeNegotiationActionResponse;
-use Andy87\ClientsHh\Generated\Response\GetCollectionNegotiationsListResponse;
-use Andy87\ClientsHh\Generated\Response\GetMailTemplatesResponse;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationMessageTemplatesResponse;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationTestResultsResponse;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationsStatisticsEmployerResponse;
-use Andy87\ClientsHh\Generated\Response\GetNegotiationsStatisticsManagerResponse;
-use Andy87\ClientsHh\Generated\Response\GetPrefNegotiationsOrderResponse;
-use Andy87\ClientsHh\Generated\Response\GetResumeNegotiationsHistoryResponse;
-use Andy87\ClientsHh\Generated\Response\InviteApplicantToVacancyResponse;
-use Andy87\ClientsHh\Generated\Response\PostNegotiationsTopicsReadResponse;
-use Andy87\ClientsHh\Generated\Response\PutMailTemplatesItemResponse;
-use Andy87\ClientsHh\Generated\Response\PutNegotiationsCollectionToNextStateResponse;
-use Andy87\ClientsHh\Generated\Response\PutPrefNegotiationsOrderResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\ChangeNegotiationActionPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCollectionNegotiationsListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetMailTemplatesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationMessageTemplatesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationTestResultsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsEmployerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetPrefNegotiationsOrderPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetResumeNegotiationsHistoryPrompt;
+use and_y87\ClientsHh\Generated\Prompt\InviteApplicantToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PostNegotiationsTopicsReadPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutMailTemplatesItemPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutNegotiationsCollectionToNextStatePrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutPrefNegotiationsOrderPrompt;
+use and_y87\ClientsHh\Generated\Response\ChangeNegotiationActionResponse;
+use and_y87\ClientsHh\Generated\Response\GetCollectionNegotiationsListResponse;
+use and_y87\ClientsHh\Generated\Response\GetMailTemplatesResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationMessageTemplatesResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationTestResultsResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationsStatisticsEmployerResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationsStatisticsManagerResponse;
+use and_y87\ClientsHh\Generated\Response\GetPrefNegotiationsOrderResponse;
+use and_y87\ClientsHh\Generated\Response\GetResumeNegotiationsHistoryResponse;
+use and_y87\ClientsHh\Generated\Response\InviteApplicantToVacancyResponse;
+use and_y87\ClientsHh\Generated\Response\PostNegotiationsTopicsReadResponse;
+use and_y87\ClientsHh\Generated\Response\PutMailTemplatesItemResponse;
+use and_y87\ClientsHh\Generated\Response\PutNegotiationsCollectionToNextStateResponse;
+use and_y87\ClientsHh\Generated\Response\PutPrefNegotiationsOrderResponse;
 
 /**
  * Provider раздела HeadHunter API "Отклики/приглашения работодателя".

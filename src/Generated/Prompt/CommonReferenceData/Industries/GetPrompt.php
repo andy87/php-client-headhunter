@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Industries;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Industries;
 
-use Andy87\ClientsHh\Generated\Prompt\GetIndustriesPrompt as BaseGetIndustriesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetIndustriesPrompt as BaseGetIndustriesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /industries.

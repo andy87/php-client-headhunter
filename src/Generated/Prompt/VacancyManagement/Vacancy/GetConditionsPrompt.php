@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyManagement\Vacancy;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyManagement\Vacancy;
 
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyConditionsPrompt as BaseGetVacancyConditionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyConditionsPrompt as BaseGetVacancyConditionsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /vacancy_conditions.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter WebhookSendObjectBaseUser.
@@ -25,8 +25,8 @@ class WebhookSendObjectBaseUser extends AbstractSchemaModel
     /** @var string Идентификатор сообщения */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\WebhookPayloadNewNegotiationVacancy Schema field payload */
-    public \Andy87\ClientsHh\Generated\Schema\Common\WebhookPayloadNewNegotiationVacancy $payload;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\WebhookPayloadNewNegotiationVacancy Schema field payload */
+    public \and_y87\ClientsHh\Generated\Schema\Common\WebhookPayloadNewNegotiationVacancy $payload;
 
     /** @var string Идентификатор подписки */
     public string $subscription_id;

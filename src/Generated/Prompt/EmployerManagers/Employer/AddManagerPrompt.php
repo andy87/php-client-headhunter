@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerManagers\Employer;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerManagers\Employer;
 
-use Andy87\ClientsHh\Generated\Prompt\AddEmployerManagerPrompt as BaseAddEmployerManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\AddEmployerManagerPrompt as BaseAddEmployerManagerPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /employers/{employer_id}/managers.
@@ -15,16 +15,16 @@ use Andy87\ClientsHh\Generated\Prompt\AddEmployerManagerPrompt as BaseAddEmploye
  * @property string|null $host Доменное имя сайта (см. [Выбор сайта](#section/Obshaya-informaciya/Vybor-sajta))
  * @property string|null $locale Идентификатор локали (см. [Локализация](#tag/Obshie-spravochniki/operation/get-locales))
  * @property string|null $HH_User_Agent Название приложения и контактная почта разработчика (см. [Информация о клиенте](#section/Obshaya-informaciya/Trebovaniya-k-zaprosam))
- * @property \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null $additional_phone Дополнительный телефон менеджера
- * @property \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId $area Body field area
+ * @property \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null $additional_phone Дополнительный телефон менеджера
+ * @property \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId $area Body field area
  * @property string $email Адрес электронной почты менеджера
  * @property string $first_name Имя менеджера
  * @property bool $is_main_contact_person Является ли менеджер основным контактным лицом
  * @property string $last_name Фамилия менеджера
- * @property \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId $manager_type Body field manager_type
+ * @property \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId $manager_type Body field manager_type
  * @property string|null $middle_name Отчество менеджера
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPermissions>|null $permissions Список [прав менеджера](#tag/Menedzhery-rabotodatelya/operation/get-employer-manager-types)
- * @property \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone Основной телефон менеджера
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPermissions>|null $permissions Список [прав менеджера](#tag/Menedzhery-rabotodatelya/operation/get-employer-manager-types)
+ * @property \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone Основной телефон менеджера
  * @property string $position Должность менеджера
  */
 class AddManagerPrompt extends BaseAddEmployerManagerPrompt

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesNegotiationsVacancyShort.
@@ -17,10 +17,10 @@ class VacanciesNegotiationsVacancyShort extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['response_url', 'salary_range', 'show_logo_in_search', 'sort_point_distance'];
 
-    protected const CASTS = ['address' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea::class, 'department' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment::class, 'employer' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsEmployer::class, 'insider_interview' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview::class, 'professional_roles' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput::class, 'salary' => \Andy87\ClientsHh\Generated\Schema\Common\VacancySalary::class, 'show_contacts' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyShowContactsNotNull::class, 'type' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput::class];
+    protected const CASTS = ['address' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea::class, 'department' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment::class, 'employer' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsEmployer::class, 'insider_interview' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview::class, 'professional_roles' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput::class, 'salary' => \and_y87\ClientsHh\Generated\Schema\Common\VacancySalary::class, 'show_contacts' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyShowContactsNotNull::class, 'type' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput|null Schema field address */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput $address = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput|null Schema field address */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput $address = null;
 
     /** @var string Ссылка на представление вакансии на сайте */
     public string $alternate_url;
@@ -31,17 +31,17 @@ class VacanciesNegotiationsVacancyShort extends AbstractSchemaModel
     /** @var bool Находится ли данная вакансия в архиве */
     public bool $archived;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea Schema field area */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea Schema field area */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea $area;
 
     /** @var string|null Дата и время публикации вакансии */
     public ?string $created_at = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment Schema field department */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment $department;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment Schema field department */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment $department;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsEmployer Schema field employer */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsEmployer $employer;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsEmployer Schema field employer */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsEmployer $employer;
 
     /** @var bool Информация о наличии прикрепленного тестового задании к вакансии */
     public bool $has_test;
@@ -49,8 +49,8 @@ class VacanciesNegotiationsVacancyShort extends AbstractSchemaModel
     /** @var string Идентификатор вакансии */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview|null Schema field insider_interview */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview $insider_interview = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview|null Schema field insider_interview */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview $insider_interview = null;
 
     /** @var string Название вакансии */
     public string $name;
@@ -58,8 +58,8 @@ class VacanciesNegotiationsVacancyShort extends AbstractSchemaModel
     /** @var bool Является ли данная вакансия премиум-вакансией */
     public bool $premium;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput|null Schema field professional_roles */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput $professional_roles = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput|null Schema field professional_roles */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput $professional_roles = null;
 
     /** @var string Дата и время публикации вакансии */
     public string $published_at;
@@ -70,14 +70,14 @@ class VacanciesNegotiationsVacancyShort extends AbstractSchemaModel
     /** @var string|null URL отклика для прямых вакансий (`type.id=direct`) */
     public ?string $response_url = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySalary Schema field salary */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancySalary $salary;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySalary Schema field salary */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancySalary $salary;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput|null Schema field salary_range */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput $salary_range;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput|null Schema field salary_range */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput $salary_range;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyShowContactsNotNull Schema field show_contacts */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyShowContactsNotNull $show_contacts;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyShowContactsNotNull Schema field show_contacts */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyShowContactsNotNull $show_contacts;
 
     /** @var bool|null Отображать ли лого для вакансии в поисковой выдаче */
     public ?bool $show_logo_in_search = null;
@@ -87,8 +87,8 @@ class VacanciesNegotiationsVacancyShort extends AbstractSchemaModel
  */
     public ?float $sort_point_distance = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput Schema field type */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput $type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput Schema field type */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput $type;
 
     /** @var string URL вакансии */
     public string $url;

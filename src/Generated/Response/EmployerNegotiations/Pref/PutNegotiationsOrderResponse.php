@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Pref;
+namespace and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Pref;
 
-use Andy87\ClientsHh\Generated\Response\PutPrefNegotiationsOrderResponse as BasePutPrefNegotiationsOrderResponse;
+use and_y87\ClientsHh\Generated\Response\PutPrefNegotiationsOrderResponse as BasePutPrefNegotiationsOrderResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /vacancies/{id}/preferred_negotiations_order.

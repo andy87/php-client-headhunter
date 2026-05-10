@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Last;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Last;
 
-use Andy87\ClientsHh\Generated\Prompt\SetLastViewedMessagePrompt as BaseSetLastViewedMessagePrompt;
+use and_y87\ClientsHh\Generated\Prompt\SetLastViewedMessagePrompt as BaseSetLastViewedMessagePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /common/chats/{chat_id}/message/{message_id}/read.

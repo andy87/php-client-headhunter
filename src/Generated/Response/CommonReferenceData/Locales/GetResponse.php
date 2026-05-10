@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\CommonReferenceData\Locales;
+namespace and_y87\ClientsHh\Generated\Response\CommonReferenceData\Locales;
 
-use Andy87\ClientsHh\Generated\Response\GetLocalesResponse as BaseGetLocalesResponse;
+use and_y87\ClientsHh\Generated\Response\GetLocalesResponse as BaseGetLocalesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /locales.

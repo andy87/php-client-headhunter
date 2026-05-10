@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerInfo\Employer;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerInfo\Employer;
 
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerDepartmentsPrompt as BaseGetEmployerDepartmentsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerDepartmentsPrompt as BaseGetEmployerDepartmentsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/departments.

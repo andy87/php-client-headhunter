@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerServices;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerServices;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetPayableApiActionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetPayableApiMethodAccessPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerServices\Payable\GetApiActionsResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerServices\Payable\GetApiMethodAccessResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetPayableApiActionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetPayableApiMethodAccessPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerServices\Payable\GetApiActionsResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerServices\Payable\GetApiMethodAccessResponse;
 
 /**
  * Группа методов "payable" раздела HeadHunter API "Услуги работодателя".

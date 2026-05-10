@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Schema;
+namespace and_y87\ClientsHh\Schema;
 
 /**
  * Базовая модель OpenAPI schema с гидрацией, вложенными cast-правилами и сериализацией.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Common;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Common;
 
-use Andy87\ClientsHh\Generated\Response\GetCommonChatFilesConditionsResponse as BaseGetCommonChatFilesConditionsResponse;
+use and_y87\ClientsHh\Generated\Response\GetCommonChatFilesConditionsResponse as BaseGetCommonChatFilesConditionsResponse;
 
 /**
  * Ответ HeadHunter API [GET] /common/chats/files/conditions.

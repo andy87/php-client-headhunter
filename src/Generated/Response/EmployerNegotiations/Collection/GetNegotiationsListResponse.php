@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Collection;
+namespace and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Collection;
 
-use Andy87\ClientsHh\Generated\Response\GetCollectionNegotiationsListResponse as BaseGetCollectionNegotiationsListResponse;
+use and_y87\ClientsHh\Generated\Response\GetCollectionNegotiationsListResponse as BaseGetCollectionNegotiationsListResponse;
 
 /**
  * Ответ HeadHunter API [GET] /negotiations/response.
  *
  * @documentation https://api.hh.ru/openapi/redoc#operation/get-collection-negotiations-list
  *
- * @property \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $ordered_by Применяемый тип сортировки
+ * @property \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $ordered_by Применяемый тип сортировки
  * @property int $found Найдено результатов
  * @property int $page Номер страницы
  * @property int $pages Всего страниц

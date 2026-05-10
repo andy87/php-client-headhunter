@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacancyEmployer.
@@ -17,7 +17,7 @@ class VacanciesVacancyEmployer extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['alternate_url', 'id', 'logo_urls', 'url', 'vacancies_url'];
 
-    protected const CASTS = ['employer_rating' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesEmployerRating::class, 'applicant_services' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices::class];
+    protected const CASTS = ['employer_rating' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesEmployerRating::class, 'applicant_services' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices::class];
 
     /** @var bool|null Флаг, показывающий, прошла ли компания IT аккредитацию */
     public ?bool $accredited_it_employer = null;
@@ -28,8 +28,8 @@ class VacanciesVacancyEmployer extends AbstractSchemaModel
     /** @var int|null Информация о стране компании */
     public ?int $country_id = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesEmployerRating|null Schema field employer_rating */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesEmployerRating $employer_rating = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesEmployerRating|null Schema field employer_rating */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesEmployerRating $employer_rating = null;
 
     /** @var string|null Идентификатор компании */
     public ?string $id = null;
@@ -37,8 +37,8 @@ class VacanciesVacancyEmployer extends AbstractSchemaModel
     /** @var bool|null Признак идентификации работодателя через ЕСИА */
     public ?bool $is_identified_by_esia = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls|null Ссылки на логотипы работодателя разных размеров */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls $logo_urls = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls|null Ссылки на логотипы работодателя разных размеров */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls $logo_urls = null;
 
     /** @var string Название компании */
     public string $name;
@@ -55,6 +55,6 @@ class VacanciesVacancyEmployer extends AbstractSchemaModel
     /** @var bool|null Добавлены ли все вакансии работодателя в список скрытых */
     public ?bool $blacklisted = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices|null Schema field applicant_services */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices $applicant_services = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices|null Schema field applicant_services */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices $applicant_services = null;
 }

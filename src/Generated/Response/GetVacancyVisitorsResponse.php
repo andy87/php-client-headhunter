@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/{vacancy_id}/visitors.
@@ -21,7 +21,7 @@ class GetVacancyVisitorsResponse extends AbstractResponse
 
     protected const CASTS = [];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVisitorsResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVisitorsResponse::class;
 
     /** @var array<int, mixed> Список сокращенных представлений резюме */
     public array $items;

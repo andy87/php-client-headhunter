@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyDrafts\Publish;
+namespace and_y87\ClientsHh\Generated\Response\VacancyDrafts\Publish;
 
-use Andy87\ClientsHh\Generated\Response\PublishVacancyFromDraftResponse as BasePublishVacancyFromDraftResponse;
+use and_y87\ClientsHh\Generated\Response\PublishVacancyFromDraftResponse as BasePublishVacancyFromDraftResponse;
 
 /**
  * Ответ HeadHunter API [POST] /vacancies/drafts/{draft_id}/publish.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Common;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Common;
 
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatFilesUploadLinksPrompt as BaseGetCommonChatFilesUploadLinksPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatFilesUploadLinksPrompt as BaseGetCommonChatFilesUploadLinksPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /common/chats/files/upload_links.

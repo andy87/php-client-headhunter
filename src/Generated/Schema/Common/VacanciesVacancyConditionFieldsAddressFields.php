@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacancyConditionFieldsAddressFields.
@@ -19,6 +19,6 @@ class VacanciesVacancyConditionFieldsAddressFields extends AbstractSchemaModel
 
     protected const CASTS = [];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field show_metro_only */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $show_metro_only = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field show_metro_only */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $show_metro_only = null;
 }

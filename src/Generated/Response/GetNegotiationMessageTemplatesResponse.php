@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /message_templates/{template}.
@@ -19,13 +19,13 @@ class GetNegotiationMessageTemplatesResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['mail' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate::class, 'sms' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate::class];
+    protected const CASTS = ['mail' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate::class, 'sms' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplates::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplates::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate Список шаблонов сообщений */
-    public \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate $mail;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate Список шаблонов сообщений */
+    public \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate $mail;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate|null Список шаблонов сообщений */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate $sms = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate|null Список шаблонов сообщений */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationMessageTemplate $sms = null;
 }

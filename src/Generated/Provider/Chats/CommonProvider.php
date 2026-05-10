@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Chats;
+namespace and_y87\ClientsHh\Generated\Provider\Chats;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatFilesConditionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatFilesUploadLinksPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatListPrompt;
-use Andy87\ClientsHh\Generated\Response\Chats\Common\GetChatFilesConditionsResponse;
-use Andy87\ClientsHh\Generated\Response\Chats\Common\GetChatFilesUploadLinksResponse;
-use Andy87\ClientsHh\Generated\Response\Chats\Common\GetChatListResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatFilesConditionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatFilesUploadLinksPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatListPrompt;
+use and_y87\ClientsHh\Generated\Response\Chats\Common\GetChatFilesConditionsResponse;
+use and_y87\ClientsHh\Generated\Response\Chats\Common\GetChatFilesUploadLinksResponse;
+use and_y87\ClientsHh\Generated\Response\Chats\Common\GetChatListResponse;
 
 /**
  * Группа методов "common" раздела HeadHunter API "Чаты".

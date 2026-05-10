@@ -2,25 +2,25 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyManagement;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyManagement;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\AddVacancyToArchivePrompt;
-use Andy87\ClientsHh\Generated\Prompt\AddVacancyToHiddenPrompt;
-use Andy87\ClientsHh\Generated\Prompt\EditVacancyPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyConditionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyStatsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyUpgradeListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyVisitorsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\VacancyProlongationPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\AddToArchiveResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\AddToHiddenResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\EditResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetConditionsResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetStatsResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetUpgradeListResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetVisitorsResponse;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\ProlongationResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\AddVacancyToArchivePrompt;
+use and_y87\ClientsHh\Generated\Prompt\AddVacancyToHiddenPrompt;
+use and_y87\ClientsHh\Generated\Prompt\EditVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyConditionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyStatsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyUpgradeListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyVisitorsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\VacancyProlongationPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\AddToArchiveResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\AddToHiddenResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\EditResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetConditionsResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetStatsResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetUpgradeListResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\GetVisitorsResponse;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy\ProlongationResponse;
 
 /**
  * Группа методов "vacancy" раздела HeadHunter API "Управление вакансиями".

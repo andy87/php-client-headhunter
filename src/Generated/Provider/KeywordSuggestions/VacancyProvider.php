@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\KeywordSuggestions;
+namespace and_y87\ClientsHh\Generated\Provider\KeywordSuggestions;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancySearchKeywordsPrompt;
-use Andy87\ClientsHh\Generated\Response\KeywordSuggestions\Vacancy\GetSearchKeywordsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancySearchKeywordsPrompt;
+use and_y87\ClientsHh\Generated\Response\KeywordSuggestions\Vacancy\GetSearchKeywordsResponse;
 
 /**
  * Группа методов "vacancy" раздела HeadHunter API "Подсказки по ключевым словам".

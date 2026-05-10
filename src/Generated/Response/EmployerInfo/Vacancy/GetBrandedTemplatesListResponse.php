@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerInfo\Vacancy;
+namespace and_y87\ClientsHh\Generated\Response\EmployerInfo\Vacancy;
 
-use Andy87\ClientsHh\Generated\Response\GetVacancyBrandedTemplatesListResponse as BaseGetVacancyBrandedTemplatesListResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancyBrandedTemplatesListResponse as BaseGetVacancyBrandedTemplatesListResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/vacancy_branded_templates.

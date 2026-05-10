@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancy_conditions.
@@ -21,137 +21,137 @@ class GetVacancyConditionsResponse extends AbstractResponse
 
     protected const CASTS = [];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditions::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditions::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_handicapped */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_handicapped = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_handicapped */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_handicapped = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_incomplete_resumes */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_incomplete_resumes = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_incomplete_resumes */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_incomplete_resumes = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_kids */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_kids = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_kids */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_kids = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_labor_contract */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_labor_contract = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_labor_contract */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_labor_contract = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_temporary */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_temporary = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field accept_temporary */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $accept_temporary = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field address */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $address = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field address */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $address = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field age_restriction */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $age_restriction = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field age_restriction */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $age_restriction = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field allow_messages */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $allow_messages = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field allow_messages */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $allow_messages = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field area */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $area = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field area */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $area = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field auto_response */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $auto_response = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field auto_response */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $auto_response = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field billing_type */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $billing_type = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field billing_type */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $billing_type = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field branded_template */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $branded_template = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field branded_template */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $branded_template = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field civil_law_contracts */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $civil_law_contracts = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field civil_law_contracts */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $civil_law_contracts = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Станет обязательным полем, как только поля type и billing_type будут удалены */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $closed_for_applicants = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Станет обязательным полем, как только поля type и billing_type будут удалены */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $closed_for_applicants = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field code */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $code = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field code */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $code = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field contacts */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $contacts = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field contacts */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $contacts = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field custom_employer_name */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $custom_employer_name = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field custom_employer_name */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $custom_employer_name = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field department */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $department = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field department */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $department = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field description */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $description = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field description */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $description = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field driver_license_types */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $driver_license_types = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field driver_license_types */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $driver_license_types = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field employment */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $employment = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field employment */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $employment = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field employment_form */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $employment_form = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field employment_form */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $employment_form = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field experience */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $experience = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field experience */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $experience = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field fly_in_fly_out_duration */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $fly_in_fly_out_duration = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field fly_in_fly_out_duration */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $fly_in_fly_out_duration = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field key_skills */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $key_skills = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field key_skills */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $key_skills = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field languages */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $languages = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field languages */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $languages = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field manager */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $manager = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field manager */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $manager = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field name */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $name = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field name */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $name = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field professional_roles */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $professional_roles = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field professional_roles */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $professional_roles = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field response_letter_required */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $response_letter_required = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field response_letter_required */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $response_letter_required = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field response_notifications */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $response_notifications = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field response_notifications */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $response_notifications = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field response_url */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $response_url = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field response_url */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $response_url = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field salary */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $salary = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field salary */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $salary = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field salary_range */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $salary_range = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field salary_range */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $salary_range = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field schedule */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $schedule = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field schedule */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $schedule = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field test */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $test = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field test */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $test = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field type */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $type = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field type */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $type = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Станет обязательным полем, как только поля type и billing_type будут удалены */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $vacancy_properties = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Станет обязательным полем, как только поля type и billing_type будут удалены */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $vacancy_properties = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field work_format */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $work_format = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field work_format */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $work_format = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field work_schedule_by_days */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $work_schedule_by_days = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field work_schedule_by_days */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $work_schedule_by_days = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_days */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_days = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_days */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_days = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_hours */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_hours = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_hours */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_hours = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_time_intervals */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_time_intervals = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_time_intervals */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_time_intervals = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_time_modes */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_time_modes = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Response field working_time_modes */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $working_time_modes = null;
 }

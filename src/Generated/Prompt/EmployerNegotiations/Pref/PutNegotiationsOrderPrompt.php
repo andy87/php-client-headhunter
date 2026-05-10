@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Pref;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Pref;
 
-use Andy87\ClientsHh\Generated\Prompt\PutPrefNegotiationsOrderPrompt as BasePutPrefNegotiationsOrderPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutPrefNegotiationsOrderPrompt as BasePutPrefNegotiationsOrderPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /vacancies/{id}/preferred_negotiations_order.

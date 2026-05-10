@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancySearch;
+namespace and_y87\ClientsHh\Generated\Provider\VacancySearch;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesRelatedToVacancyPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesSimilarToVacancyPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancySearch\Vacancies\GetRelatedToVacancyResponse;
-use Andy87\ClientsHh\Generated\Response\VacancySearch\Vacancies\GetResponse;
-use Andy87\ClientsHh\Generated\Response\VacancySearch\Vacancies\GetSimilarToVacancyResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesRelatedToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesSimilarToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancySearch\Vacancies\GetRelatedToVacancyResponse;
+use and_y87\ClientsHh\Generated\Response\VacancySearch\Vacancies\GetResponse;
+use and_y87\ClientsHh\Generated\Response\VacancySearch\Vacancies\GetSimilarToVacancyResponse;
 
 /**
  * Группа методов "vacancies" раздела HeadHunter API "Поиск вакансий".

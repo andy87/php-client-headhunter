@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Invite;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Invite;
 
-use Andy87\ClientsHh\Generated\Prompt\InviteApplicantToVacancyPrompt as BaseInviteApplicantToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\InviteApplicantToVacancyPrompt as BaseInviteApplicantToVacancyPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /negotiations/phone_interview.

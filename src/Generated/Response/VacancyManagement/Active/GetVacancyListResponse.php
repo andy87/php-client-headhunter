@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyManagement\Active;
+namespace and_y87\ClientsHh\Generated\Response\VacancyManagement\Active;
 
-use Andy87\ClientsHh\Generated\Response\GetActiveVacancyListResponse as BaseGetActiveVacancyListResponse;
+use and_y87\ClientsHh\Generated\Response\GetActiveVacancyListResponse as BaseGetActiveVacancyListResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/vacancies/active.

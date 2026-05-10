@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\OAuth;
+namespace and_y87\ClientsHh\Generated\Provider\OAuth;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\AuthorizePrompt;
-use Andy87\ClientsHh\Generated\Response\OAuth\General\AuthorizeResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\AuthorizePrompt;
+use and_y87\ClientsHh\Generated\Response\OAuth\General\AuthorizeResponse;
 
 /**
  * Группа методов "general" раздела HeadHunter API "Авторизация приложения".

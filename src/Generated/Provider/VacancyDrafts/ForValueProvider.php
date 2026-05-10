@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyDrafts;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyDrafts;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\SearchForVacancyDraftDuplicatesPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyDrafts\ForValue\SearchVacancyDraftDuplicatesResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\SearchForVacancyDraftDuplicatesPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyDrafts\ForValue\SearchVacancyDraftDuplicatesResponse;
 
 /**
  * Группа методов "forValue" раздела HeadHunter API "Черновики вакансий".

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CurrentUser\Current;
+namespace and_y87\ClientsHh\Generated\Prompt\CurrentUser\Current;
 
-use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt as BaseGetCurrentUserInfoPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt as BaseGetCurrentUserInfoPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /me.

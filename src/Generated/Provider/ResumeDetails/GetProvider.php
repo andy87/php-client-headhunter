@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ResumeDetails;
+namespace and_y87\ClientsHh\Generated\Provider\ResumeDetails;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetResumePrompt;
-use Andy87\ClientsHh\Generated\Response\ResumeDetails\Get\ResumeResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetResumePrompt;
+use and_y87\ClientsHh\Generated\Response\ResumeDetails\Get\ResumeResponse;
 
 /**
  * Группа методов "get" раздела HeadHunter API "Просмотр резюме".

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter MetroMetroItem.
@@ -17,12 +17,12 @@ class MetroMetroItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['lines' => [\Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations::class]];
+    protected const CASTS = ['lines' => [\and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations::class]];
 
     /** @var string Идентификатор города */
     public string $id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations> Список линий метро в городе */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations> Список линий метро в городе */
     public array $lines;
 
     /** @var string Название города */

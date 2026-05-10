@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\CreateSavedResumeSearchPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DeleteSavedResumeSearchPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSavedResumeSearchPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSavedResumeSearchesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\MoveSavedResumeSearchPrompt;
-use Andy87\ClientsHh\Generated\Prompt\UpdateSavedResumeSearchPrompt;
-use Andy87\ClientsHh\Generated\Response\CreateSavedResumeSearchResponse;
-use Andy87\ClientsHh\Generated\Response\DeleteSavedResumeSearchResponse;
-use Andy87\ClientsHh\Generated\Response\GetSavedResumeSearchResponse;
-use Andy87\ClientsHh\Generated\Response\GetSavedResumeSearchesResponse;
-use Andy87\ClientsHh\Generated\Response\MoveSavedResumeSearchResponse;
-use Andy87\ClientsHh\Generated\Response\UpdateSavedResumeSearchResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\CreateSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSavedResumeSearchesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\MoveSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Prompt\UpdateSavedResumeSearchPrompt;
+use and_y87\ClientsHh\Generated\Response\CreateSavedResumeSearchResponse;
+use and_y87\ClientsHh\Generated\Response\DeleteSavedResumeSearchResponse;
+use and_y87\ClientsHh\Generated\Response\GetSavedResumeSearchResponse;
+use and_y87\ClientsHh\Generated\Response\GetSavedResumeSearchesResponse;
+use and_y87\ClientsHh\Generated\Response\MoveSavedResumeSearchResponse;
+use and_y87\ClientsHh\Generated\Response\UpdateSavedResumeSearchResponse;
 
 /**
  * Provider раздела HeadHunter API "Сохраненные поиски резюме".

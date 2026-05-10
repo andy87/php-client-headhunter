@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ApplicantNegotiations;
+namespace and_y87\ClientsHh\Generated\Provider\ApplicantNegotiations;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationItemPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationMessagesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\SendNegotiationMessagePrompt;
-use Andy87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation\GetItemResponse;
-use Andy87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation\GetMessagesResponse;
-use Andy87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation\SendMessageResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationItemPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationMessagesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SendNegotiationMessagePrompt;
+use and_y87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation\GetItemResponse;
+use and_y87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation\GetMessagesResponse;
+use and_y87\ClientsHh\Generated\Response\ApplicantNegotiations\Negotiation\SendMessageResponse;
 
 /**
  * Группа методов "negotiation" раздела HeadHunter API "Переписка (отклики/приглашения) для соискателя".

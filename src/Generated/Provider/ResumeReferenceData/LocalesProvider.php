@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ResumeReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\ResumeReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetLocalesForResumePrompt;
-use Andy87\ClientsHh\Generated\Response\ResumeReferenceData\Locales\GetForResumeResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetLocalesForResumePrompt;
+use and_y87\ClientsHh\Generated\Response\ResumeReferenceData\Locales\GetForResumeResponse;
 
 /**
  * Группа методов "locales" раздела HeadHunter API "Справочники".

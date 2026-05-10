@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\ResumeReferenceData\Faculties;
+namespace and_y87\ClientsHh\Generated\Response\ResumeReferenceData\Faculties;
 
-use Andy87\ClientsHh\Generated\Response\GetFacultiesResponse as BaseGetFacultiesResponse;
+use and_y87\ClientsHh\Generated\Response\GetFacultiesResponse as BaseGetFacultiesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /educational_institutions/{id}/faculties.

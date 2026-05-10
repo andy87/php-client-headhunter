@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter DictionariesSalaryStatisticsAreaItem.
@@ -17,9 +17,9 @@ class DictionariesSalaryStatisticsAreaItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['areas' => [\Andy87\ClientsHh\Generated\Schema\Common\DictionariesSalaryStatisticsAreaItem::class]];
+    protected const CASTS = ['areas' => [\and_y87\ClientsHh\Generated\Schema\Common\DictionariesSalaryStatisticsAreaItem::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\DictionariesSalaryStatisticsAreaItem>|null Дочерние регионы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\DictionariesSalaryStatisticsAreaItem>|null Дочерние регионы */
     public ?array $areas = null;
 
     /** @var string Идентификатор региона */

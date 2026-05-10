@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /professional_roles.
@@ -19,10 +19,10 @@ class GetProfessionalRolesDictionaryResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['categories' => [\Andy87\ClientsHh\Generated\Schema\Common\ProfessionalRolesCategory::class]];
+    protected const CASTS = ['categories' => [\and_y87\ClientsHh\Generated\Schema\Common\ProfessionalRolesCategory::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ProfessionalRolesCatalog::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ProfessionalRolesCatalog::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ProfessionalRolesCategory> Информация о категории профессиональной роли */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ProfessionalRolesCategory> Информация о категории профессиональной роли */
     public array $categories;
 }

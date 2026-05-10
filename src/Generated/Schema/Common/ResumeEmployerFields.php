@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ResumeEmployerFields.
@@ -17,10 +17,10 @@ class ResumeEmployerFields extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['can_view_full_info', 'contact_view_status', 'contacts_open_until_date', 'view_without_contacts_reason'];
 
-    protected const CASTS = ['actions' => \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsActions::class, 'job_search_status' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameLastChangeTime::class, 'negotiations_history' => \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsNegotiationsHistoryForEmployer::class, 'owner' => \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwner::class, 'paid_services' => \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsEmployerPaidServices::class, 'photo' => \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOneOfPhotoNoId::class, 'portfolio' => [\Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsPortfolioNoId::class]];
+    protected const CASTS = ['actions' => \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsActions::class, 'job_search_status' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameLastChangeTime::class, 'negotiations_history' => \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsNegotiationsHistoryForEmployer::class, 'owner' => \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwner::class, 'paid_services' => \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsEmployerPaidServices::class, 'photo' => \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOneOfPhotoNoId::class, 'portfolio' => [\and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsPortfolioNoId::class]];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsActions Дополнительные действия */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsActions $actions;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsActions Дополнительные действия */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsActions $actions;
 
     /** @var bool|null Наличие права просмотра контактной информации в резюме */
     public ?bool $can_view_full_info = null;
@@ -42,24 +42,24 @@ class ResumeEmployerFields extends AbstractSchemaModel
     /** @var bool Добавлено ли резюме в избранные */
     public bool $favorited;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameLastChangeTime|null Для получения данных нужно передать параметр `with_job_search_status=true`.
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameLastChangeTime|null Для получения данных нужно передать параметр `with_job_search_status=true`.
 Возможные значения перечислены в поле `job_search_statuses_employer` в [справочнике полей](#tag/Obshie-spravochniki/operation/get-dictionaries)
  */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameLastChangeTime $job_search_status = null;
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameLastChangeTime $job_search_status = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsNegotiationsHistoryForEmployer|null Краткая история откликов/приглашений по резюме */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsNegotiationsHistoryForEmployer $negotiations_history = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsNegotiationsHistoryForEmployer|null Краткая история откликов/приглашений по резюме */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsNegotiationsHistoryForEmployer $negotiations_history = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwner Информация о владельце резюме */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwner $owner;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwner Информация о владельце резюме */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOwner $owner;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsEmployerPaidServices Schema field paid_services */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsEmployerPaidServices $paid_services;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsEmployerPaidServices Schema field paid_services */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsEmployerPaidServices $paid_services;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOneOfPhotoNoId|null Schema field photo */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsOneOfPhotoNoId $photo = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOneOfPhotoNoId|null Schema field photo */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsOneOfPhotoNoId $photo = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ResumeObjectsPortfolioNoId> Список изображений в портфолио пользователя */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ResumeObjectsPortfolioNoId> Список изображений в портфолио пользователя */
     public array $portfolio;
 
     /** @var string|null Причина скрытия контактов */

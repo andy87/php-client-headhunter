@@ -27,8 +27,8 @@ declare(strict_types=1);
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
 
 $client = new ApiClientHh([
     'headers' => [
@@ -52,9 +52,9 @@ foreach ($response->items ?? [] as $vacancy) {
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
-use Andy87\ClientsHh\Generated\ProviderKey;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
+use and_y87\ClientsHh\Generated\ProviderKey;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -75,7 +75,7 @@ echo $response->id . PHP_EOL;
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\ApiClientHh;
 
 $client = new ApiClientHh([
     'access_token' => 'your-oauth-access-token',
@@ -93,8 +93,8 @@ $client = new ApiClientHh([
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\HhConfig;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\HhConfig;
 
 $client = new ApiClientHh(HhConfig::fromEnv());
 ```
@@ -114,8 +114,8 @@ $client = new ApiClientHh(HhConfig::fromEnv());
 ```php
 <?php
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\PhpClientSdk\Event\BeforeRequestEvent;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\PhpClientSdk\Event\BeforeRequestEvent;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -133,14 +133,14 @@ $client = new ApiClientHh([
 
 ## Публичный API
 
-- `Andy87\ClientsHh\ApiClientHh` - главный клиент с ленивым доступом к provider-разделам.
-- `Andy87\ClientsHh\HhConfig` - конфигурация подключения.
-- `Andy87\ClientsHh\BaseHhProvider` - базовый provider для сгенерированных разделов API.
-- `Andy87\ClientsHh\Generated\ProviderKey` - enum со стабильными ASCII-ключами provider-разделов.
-- `Andy87\ClientsHh\Generated\Provider` - сгенерированные provider-разделы.
-- `Andy87\ClientsHh\Generated\Prompt` - сгенерированные DTO запросов.
-- `Andy87\ClientsHh\Generated\Response` - сгенерированные DTO ответов.
-- `Andy87\ClientsHh\Generated\Schema` - сгенерированные schema DTO.
+- `and_y87\ClientsHh\ApiClientHh` - главный клиент с ленивым доступом к provider-разделам.
+- `and_y87\ClientsHh\HhConfig` - конфигурация подключения.
+- `and_y87\ClientsHh\BaseHhProvider` - базовый provider для сгенерированных разделов API.
+- `and_y87\ClientsHh\Generated\ProviderKey` - enum со стабильными ASCII-ключами provider-разделов.
+- `and_y87\ClientsHh\Generated\Provider` - сгенерированные provider-разделы.
+- `and_y87\ClientsHh\Generated\Prompt` - сгенерированные DTO запросов.
+- `and_y87\ClientsHh\Generated\Response` - сгенерированные DTO ответов.
+- `and_y87\ClientsHh\Generated\Schema` - сгенерированные schema DTO.
 
 Generated Prompt DTO заполняются через публичные свойства. Сначала создайте prompt object, затем присвойте значения его полям.
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyManagement\Active;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyManagement\Active;
 
-use Andy87\ClientsHh\Generated\Prompt\GetActiveVacancyListPrompt as BaseGetActiveVacancyListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetActiveVacancyListPrompt as BaseGetActiveVacancyListPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/vacancies/active.

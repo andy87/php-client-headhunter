@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0 - 2026-05-10
+
+- Changed public PHP namespace to `and_y87\ClientsHh` to match the SDK namespace.
+- Updated `andy87/php-client-sdk` dependency from `^0.4.0` to `^0.5.0`.
+
 ## 0.1.0 - 2026-05-10
 
 - Added typed HeadHunter API client based on `andy87/php-client-sdk`.

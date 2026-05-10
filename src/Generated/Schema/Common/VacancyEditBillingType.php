@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyEditBillingType.
@@ -17,8 +17,8 @@ class VacancyEditBillingType extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['billing_type'];
 
-    protected const CASTS = ['billing_type' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyDeprecatedBillingType::class];
+    protected const CASTS = ['billing_type' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyDeprecatedBillingType::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyDeprecatedBillingType|null Schema field billing_type */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyDeprecatedBillingType $billing_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyDeprecatedBillingType|null Schema field billing_type */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyDeprecatedBillingType $billing_type;
 }

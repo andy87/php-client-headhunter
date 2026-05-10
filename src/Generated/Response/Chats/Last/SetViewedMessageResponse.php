@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Last;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Last;
 
-use Andy87\ClientsHh\Generated\Response\SetLastViewedMessageResponse as BaseSetLastViewedMessageResponse;
+use and_y87\ClientsHh\Generated\Response\SetLastViewedMessageResponse as BaseSetLastViewedMessageResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /common/chats/{chat_id}/message/{message_id}/read.

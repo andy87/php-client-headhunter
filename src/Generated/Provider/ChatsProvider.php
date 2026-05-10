@@ -2,37 +2,37 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\ChatMessageDeletePrompt;
-use Andy87\ClientsHh\Generated\Prompt\ChatMessagePostPrompt;
-use Andy87\ClientsHh\Generated\Prompt\ChatMessagePutPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetChatMessagesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatFilesConditionsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatFilesUploadLinksPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetCommonChatListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetOrCreateChatWithoutVacancyCommonPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetParticipantListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\LeaveChatPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutParticipantListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\SetLastViewedMessagePrompt;
-use Andy87\ClientsHh\Generated\Prompt\SetWritePossibilityCommonPrompt;
-use Andy87\ClientsHh\Generated\Prompt\UnreadChatsCountPrompt;
-use Andy87\ClientsHh\Generated\Response\ChatMessageDeleteResponse;
-use Andy87\ClientsHh\Generated\Response\ChatMessagePostResponse;
-use Andy87\ClientsHh\Generated\Response\ChatMessagePutResponse;
-use Andy87\ClientsHh\Generated\Response\GetChatMessagesResponse;
-use Andy87\ClientsHh\Generated\Response\GetCommonChatFilesConditionsResponse;
-use Andy87\ClientsHh\Generated\Response\GetCommonChatFilesUploadLinksResponse;
-use Andy87\ClientsHh\Generated\Response\GetCommonChatListResponse;
-use Andy87\ClientsHh\Generated\Response\GetOrCreateChatWithoutVacancyCommonResponse;
-use Andy87\ClientsHh\Generated\Response\GetParticipantListResponse;
-use Andy87\ClientsHh\Generated\Response\LeaveChatResponse;
-use Andy87\ClientsHh\Generated\Response\PutParticipantListResponse;
-use Andy87\ClientsHh\Generated\Response\SetLastViewedMessageResponse;
-use Andy87\ClientsHh\Generated\Response\SetWritePossibilityCommonResponse;
-use Andy87\ClientsHh\Generated\Response\UnreadChatsCountResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessageDeletePrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessagePostPrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessagePutPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetChatMessagesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatFilesConditionsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatFilesUploadLinksPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCommonChatListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetOrCreateChatWithoutVacancyCommonPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetParticipantListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\LeaveChatPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutParticipantListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SetLastViewedMessagePrompt;
+use and_y87\ClientsHh\Generated\Prompt\SetWritePossibilityCommonPrompt;
+use and_y87\ClientsHh\Generated\Prompt\UnreadChatsCountPrompt;
+use and_y87\ClientsHh\Generated\Response\ChatMessageDeleteResponse;
+use and_y87\ClientsHh\Generated\Response\ChatMessagePostResponse;
+use and_y87\ClientsHh\Generated\Response\ChatMessagePutResponse;
+use and_y87\ClientsHh\Generated\Response\GetChatMessagesResponse;
+use and_y87\ClientsHh\Generated\Response\GetCommonChatFilesConditionsResponse;
+use and_y87\ClientsHh\Generated\Response\GetCommonChatFilesUploadLinksResponse;
+use and_y87\ClientsHh\Generated\Response\GetCommonChatListResponse;
+use and_y87\ClientsHh\Generated\Response\GetOrCreateChatWithoutVacancyCommonResponse;
+use and_y87\ClientsHh\Generated\Response\GetParticipantListResponse;
+use and_y87\ClientsHh\Generated\Response\LeaveChatResponse;
+use and_y87\ClientsHh\Generated\Response\PutParticipantListResponse;
+use and_y87\ClientsHh\Generated\Response\SetLastViewedMessageResponse;
+use and_y87\ClientsHh\Generated\Response\SetWritePossibilityCommonResponse;
+use and_y87\ClientsHh\Generated\Response\UnreadChatsCountResponse;
 
 /**
  * Provider раздела HeadHunter API "Чаты".

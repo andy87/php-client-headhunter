@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter _IncludesEducationalInstitutionItem.
@@ -17,13 +17,13 @@ class IncludesEducationalInstitutionItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['acronym', 'synonyms'];
 
-    protected const CASTS = ['area' => \Andy87\ClientsHh\Generated\Schema\Common\SuggestsArea::class];
+    protected const CASTS = ['area' => \and_y87\ClientsHh\Generated\Schema\Common\SuggestsArea::class];
 
     /** @var string|null Сокращенное название учебного заведения */
     public ?string $acronym = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SuggestsArea Регион */
-    public \Andy87\ClientsHh\Generated\Schema\Common\SuggestsArea $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SuggestsArea Регион */
+    public \and_y87\ClientsHh\Generated\Schema\Common\SuggestsArea $area;
 
     /** @var string Идентификатор учебного заведения */
     public string $id;

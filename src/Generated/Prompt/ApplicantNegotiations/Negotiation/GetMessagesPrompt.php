@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ApplicantNegotiations\Negotiation;
+namespace and_y87\ClientsHh\Generated\Prompt\ApplicantNegotiations\Negotiation;
 
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationMessagesPrompt as BaseGetNegotiationMessagesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationMessagesPrompt as BaseGetNegotiationMessagesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /negotiations/{nid}/messages.

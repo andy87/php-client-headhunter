@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Common;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Common;
 
-use Andy87\ClientsHh\Generated\Response\GetCommonChatFilesUploadLinksResponse as BaseGetCommonChatFilesUploadLinksResponse;
+use and_y87\ClientsHh\Generated\Response\GetCommonChatFilesUploadLinksResponse as BaseGetCommonChatFilesUploadLinksResponse;
 
 /**
  * Ответ HeadHunter API [POST] /common/chats/files/upload_links.

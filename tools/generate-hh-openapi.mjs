@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const out = join(root, 'src', 'Generated');
 const defaultSpecUrl = 'https://api.hh.ru/openapi/specification/public';
-const namespace = 'Andy87\\ClientsHh\\Generated';
+const namespace = 'and_y87\\ClientsHh\\Generated';
 const httpMethods = new Set(['get', 'post', 'put', 'patch', 'delete', 'head', 'options']);
 
 const reserved = new Set([
@@ -782,8 +782,8 @@ function isBinarySchema(schema) {
 function promptPropertyOverrides(contentType, schema) {
     if (contentType === 'multipart/form-data' && isBinarySchema(schema)) {
         return {
-            type: '\\Andy87\\PhpClientSdk\\Http\\MultipartFile|string',
-            docType: '\\Andy87\\PhpClientSdk\\Http\\MultipartFile|string',
+            type: '\\and_y87\\PhpClientSdk\\Http\\MultipartFile|string',
+            docType: '\\and_y87\\PhpClientSdk\\Http\\MultipartFile|string',
         };
     }
 
@@ -908,7 +908,7 @@ function buildPrompt(spec, op, meta) {
 
     return classFile({
         namespace: `${namespace}\\Prompt`,
-        use: [`Andy87\\PhpClientSdk\\Prompt\\${promptBaseClass}`],
+        use: [`and_y87\\PhpClientSdk\\Prompt\\${promptBaseClass}`],
         className: meta.promptClass,
         extendsClass: promptBaseClass,
         docLines: operationClassDoc(meta, 'prompt'),
@@ -971,7 +971,7 @@ function buildResponse(spec, op, meta) {
 
     return classFile({
         namespace: `${namespace}\\Response`,
-        use: ['Andy87\\PhpClientSdk\\Response\\AbstractResponse'],
+        use: ['and_y87\\PhpClientSdk\\Response\\AbstractResponse'],
         className: meta.responseClass,
         extendsClass: 'AbstractResponse',
         docLines: operationClassDoc(meta, 'response'),
@@ -1012,7 +1012,7 @@ function buildSchemaModel(spec, slug, schemaName, schema) {
 
     return classFile({
         namespace: `${namespace}\\Schema\\${schemaNamespacePart()}`,
-        use: ['Andy87\\ClientsHh\\Schema\\AbstractSchemaModel'],
+        use: ['and_y87\\ClientsHh\\Schema\\AbstractSchemaModel'],
         className: schemaClassName(slug, schemaName),
         extendsClass: 'AbstractSchemaModel',
         description: `OpenAPI schema модель HeadHunter ${schemaName}.`,
@@ -1087,7 +1087,7 @@ ${consts}${props ? `\n\n${props}` : ''}
 
 function providerFile(operations, group) {
     const imports = new Set([
-        'Andy87\\ClientsHh\\BaseHhProvider',
+        'and_y87\\ClientsHh\\BaseHhProvider',
     ]);
 
     for (const op of operations) {
@@ -1150,7 +1150,7 @@ ${methods}
 
 function operationGroupProviderFile(operations, group, operationGroup) {
     const imports = new Set([
-        'Andy87\\ClientsHh\\BaseHhProvider',
+        'and_y87\\ClientsHh\\BaseHhProvider',
     ]);
 
     for (const op of operations) {

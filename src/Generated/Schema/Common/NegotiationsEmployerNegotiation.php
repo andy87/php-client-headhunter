@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsEmployerNegotiation.
@@ -17,7 +17,7 @@ class NegotiationsEmployerNegotiation extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['funnel_stage', 'test_result', 'resume', 'vacancy'];
 
-    protected const CASTS = ['counters' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters::class, 'has_updates' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates::class, 'state' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class, 'actions' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions::class], 'employer_state' => \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState::class, 'tags' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesId::class], 'templates' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyTemplates::class]];
+    protected const CASTS = ['counters' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters::class, 'has_updates' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates::class, 'state' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class, 'actions' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions::class], 'employer_state' => \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState::class, 'tags' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesId::class], 'templates' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyTemplates::class]];
 
     /** @var bool|null Является ли вопросом до отклика */
     public ?bool $applicant_question_state = null;
@@ -25,14 +25,14 @@ class NegotiationsEmployerNegotiation extends AbstractSchemaModel
     /** @var float|null Идентификатор чата */
     public ?float $chat_id = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters|null Schema field counters */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters $counters = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters|null Schema field counters */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsCounters $counters = null;
 
     /** @var string Дата и время создания отклика/приглашения */
     public string $created_at;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates Schema field has_updates */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates $has_updates;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates Schema field has_updates */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyHasUpdates $has_updates;
 
     /** @var string Идентификатор отклика/приглашения */
     public string $id;
@@ -46,17 +46,17 @@ class NegotiationsEmployerNegotiation extends AbstractSchemaModel
  */
     public string $messaging_status;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles|null Schema field professional_roles */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles $professional_roles = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles|null Schema field professional_roles */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRoles $professional_roles = null;
 
     /** @var string|null Источник отклика/приглашения */
     public ?string $source = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Текущее состояние отклика/приглашения.
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Текущее состояние отклика/приглашения.
 
 Возможные значения приведены в поле `negotiations_state` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries)
  */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $state;
 
     /** @var string Дата и время последнего обновления отклика/приглашения */
     public string $updated_at;
@@ -64,29 +64,29 @@ class NegotiationsEmployerNegotiation extends AbstractSchemaModel
     /** @var bool Был ли отклик/приглашение просмотрен получателем */
     public bool $viewed_by_opponent;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions>|null Возможные [действия по отклику/приглашению](#tag/Otklikipriglasheniya-rabotodatelya/operation/change-negotiation-action)
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions>|null Возможные [действия по отклику/приглашению](#tag/Otklikipriglasheniya-rabotodatelya/operation/change-negotiation-action)
  */
     public ?array $actions = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState|null Schema field employer_state */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState $employer_state = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState|null Schema field employer_state */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState $employer_state = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage|null Информация об этапе воронки найма */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage $funnel_stage = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage|null Информация об этапе воронки найма */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage $funnel_stage = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesId>|null Теги к работодательскому отклику */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesId>|null Теги к работодательскому отклику */
     public ?array $tags = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyTemplates>|null Шаблоны писем */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyTemplates>|null Шаблоны писем */
     public ?array $templates = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Результат выполнения [теста](#tag/Otklikipriglasheniya-rabotodatelya/operation/get-negotiation-test-results), прикрепленного к вакансии
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Результат выполнения [теста](#tag/Otklikipriglasheniya-rabotodatelya/operation/get-negotiation-test-results), прикрепленного к вакансии
  */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $test_result = null;
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $test_result = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Короткое представление резюме */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $resume = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Короткое представление резюме */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $resume = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesNegotiationsVacancyShort|null Короткое представление вакансии */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesNegotiationsVacancyShort $vacancy = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesNegotiationsVacancyShort|null Короткое представление вакансии */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesNegotiationsVacancyShort $vacancy = null;
 }

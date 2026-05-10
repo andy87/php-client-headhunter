@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ChatsCommonMessage.
@@ -17,7 +17,7 @@ class ChatsCommonMessage extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['last_change_time'];
 
-    protected const CASTS = ['sender_display_info' => \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonSenderDisplayInfo::class];
+    protected const CASTS = ['sender_display_info' => \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonSenderDisplayInfo::class];
 
     /** @var bool Можно ли отредактировать сообщение */
     public bool $can_edit;
@@ -42,8 +42,8 @@ class ChatsCommonMessage extends AbstractSchemaModel
  */
     public array $payload;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonSenderDisplayInfo Schema field sender_display_info */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonSenderDisplayInfo $sender_display_info;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonSenderDisplayInfo Schema field sender_display_info */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonSenderDisplayInfo $sender_display_info;
 
     /** @var string Идентификатор отправителя сообщения */
     public string $sender_participant_id;

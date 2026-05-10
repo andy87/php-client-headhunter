@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsNegotiationsSubCollection.
@@ -17,7 +17,7 @@ class NegotiationsNegotiationsSubCollection extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['counters' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsEmployerCounters::class, 'order_types' => [\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsOrderTypes::class]];
+    protected const CASTS = ['counters' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsEmployerCounters::class, 'order_types' => [\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsOrderTypes::class]];
 
     /** @var string Идентификатор коллекции подстатуса */
     public string $id;
@@ -32,9 +32,9 @@ class NegotiationsNegotiationsSubCollection extends AbstractSchemaModel
  */
     public string $url;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsEmployerCounters|null Schema field counters */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsEmployerCounters $counters = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsEmployerCounters|null Schema field counters */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsEmployerCounters $counters = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsOrderTypes> Schema field order_types */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsOrderTypes> Schema field order_types */
     public array $order_types;
 }

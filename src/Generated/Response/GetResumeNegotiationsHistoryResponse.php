@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /resumes/{resume_id}/negotiations_history.
@@ -19,10 +19,10 @@ class GetResumeNegotiationsHistoryResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['vacancies' => [\Andy87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancy::class]];
+    protected const CASTS = ['vacancies' => [\and_y87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancy::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryResponse::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancy> Массив вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancy> Массив вакансий */
     public array $vacancies;
 }

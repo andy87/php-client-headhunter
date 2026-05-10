@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [POST] /common/chats/files/upload_links.
@@ -21,7 +21,7 @@ class GetCommonChatFilesUploadLinksResponse extends AbstractResponse
 
     protected const CASTS = [];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonFilesUploadLinksResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonFilesUploadLinksResponse::class;
 
     /** @var string Время действия ссылки в формате [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) с точностью до секунды: `YYYY-MM-DDThh:mm:ss±hhmm` */
     public string $expires_at;

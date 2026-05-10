@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ResumeDetails\Get;
+namespace and_y87\ClientsHh\Generated\Prompt\ResumeDetails\Get;
 
-use Andy87\ClientsHh\Generated\Prompt\GetResumePrompt as BaseGetResumePrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetResumePrompt as BaseGetResumePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /resumes/{resume_id}.

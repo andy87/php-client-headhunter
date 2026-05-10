@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Unread;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Unread;
 
-use Andy87\ClientsHh\Generated\Response\UnreadChatsCountResponse as BaseUnreadChatsCountResponse;
+use and_y87\ClientsHh\Generated\Response\UnreadChatsCountResponse as BaseUnreadChatsCountResponse;
 
 /**
  * Ответ HeadHunter API [GET] /common/chats/counters/unread.

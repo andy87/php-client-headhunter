@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetResumeSearchKeywordsSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancySearchKeywordsPrompt;
-use Andy87\ClientsHh\Generated\Response\GetResumeSearchKeywordsSuggestsResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacancySearchKeywordsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetResumeSearchKeywordsSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancySearchKeywordsPrompt;
+use and_y87\ClientsHh\Generated\Response\GetResumeSearchKeywordsSuggestsResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacancySearchKeywordsResponse;
 
 /**
  * Provider раздела HeadHunter API "Подсказки по ключевым словам".

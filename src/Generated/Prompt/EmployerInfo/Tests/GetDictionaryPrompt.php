@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerInfo\Tests;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerInfo\Tests;
 
-use Andy87\ClientsHh\Generated\Prompt\GetTestsDictionaryPrompt as BaseGetTestsDictionaryPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetTestsDictionaryPrompt as BaseGetTestsDictionaryPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /employers/{employer_id}/tests.

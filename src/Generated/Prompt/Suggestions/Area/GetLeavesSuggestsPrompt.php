@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Suggestions\Area;
+namespace and_y87\ClientsHh\Generated\Prompt\Suggestions\Area;
 
-use Andy87\ClientsHh\Generated\Prompt\GetAreaLeavesSuggestsPrompt as BaseGetAreaLeavesSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetAreaLeavesSuggestsPrompt as BaseGetAreaLeavesSuggestsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/area_leaves.

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerInfo\Employer;
+namespace and_y87\ClientsHh\Generated\Response\EmployerInfo\Employer;
 
-use Andy87\ClientsHh\Generated\Response\GetEmployerVacancyAreasResponse as BaseGetEmployerVacancyAreasResponse;
+use and_y87\ClientsHh\Generated\Response\GetEmployerVacancyAreasResponse as BaseGetEmployerVacancyAreasResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/vacancy_areas/active.
  *
  * @documentation https://api.hh.ru/openapi/redoc#operation/get-employer-vacancy-areas
  *
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea> $items Список регионов
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea> $items Список регионов
  * @property int $found Найдено результатов
  * @property int $page Номер страницы
  * @property int $pages Всего страниц

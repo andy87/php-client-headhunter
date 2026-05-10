@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerNegotiations;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerNegotiations;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsEmployerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsManagerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PostNegotiationsTopicsReadPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutNegotiationsCollectionToNextStatePrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\GetStatisticsEmployerResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\GetStatisticsManagerResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\PostTopicsReadResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\PutCollectionToNextStateResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsEmployerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetNegotiationsStatisticsManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PostNegotiationsTopicsReadPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutNegotiationsCollectionToNextStatePrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\GetStatisticsEmployerResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\GetStatisticsManagerResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\PostTopicsReadResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiations\PutCollectionToNextStateResponse;
 
 /**
  * Группа методов "negotiations" раздела HeadHunter API "Отклики/приглашения работодателя".

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter SuggestsVacancyPositionItem.
@@ -17,12 +17,12 @@ class SuggestsVacancyPositionItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['professional_roles' => [\Andy87\ClientsHh\Generated\Schema\Common\SuggestsProfessionalRoleItemWithName::class]];
+    protected const CASTS = ['professional_roles' => [\and_y87\ClientsHh\Generated\Schema\Common\SuggestsProfessionalRoleItemWithName::class]];
 
     /** @var string Идентификатор должности */
     public string $id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\SuggestsProfessionalRoleItemWithName> Информация о профессиональных ролях, соответствующих должности */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\SuggestsProfessionalRoleItemWithName> Информация о профессиональных ролях, соответствующих должности */
     public array $professional_roles;
 
     /** @var string Название должности */

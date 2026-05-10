@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/addresses/{address_id}.
@@ -19,9 +19,9 @@ class GetAddressResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = ['building', 'city', 'description', 'lat', 'lng', 'manager', 'rawData', 'street'];
 
-    protected const CASTS = ['metro_stations' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class]];
+    protected const CASTS = ['metro_stations' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\EmployerAddressesEmployerAddressItemResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\EmployerAddressesEmployerAddressItemResponse::class;
 
     /** @var string|null Номер дома */
     public ?string $building = null;
@@ -50,7 +50,7 @@ class GetAddressResponse extends AbstractResponse
     /** @var array<string, mixed>|null Информация о менеджере, создавшем адрес */
     public ?array $manager = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null Response field metro_stations */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation>|null Response field metro_stations */
     public ?array $metro_stations = null;
 
     /** @var string|null Полный адрес */

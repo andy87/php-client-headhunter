@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter DictionariesSalaryStatisticsSpecializations.
@@ -17,8 +17,8 @@ class DictionariesSalaryStatisticsSpecializations extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['specializations' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameDesc::class]];
+    protected const CASTS = ['specializations' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameDesc::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdNameDesc> Schema field specializations */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdNameDesc> Schema field specializations */
     public array $specializations;
 }

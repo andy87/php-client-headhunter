@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsNegotiationsStatistics.
@@ -22,8 +22,8 @@ class NegotiationsNegotiationsStatistics extends AbstractSchemaModel
     /** @var float|null Среднее время (в днях) между получением отклика и отправкой сообщения */
     public ?float $average_reply_time = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsPoliteness|null Индекс вежливости */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsPoliteness $politeness = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsPoliteness|null Индекс вежливости */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsObjectsPoliteness $politeness = null;
 
     /** @var float Количество откликов на вакансии, полученных за период (последние 30 дней) */
     public float $received;

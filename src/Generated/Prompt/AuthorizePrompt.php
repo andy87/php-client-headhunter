@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt;
+namespace and_y87\ClientsHh\Generated\Prompt;
 
-use Andy87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /token.
@@ -51,7 +51,7 @@ class AuthorizePrompt extends PrivatePrompt
  */
     public ?string $HH_User_Agent = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\AuthCode В зависимости от способа получения токена `grant_type` необходимо передавать различные наборы параметров <a name="required_parameters"></a>
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\AuthCode В зависимости от способа получения токена `grant_type` необходимо передавать различные наборы параметров <a name="required_parameters"></a>
  */
-    public \Andy87\ClientsHh\Generated\Schema\Common\AuthCode $body;
+    public \and_y87\ClientsHh\Generated\Schema\Common\AuthCode $body;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\KeywordSuggestions\Get;
+namespace and_y87\ClientsHh\Generated\Prompt\KeywordSuggestions\Get;
 
-use Andy87\ClientsHh\Generated\Prompt\GetResumeSearchKeywordsSuggestsPrompt as BaseGetResumeSearchKeywordsSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetResumeSearchKeywordsSuggestsPrompt as BaseGetResumeSearchKeywordsSuggestsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/resume_search_keyword.

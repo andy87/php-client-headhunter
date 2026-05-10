@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /common/chats/{chat_id}/messages.
@@ -19,18 +19,18 @@ class GetChatMessagesResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = ['block_reason', 'vacancy_id'];
 
-    protected const CASTS = ['display' => \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo::class];
+    protected const CASTS = ['display' => \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagesResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonMessagesResponse::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason|null Response field block_reason */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason $block_reason;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason|null Response field block_reason */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonBlockReason $block_reason;
 
     /** @var string Время создания чата */
     public string $creation_time;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo Response field display */
-    public \Andy87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo $display;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo Response field display */
+    public \and_y87\ClientsHh\Generated\Schema\Common\ChatsCommonDisplayInfo $display;
 
     /** @var string Идентификатор чата */
     public string $id;

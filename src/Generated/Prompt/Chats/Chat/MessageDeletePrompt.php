@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Chat;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Chat;
 
-use Andy87\ClientsHh\Generated\Prompt\ChatMessageDeletePrompt as BaseChatMessageDeletePrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChatMessageDeletePrompt as BaseChatMessageDeletePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /common/chats/{chat_id}/messages/{message_id}.

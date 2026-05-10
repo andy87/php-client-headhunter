@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerAddresses;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerAddresses;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAddressPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerAddresses\Address\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAddressPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerAddresses\Address\GetResponse;
 
 /**
  * Группа методов "address" раздела HeadHunter API "Адреса работодателя".

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Suggestions;
+namespace and_y87\ClientsHh\Generated\Provider\Suggestions;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetAreasSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Response\Suggestions\Areas\GetSuggestsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetAreasSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Response\Suggestions\Areas\GetSuggestsResponse;
 
 /**
  * Группа методов "areas" раздела HeadHunter API "Подсказки".

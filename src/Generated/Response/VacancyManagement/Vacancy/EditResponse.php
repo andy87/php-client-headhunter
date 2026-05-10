@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyManagement\Vacancy;
+namespace and_y87\ClientsHh\Generated\Response\VacancyManagement\Vacancy;
 
-use Andy87\ClientsHh\Generated\Response\EditVacancyResponse as BaseEditVacancyResponse;
+use and_y87\ClientsHh\Generated\Response\EditVacancyResponse as BaseEditVacancyResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /vacancies/{vacancy_id}.

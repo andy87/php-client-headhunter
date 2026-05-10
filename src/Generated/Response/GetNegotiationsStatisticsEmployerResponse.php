@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/negotiations_statistics.
@@ -19,10 +19,10 @@ class GetNegotiationsStatisticsEmployerResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['employer_statistics' => \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics::class];
+    protected const CASTS = ['employer_statistics' => \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatisticsEmployerResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatisticsEmployerResponse::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics Response field employer_statistics */
-    public \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics $employer_statistics;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics Response field employer_statistics */
+    public \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsStatistics $employer_statistics;
 }

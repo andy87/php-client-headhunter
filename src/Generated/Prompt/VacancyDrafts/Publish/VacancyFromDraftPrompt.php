@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyDrafts\Publish;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyDrafts\Publish;
 
-use Andy87\ClientsHh\Generated\Prompt\PublishVacancyFromDraftPrompt as BasePublishVacancyFromDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PublishVacancyFromDraftPrompt as BasePublishVacancyFromDraftPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /vacancies/drafts/{draft_id}/publish.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ApplicantComments\Applicant;
+namespace and_y87\ClientsHh\Generated\Prompt\ApplicantComments\Applicant;
 
-use Andy87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt as BaseDeleteApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt as BaseDeleteApplicantCommentPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /applicant_comments/{applicant_id}/{comment_id}.

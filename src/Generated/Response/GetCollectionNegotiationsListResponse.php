@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /negotiations/response.
@@ -19,12 +19,12 @@ class GetCollectionNegotiationsListResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = ['hidden_count'];
 
-    protected const CASTS = ['ordered_by' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['ordered_by' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsCollectionNegotiationsResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsCollectionNegotiationsResponse::class;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Применяемый тип сортировки */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $ordered_by;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName Применяемый тип сортировки */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $ordered_by;
 
     /** @var int Найдено результатов */
     public int $found;

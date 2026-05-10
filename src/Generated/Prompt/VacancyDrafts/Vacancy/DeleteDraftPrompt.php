@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyDrafts\Vacancy;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyDrafts\Vacancy;
 
-use Andy87\ClientsHh\Generated\Prompt\DeleteVacancyDraftPrompt as BaseDeleteVacancyDraftPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteVacancyDraftPrompt as BaseDeleteVacancyDraftPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /vacancies/drafts/{draft_id}.

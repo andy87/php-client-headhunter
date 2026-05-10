@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\CommonReferenceData\Countries;
+namespace and_y87\ClientsHh\Generated\Response\CommonReferenceData\Countries;
 
-use Andy87\ClientsHh\Generated\Response\GetCountriesResponse as BaseGetCountriesResponse;
+use and_y87\ClientsHh\Generated\Response\GetCountriesResponse as BaseGetCountriesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /areas/countries.

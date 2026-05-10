@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /areas/{area_id}.
@@ -19,9 +19,9 @@ class GetAreasFromSpecifiedResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = ['lat', 'lng', 'name_prepositional', 'parent_id', 'utc_offset'];
 
-    protected const CASTS = ['areas' => [\Andy87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem::class]];
+    protected const CASTS = ['areas' => [\and_y87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem::class;
 
     /** @var string Идентификатор региона из [справочника](#tag/Obshie-spravochniki/operation/get-areas)
  */
@@ -49,6 +49,6 @@ class GetAreasFromSpecifiedResponse extends AbstractResponse
  */
     public ?string $utc_offset = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem> Дочерние регионы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem> Дочерние регионы */
     public array $areas;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/drafts.
@@ -19,14 +19,14 @@ class GetVacancyDraftListResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItems::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItems::class;
 
     /** @var int Response field found */
     public int $found;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem> Список черновиков */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftVacancyDraftItem> Список черновиков */
     public array $items;
 
     /** @var int Response field page */

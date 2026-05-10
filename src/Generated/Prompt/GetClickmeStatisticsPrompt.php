@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt;
+namespace and_y87\ClientsHh\Generated\Prompt;
 
-use Andy87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /clickme/statistics.

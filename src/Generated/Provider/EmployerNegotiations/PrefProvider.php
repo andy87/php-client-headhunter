@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerNegotiations;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerNegotiations;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetPrefNegotiationsOrderPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutPrefNegotiationsOrderPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Pref\GetNegotiationsOrderResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Pref\PutNegotiationsOrderResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetPrefNegotiationsOrderPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutPrefNegotiationsOrderPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Pref\GetNegotiationsOrderResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Pref\PutNegotiationsOrderResponse;
 
 /**
  * Группа методов "pref" раздела HeadHunter API "Отклики/приглашения работодателя".

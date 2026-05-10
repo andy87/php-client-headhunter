@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\SalaryAnalytics;
+namespace and_y87\ClientsHh\Generated\Provider\SalaryAnalytics;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetSalaryEvaluationPrompt;
-use Andy87\ClientsHh\Generated\Response\SalaryAnalytics\Salary\GetEvaluationResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetSalaryEvaluationPrompt;
+use and_y87\ClientsHh\Generated\Response\SalaryAnalytics\Salary\GetEvaluationResponse;
 
 /**
  * Группа методов "salary" раздела HeadHunter API "Банк данных о зарплатах".

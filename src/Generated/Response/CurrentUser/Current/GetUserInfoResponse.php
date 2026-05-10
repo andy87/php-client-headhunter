@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\CurrentUser\Current;
+namespace and_y87\ClientsHh\Generated\Response\CurrentUser\Current;
 
-use Andy87\ClientsHh\Generated\Response\GetCurrentUserInfoResponse as BaseGetCurrentUserInfoResponse;
+use and_y87\ClientsHh\Generated\Response\GetCurrentUserInfoResponse as BaseGetCurrentUserInfoResponse;
 
 /**
  * Ответ HeadHunter API [GET] /me.

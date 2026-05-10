@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerInfo;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerInfo;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetVacancyBrandedTemplatesListPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerInfo\Vacancy\GetBrandedTemplatesListResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetVacancyBrandedTemplatesListPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerInfo\Vacancy\GetBrandedTemplatesListResponse;
 
 /**
  * Группа методов "vacancy" раздела HeadHunter API "Информация о работодателе".

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Suggestions;
+namespace and_y87\ClientsHh\Generated\Provider\Suggestions;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetFieldsOfStudySuggestionsPrompt;
-use Andy87\ClientsHh\Generated\Response\Suggestions\Fields\GetOfStudySuggestionsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetFieldsOfStudySuggestionsPrompt;
+use and_y87\ClientsHh\Generated\Response\Suggestions\Fields\GetOfStudySuggestionsResponse;
 
 /**
  * Группа методов "fields" раздела HeadHunter API "Подсказки".

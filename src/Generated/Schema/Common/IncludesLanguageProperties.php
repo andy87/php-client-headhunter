@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter _IncludesLanguageProperties.
@@ -17,7 +17,7 @@ class IncludesLanguageProperties extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['level' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['level' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
     /** @var string Идентификатор */
     public string $id;
@@ -25,6 +25,6 @@ class IncludesLanguageProperties extends AbstractSchemaModel
     /** @var string Название */
     public string $name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName|null Уровень владения. Возможные значения элементов приведены в поле `language_level` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries) */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $level = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName|null Уровень владения. Возможные значения элементов приведены в поле `language_level` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries) */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $level = null;
 }

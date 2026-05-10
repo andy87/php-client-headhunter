@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter EmployerServicesEmployerServiceItem.
@@ -17,13 +17,13 @@ class EmployerServicesEmployerServiceItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['balance'];
 
-    protected const CASTS = ['service_type' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerServicesServiceType::class];
+    protected const CASTS = ['service_type' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerServicesServiceType::class];
 
     /** @var string Время активации услуги (в формате [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) с точностью до секунды: `YYYY-MM-DDThh:mm:ss±hhmm` */
     public string $activated_at;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Значения баланса. Только для пакетных услуг */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $balance = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Значения баланса. Только для пакетных услуг */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $balance = null;
 
     /** @var string Время истечения услуги (в формате [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) с точностью до секунды: `YYYY-MM-DDThh:mm:ss±hhmm` */
     public string $expires_at;
@@ -31,6 +31,6 @@ class EmployerServicesEmployerServiceItem extends AbstractSchemaModel
     /** @var string Идентификатор услуги */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerServicesServiceType Тип услуги */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerServicesServiceType $service_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerServicesServiceType Тип услуги */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerServicesServiceType $service_type;
 }

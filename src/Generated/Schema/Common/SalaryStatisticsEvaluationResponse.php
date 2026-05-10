@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter SalaryStatisticsEvaluationResponse.
@@ -17,11 +17,11 @@ class SalaryStatisticsEvaluationResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['market_salary' => \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary::class, 'resulting_parameters' => \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters::class];
+    protected const CASTS = ['market_salary' => \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary::class, 'resulting_parameters' => \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary Schema field market_salary */
-    public \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary $market_salary;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary Schema field market_salary */
+    public \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsMarketSalary $market_salary;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters Schema field resulting_parameters */
-    public \Andy87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters $resulting_parameters;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters Schema field resulting_parameters */
+    public \and_y87\ClientsHh\Generated\Schema\Common\SalaryStatisticsResultingParameters $resulting_parameters;
 }

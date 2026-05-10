@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ApplicantComments;
+namespace and_y87\ClientsHh\Generated\Provider\ApplicantComments;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\AddApplicantCommentPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetApplicantCommentsListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\UpdateApplicantCommentPrompt;
-use Andy87\ClientsHh\Generated\Response\ApplicantComments\Applicant\AddCommentResponse;
-use Andy87\ClientsHh\Generated\Response\ApplicantComments\Applicant\DeleteCommentResponse;
-use Andy87\ClientsHh\Generated\Response\ApplicantComments\Applicant\GetCommentsListResponse;
-use Andy87\ClientsHh\Generated\Response\ApplicantComments\Applicant\UpdateCommentResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\AddApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetApplicantCommentsListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\UpdateApplicantCommentPrompt;
+use and_y87\ClientsHh\Generated\Response\ApplicantComments\Applicant\AddCommentResponse;
+use and_y87\ClientsHh\Generated\Response\ApplicantComments\Applicant\DeleteCommentResponse;
+use and_y87\ClientsHh\Generated\Response\ApplicantComments\Applicant\GetCommentsListResponse;
+use and_y87\ClientsHh\Generated\Response\ApplicantComments\Applicant\UpdateCommentResponse;
 
 /**
  * Группа методов "applicant" раздела HeadHunter API "Комментарии к соискателю".

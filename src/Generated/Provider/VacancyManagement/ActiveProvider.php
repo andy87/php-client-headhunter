@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\VacancyManagement;
+namespace and_y87\ClientsHh\Generated\Provider\VacancyManagement;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetActiveVacancyListPrompt;
-use Andy87\ClientsHh\Generated\Response\VacancyManagement\Active\GetVacancyListResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetActiveVacancyListPrompt;
+use and_y87\ClientsHh\Generated\Response\VacancyManagement\Active\GetVacancyListResponse;
 
 /**
  * Группа методов "active" раздела HeadHunter API "Управление вакансиями".

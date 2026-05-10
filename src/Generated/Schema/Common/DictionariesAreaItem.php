@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter DictionariesAreaItem.
@@ -17,7 +17,7 @@ class DictionariesAreaItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['lat', 'lng', 'name_prepositional', 'parent_id', 'utc_offset'];
 
-    protected const CASTS = ['areas' => [\Andy87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem::class]];
+    protected const CASTS = ['areas' => [\and_y87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem::class]];
 
     /** @var string Идентификатор региона из [справочника](#tag/Obshie-spravochniki/operation/get-areas)
  */
@@ -45,6 +45,6 @@ class DictionariesAreaItem extends AbstractSchemaModel
  */
     public ?string $utc_offset = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem> Дочерние регионы */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\DictionariesAreaItem> Дочерние регионы */
     public array $areas;
 }

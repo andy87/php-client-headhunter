@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter _IncludesClusterMetroLine.
@@ -17,7 +17,7 @@ class IncludesClusterMetroLine extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['area' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea::class];
+    protected const CASTS = ['area' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea::class];
 
     /** @var array<string, mixed> Schema field area */
     public array $area;

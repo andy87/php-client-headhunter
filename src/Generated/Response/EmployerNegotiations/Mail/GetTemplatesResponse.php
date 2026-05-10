@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Mail;
+namespace and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Mail;
 
-use Andy87\ClientsHh\Generated\Response\GetMailTemplatesResponse as BaseGetMailTemplatesResponse;
+use and_y87\ClientsHh\Generated\Response\GetMailTemplatesResponse as BaseGetMailTemplatesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/mail_templates.

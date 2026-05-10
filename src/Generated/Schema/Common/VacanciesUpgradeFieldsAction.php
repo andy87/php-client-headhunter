@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesUpgradeFieldsAction.
@@ -22,8 +22,8 @@ class VacanciesUpgradeFieldsAction extends AbstractSchemaModel
     /** @var int|null Идентификатор заказа, ожидающего активации. Возвращается только для действий с `actions.type=activate` */
     public ?int $cart_id = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesUpgradeFieldsPrice|null Стоимость публикации. Возвращается только для действий с `actions.type=buy` */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesUpgradeFieldsPrice $price = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesUpgradeFieldsPrice|null Стоимость публикации. Возвращается только для действий с `actions.type=buy` */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesUpgradeFieldsPrice $price = null;
 
     /** @var string Тип действия:
 

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/vacancies/hidden.
@@ -19,9 +19,9 @@ class GetHiddenVacanciesResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacanciesDeletedVacancyListResponse::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\VacanciesDeletedVacancyListResponse::class;
 
     /** @var int Найдено результатов */
     public int $found;
@@ -35,6 +35,6 @@ class GetHiddenVacanciesResponse extends AbstractResponse
     /** @var int Результатов на странице */
     public int $per_page;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived> Список удаленных вакансий */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived> Список удаленных вакансий */
     public array $items;
 }

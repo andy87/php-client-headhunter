@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter EmployersEmployerVacancyAreasResponse.
@@ -17,9 +17,9 @@ class EmployersEmployerVacancyAreasResponse extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesArea::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesArea::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea> Список регионов */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea> Список регионов */
     public array $items;
 
     /** @var int Найдено результатов */

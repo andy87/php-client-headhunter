@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyNegotiationActions.
@@ -17,9 +17,9 @@ class VacancyNegotiationActions extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['resulting_employer_state'];
 
-    protected const CASTS = ['arguments' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyArguments::class], 'sub_actions' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyNegotiationSubActions::class], 'templates' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyTemplates::class]];
+    protected const CASTS = ['arguments' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyArguments::class], 'sub_actions' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyNegotiationSubActions::class], 'templates' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyTemplates::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyArguments> Обязательные и дополнительные аргументы для запроса */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyArguments> Обязательные и дополнительные аргументы для запроса */
     public array $arguments;
 
     /** @var bool Возможно ли совершить действие */
@@ -37,13 +37,13 @@ class VacancyNegotiationActions extends AbstractSchemaModel
     /** @var string Название действия */
     public string $name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName|null Документация [Работодательское состояние](#tag/Otklikipriglasheniya-rabotodatelya) по отклику/приглашению, которое будет установлено после совершения действия. Если действие не меняет состояние — `null` */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $resulting_employer_state = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName|null Документация [Работодательское состояние](#tag/Otklikipriglasheniya-rabotodatelya) по отклику/приглашению, которое будет установлено после совершения действия. Если действие не меняет состояние — `null` */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName $resulting_employer_state = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyNegotiationSubActions>|null Действия для перевода отклика/приглашения в подстатус */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyNegotiationSubActions>|null Действия для перевода отклика/приглашения в подстатус */
     public ?array $sub_actions = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyTemplates> Шаблоны писем */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyTemplates> Шаблоны писем */
     public array $templates;
 
     /** @var string URL, на который необходимо выполнить запрос */

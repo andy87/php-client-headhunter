@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter SuggestsAreasItem.
@@ -17,13 +17,13 @@ class SuggestsAreasItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['parent' => \Andy87\ClientsHh\Generated\Schema\Common\SuggestsAreasItem::class];
+    protected const CASTS = ['parent' => \and_y87\ClientsHh\Generated\Schema\Common\SuggestsAreasItem::class];
 
     /** @var string Идентификатор региона */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\SuggestsAreasItem|null Родительский регион */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\SuggestsAreasItem $parent = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\SuggestsAreasItem|null Родительский регион */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\SuggestsAreasItem $parent = null;
 
     /** @var string Название региона */
     public string $text;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyManagement\Prolongation;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyManagement\Prolongation;
 
-use Andy87\ClientsHh\Generated\Prompt\GetProlongationVacancyInfoPrompt as BaseGetProlongationVacancyInfoPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetProlongationVacancyInfoPrompt as BaseGetProlongationVacancyInfoPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /vacancies/{vacancy_id}/prolongate.

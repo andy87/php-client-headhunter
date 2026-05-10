@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacancyConditionFieldsContactFields.
@@ -19,12 +19,12 @@ class VacanciesVacancyConditionFieldsContactFields extends AbstractSchemaModel
 
     protected const CASTS = [];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field email */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $email = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field email */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $email = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field name */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $name = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field name */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $name = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field phones */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $phones = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field phones */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $phones = null;
 }

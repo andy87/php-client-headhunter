@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter MailTemplatesMailTemplate.
@@ -17,7 +17,7 @@ class MailTemplatesMailTemplate extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['variables' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
+    protected const CASTS = ['variables' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class]];
 
     /** @var bool Можно ли редактировать текст шаблона */
     public bool $editable;
@@ -40,6 +40,6 @@ class MailTemplatesMailTemplate extends AbstractSchemaModel
     /** @var string Способ доставки сообщения сформированного из шаблона */
     public string $type;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Переменные доступные для вставки в шаблон */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Переменные доступные для вставки в шаблон */
     public array $variables;
 }

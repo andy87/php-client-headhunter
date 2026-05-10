@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\CompanySuggestions;
+namespace and_y87\ClientsHh\Generated\Provider\CompanySuggestions;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetRegisteredCompaniesSuggestsPrompt;
-use Andy87\ClientsHh\Generated\Response\CompanySuggestions\Registered\GetCompaniesSuggestsResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetRegisteredCompaniesSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Response\CompanySuggestions\Registered\GetCompaniesSuggestsResponse;
 
 /**
  * Группа методов "registered" раздела HeadHunter API "Подсказки по компаниям".

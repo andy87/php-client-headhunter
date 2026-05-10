@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ServicesVacancyAvailablePublication.
@@ -17,8 +17,8 @@ class ServicesVacancyAvailablePublication extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['publication_variants' => [\Andy87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications::class]];
+    protected const CASTS = ['publication_variants' => [\and_y87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications> Список доступных типов публикаций */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ServicesVacanciesAvailablePublications> Список доступных типов публикаций */
     public array $publication_variants;
 }

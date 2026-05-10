@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancySalaryRangeSalaryRange.
@@ -17,13 +17,13 @@ class VacancySalaryRangeSalaryRange extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['frequency', 'from', 'to'];
 
-    protected const CASTS = ['mode' => \Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeMode::class];
+    protected const CASTS = ['mode' => \and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeMode::class];
 
     /** @var string Код валюты из [справочника currency](#tag/Obshie-spravochniki/operation/get-dictionaries) */
     public string $currency;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeFrequency|null Schema field frequency */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeFrequency $frequency = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeFrequency|null Schema field frequency */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeFrequency $frequency = null;
 
     /** @var int|null Нижняя граница зарплаты */
     public ?int $from = null;
@@ -31,8 +31,8 @@ class VacancySalaryRangeSalaryRange extends AbstractSchemaModel
     /** @var bool Признак что границы зарплаты указаны до вычета налогов */
     public bool $gross;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeMode Schema field mode */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeMode $mode;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeMode Schema field mode */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeMode $mode;
 
     /** @var int|null Верхняя граница зарплаты */
     public ?int $to = null;

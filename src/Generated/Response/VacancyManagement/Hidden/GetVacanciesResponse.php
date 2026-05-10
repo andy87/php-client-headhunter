@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyManagement\Hidden;
+namespace and_y87\ClientsHh\Generated\Response\VacancyManagement\Hidden;
 
-use Andy87\ClientsHh\Generated\Response\GetHiddenVacanciesResponse as BaseGetHiddenVacanciesResponse;
+use and_y87\ClientsHh\Generated\Response\GetHiddenVacanciesResponse as BaseGetHiddenVacanciesResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/vacancies/hidden.
@@ -15,7 +15,7 @@ use Andy87\ClientsHh\Generated\Response\GetHiddenVacanciesResponse as BaseGetHid
  * @property int $page Номер страницы
  * @property int $pages Всего страниц
  * @property int $per_page Результатов на странице
- * @property array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived> $items Список удаленных вакансий
+ * @property array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyArchived> $items Список удаленных вакансий
  */
 class GetVacanciesResponse extends BaseGetHiddenVacanciesResponse
 {

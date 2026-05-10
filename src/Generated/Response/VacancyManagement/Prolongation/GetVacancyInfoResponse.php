@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\VacancyManagement\Prolongation;
+namespace and_y87\ClientsHh\Generated\Response\VacancyManagement\Prolongation;
 
-use Andy87\ClientsHh\Generated\Response\GetProlongationVacancyInfoResponse as BaseGetProlongationVacancyInfoResponse;
+use and_y87\ClientsHh\Generated\Response\GetProlongationVacancyInfoResponse as BaseGetProlongationVacancyInfoResponse;
 
 /**
  * Ответ HeadHunter API [GET] /vacancies/{vacancy_id}/prolongate.

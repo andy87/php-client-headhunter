@@ -2,23 +2,23 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\EmployerManagers;
+namespace and_y87\ClientsHh\Generated\Provider\EmployerManagers;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\AddEmployerManagerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\DeleteEmployerManagerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\EditEmployerManagerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerManagerLimitsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerManagerPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerManagerTypesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetEmployerManagersPrompt;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\AddManagerResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\DeleteManagerResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\EditManagerResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagerLimitsResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagerResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagerTypesResponse;
-use Andy87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagersResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\AddEmployerManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DeleteEmployerManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\EditEmployerManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerManagerLimitsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerManagerPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerManagerTypesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetEmployerManagersPrompt;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\AddManagerResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\DeleteManagerResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\EditManagerResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagerLimitsResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagerResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagerTypesResponse;
+use and_y87\ClientsHh\Generated\Response\EmployerManagers\Employer\GetManagersResponse;
 
 /**
  * Группа методов "employer" раздела HeadHunter API "Менеджеры работодателя".

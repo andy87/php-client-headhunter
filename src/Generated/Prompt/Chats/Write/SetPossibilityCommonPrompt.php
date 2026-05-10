@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Write;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Write;
 
-use Andy87\ClientsHh\Generated\Prompt\SetWritePossibilityCommonPrompt as BaseSetWritePossibilityCommonPrompt;
+use and_y87\ClientsHh\Generated\Prompt\SetWritePossibilityCommonPrompt as BaseSetWritePossibilityCommonPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /common/chats/{chat_id}/write_possibility.

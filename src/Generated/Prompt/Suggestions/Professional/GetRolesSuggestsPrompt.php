@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Suggestions\Professional;
+namespace and_y87\ClientsHh\Generated\Prompt\Suggestions\Professional;
 
-use Andy87\ClientsHh\Generated\Prompt\GetProfessionalRolesSuggestsPrompt as BaseGetProfessionalRolesSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetProfessionalRolesSuggestsPrompt as BaseGetProfessionalRolesSuggestsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/professional_roles.

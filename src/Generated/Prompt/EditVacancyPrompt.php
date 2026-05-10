@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt;
+namespace and_y87\ClientsHh\Generated\Prompt;
 
-use Andy87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /vacancies/{vacancy_id}.
@@ -27,7 +27,7 @@ class EditVacancyPrompt extends PrivatePrompt
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['body' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyEdit::class];
+    protected const CASTS = ['body' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyEdit::class];
 
     protected const PATH_FIELDS = ['vacancy_id'];
 
@@ -60,6 +60,6 @@ class EditVacancyPrompt extends PrivatePrompt
  */
     public ?string $HH_User_Agent = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyEdit Request body */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyEdit $body;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyEdit Request body */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyEdit $body;
 }

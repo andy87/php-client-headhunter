@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /metro/{city_id}.
@@ -19,14 +19,14 @@ class GetMetroStationsInCityResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['lines' => [\Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations::class]];
+    protected const CASTS = ['lines' => [\and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\MetroCityMetroItem::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\MetroCityMetroItem::class;
 
     /** @var string Идентификатор города */
     public string $id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations> Список линий метро в городе */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLineWithStations> Список линий метро в городе */
     public array $lines;
 
     /** @var string Название города */

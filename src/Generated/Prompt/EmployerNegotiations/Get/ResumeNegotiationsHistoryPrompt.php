@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Get;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Get;
 
-use Andy87\ClientsHh\Generated\Prompt\GetResumeNegotiationsHistoryPrompt as BaseGetResumeNegotiationsHistoryPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetResumeNegotiationsHistoryPrompt as BaseGetResumeNegotiationsHistoryPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /resumes/{resume_id}/negotiations_history.

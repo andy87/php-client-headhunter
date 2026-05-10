@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Negotiation;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Negotiation;
 
-use Andy87\ClientsHh\Generated\Prompt\ChangeNegotiationActionPrompt as BaseChangeNegotiationActionPrompt;
+use and_y87\ClientsHh\Generated\Prompt\ChangeNegotiationActionPrompt as BaseChangeNegotiationActionPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /negotiations/{collection_name}/{nid}.

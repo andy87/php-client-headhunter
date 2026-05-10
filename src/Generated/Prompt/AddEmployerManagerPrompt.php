@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt;
+namespace and_y87\ClientsHh\Generated\Prompt;
 
-use Andy87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [POST] /employers/{employer_id}/managers.
@@ -27,7 +27,7 @@ class AddEmployerManagerPrompt extends PrivatePrompt
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['additional_phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId::class, 'manager_type' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId::class, 'permissions' => [\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPermissions::class], 'phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
+    protected const CASTS = ['additional_phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId::class, 'manager_type' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId::class, 'permissions' => [\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPermissions::class], 'phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
 
     protected const PATH_FIELDS = ['employer_id'];
 
@@ -54,11 +54,11 @@ class AddEmployerManagerPrompt extends PrivatePrompt
  */
     public ?string $HH_User_Agent = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId Body field area */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId Body field area */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersAreaId $area;
 
     /** @var string Адрес электронной почты менеджера */
     public string $email;
@@ -72,17 +72,17 @@ class AddEmployerManagerPrompt extends PrivatePrompt
     /** @var string Фамилия менеджера */
     public string $last_name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId Body field manager_type */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId $manager_type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId Body field manager_type */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerTypeId $manager_type;
 
     /** @var string|null Отчество менеджера */
     public ?string $middle_name = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPermissions>|null Список [прав менеджера](#tag/Menedzhery-rabotodatelya/operation/get-employer-manager-types) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPermissions>|null Список [прав менеджера](#tag/Menedzhery-rabotodatelya/operation/get-employer-manager-types) */
     public ?array $permissions = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone Основной телефон менеджера */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone Основной телефон менеджера */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone;
 
     /** @var string Должность менеджера */
     public string $position;

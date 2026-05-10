@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Tests;
+namespace and_y87\ClientsHh\Tests;
 
-use Andy87\ClientsHh\ApiClientHh;
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Provider\CurrentUserProvider;
-use Andy87\ClientsHh\Generated\Provider\VacancySearchProvider;
-use Andy87\ClientsHh\Generated\ProviderKey;
-use Andy87\ClientsHh\Generated\ProviderRegistry;
-use Andy87\ClientsHh\HhConfig;
-use Andy87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
-use Andy87\PhpClientSdk\Auth\NullAuthorizationStrategy;
-use Andy87\PhpClientSdk\Http\HttpResponse;
-use Andy87\PhpClientSdk\Mock\CallbackMockResponseResolver;
-use Andy87\PhpClientSdk\Mock\MockTransport;
+use and_y87\ClientsHh\ApiClientHh;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Provider\CurrentUserProvider;
+use and_y87\ClientsHh\Generated\Provider\VacancySearchProvider;
+use and_y87\ClientsHh\Generated\ProviderKey;
+use and_y87\ClientsHh\Generated\ProviderRegistry;
+use and_y87\ClientsHh\HhConfig;
+use and_y87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
+use and_y87\PhpClientSdk\Auth\NullAuthorizationStrategy;
+use and_y87\PhpClientSdk\Http\HttpResponse;
+use and_y87\PhpClientSdk\Mock\CallbackMockResponseResolver;
+use and_y87\PhpClientSdk\Mock\MockTransport;
 use PHPUnit\Framework\TestCase;
 
 /**

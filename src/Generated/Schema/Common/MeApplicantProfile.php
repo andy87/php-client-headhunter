@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter MeApplicantProfile.
@@ -17,7 +17,7 @@ class MeApplicantProfile extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['auth_type', 'email', 'mid_name', 'middle_name', 'phone', 'employer', 'manager', 'personal_manager'];
 
-    protected const CASTS = ['counters' => \Andy87\ClientsHh\Generated\Schema\Common\MeApplicantProfileCounters::class, 'linked_socials' => [\Andy87\ClientsHh\Generated\Schema\Common\AuthMethodsSocialNetwork::class], 'profile_videos' => \Andy87\ClientsHh\Generated\Schema\Common\ProfileVideosList::class, 'user_statuses' => \Andy87\ClientsHh\Generated\Schema\Common\UserStatusesApplicant::class];
+    protected const CASTS = ['counters' => \and_y87\ClientsHh\Generated\Schema\Common\MeApplicantProfileCounters::class, 'linked_socials' => [\and_y87\ClientsHh\Generated\Schema\Common\AuthMethodsSocialNetwork::class], 'profile_videos' => \and_y87\ClientsHh\Generated\Schema\Common\ProfileVideosList::class, 'user_statuses' => \and_y87\ClientsHh\Generated\Schema\Common\UserStatusesApplicant::class];
 
     /** @var string|null Тип авторизации */
     public ?string $auth_type;
@@ -61,8 +61,8 @@ class MeApplicantProfile extends AbstractSchemaModel
     /** @var string|null Телефон текущего пользователя */
     public ?string $phone = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\MeApplicantProfileCounters Schema field counters */
-    public \Andy87\ClientsHh\Generated\Schema\Common\MeApplicantProfileCounters $counters;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\MeApplicantProfileCounters Schema field counters */
+    public \and_y87\ClientsHh\Generated\Schema\Common\MeApplicantProfileCounters $counters;
 
     /** @var array<string, mixed>|null Schema field employer */
     public ?array $employer = null;
@@ -70,7 +70,7 @@ class MeApplicantProfile extends AbstractSchemaModel
     /** @var bool Имеет ли текущий пользователь статус "ищу работу" */
     public bool $is_in_search;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\AuthMethodsSocialNetwork> Подключённые соцсети как способы авторизации */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\AuthMethodsSocialNetwork> Подключённые соцсети как способы авторизации */
     public array $linked_socials;
 
     /** @var array<string, mixed>|null Schema field manager */
@@ -83,13 +83,13 @@ class MeApplicantProfile extends AbstractSchemaModel
     /** @var array<string, mixed>|null Schema field personal_manager */
     public ?array $personal_manager = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\ProfileVideosList|null Schema field profile_videos */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\ProfileVideosList $profile_videos = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\ProfileVideosList|null Schema field profile_videos */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\ProfileVideosList $profile_videos = null;
 
     /** @var string URL, на который нужно сделать GET-запрос, чтобы получить список резюме текущего пользователя
  */
     public string $resumes_url;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\UserStatusesApplicant|null Schema field user_statuses */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\UserStatusesApplicant $user_statuses = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\UserStatusesApplicant|null Schema field user_statuses */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\UserStatusesApplicant $user_statuses = null;
 }

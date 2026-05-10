@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyEditFields.
@@ -19,9 +19,9 @@ class VacancyEditFields extends AbstractSchemaModel
 
     protected const CASTS = [];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyDescription|null Schema field description */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyDescription $description = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyDescription|null Schema field description */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyDescription $description = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyName|null Schema field name */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyName $name = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyName|null Schema field name */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyName $name = null;
 }

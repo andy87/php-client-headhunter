@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Locales;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Locales;
 
-use Andy87\ClientsHh\Generated\Prompt\GetLocalesPrompt as BaseGetLocalesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetLocalesPrompt as BaseGetLocalesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /locales.

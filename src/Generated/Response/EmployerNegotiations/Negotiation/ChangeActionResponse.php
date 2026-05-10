@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation;
+namespace and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation;
 
-use Andy87\ClientsHh\Generated\Response\ChangeNegotiationActionResponse as BaseChangeNegotiationActionResponse;
+use and_y87\ClientsHh\Generated\Response\ChangeNegotiationActionResponse as BaseChangeNegotiationActionResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /negotiations/{collection_name}/{nid}.

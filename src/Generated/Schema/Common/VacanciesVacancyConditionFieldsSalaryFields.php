@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacancyConditionFieldsSalaryFields.
@@ -19,15 +19,15 @@ class VacanciesVacancyConditionFieldsSalaryFields extends AbstractSchemaModel
 
     protected const CASTS = [];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field currency */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $currency = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field currency */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $currency = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field from */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $from = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field from */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $from = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field gross */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $gross = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field gross */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $gross = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field to */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $to = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Schema field to */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $to = null;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacancyConditionFieldsPhoneCondition.
@@ -17,7 +17,7 @@ class VacanciesVacancyConditionFieldsPhoneCondition extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['required'];
 
-    protected const CASTS = ['fields' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditionFieldsPhoneFields::class];
+    protected const CASTS = ['fields' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditionFieldsPhoneFields::class];
 
     /** @var float|null Максимальное количество объектов для полей, в которых передается список. Если `null` — количество неограниченно */
     public ?float $max_count = null;
@@ -28,6 +28,6 @@ class VacanciesVacancyConditionFieldsPhoneCondition extends AbstractSchemaModel
     /** @var bool|null Является ли поле необходимым? */
     public ?bool $required = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditionFieldsPhoneFields|null Schema field fields */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditionFieldsPhoneFields $fields = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditionFieldsPhoneFields|null Schema field fields */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesVacancyConditionFieldsPhoneFields $fields = null;
 }

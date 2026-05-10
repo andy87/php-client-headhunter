@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\EmployerNegotiations\Mail;
+namespace and_y87\ClientsHh\Generated\Prompt\EmployerNegotiations\Mail;
 
-use Andy87\ClientsHh\Generated\Prompt\PutMailTemplatesItemPrompt as BasePutMailTemplatesItemPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutMailTemplatesItemPrompt as BasePutMailTemplatesItemPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /employers/{employer_id}/mail_templates/{template_id}.

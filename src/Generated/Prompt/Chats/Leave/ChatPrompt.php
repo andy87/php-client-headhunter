@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Chats\Leave;
+namespace and_y87\ClientsHh\Generated\Prompt\Chats\Leave;
 
-use Andy87\ClientsHh\Generated\Prompt\LeaveChatPrompt as BaseLeaveChatPrompt;
+use and_y87\ClientsHh\Generated\Prompt\LeaveChatPrompt as BaseLeaveChatPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /common/chats/{chat_id}/leave.

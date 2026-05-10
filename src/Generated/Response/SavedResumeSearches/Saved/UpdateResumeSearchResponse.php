@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\SavedResumeSearches\Saved;
+namespace and_y87\ClientsHh\Generated\Response\SavedResumeSearches\Saved;
 
-use Andy87\ClientsHh\Generated\Response\UpdateSavedResumeSearchResponse as BaseUpdateSavedResumeSearchResponse;
+use and_y87\ClientsHh\Generated\Response\UpdateSavedResumeSearchResponse as BaseUpdateSavedResumeSearchResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /saved_searches/resumes/{id}.

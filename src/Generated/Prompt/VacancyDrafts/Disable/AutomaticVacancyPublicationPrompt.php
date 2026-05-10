@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\VacancyDrafts\Disable;
+namespace and_y87\ClientsHh\Generated\Prompt\VacancyDrafts\Disable;
 
-use Andy87\ClientsHh\Generated\Prompt\DisableAutomaticVacancyPublicationPrompt as BaseDisableAutomaticVacancyPublicationPrompt;
+use and_y87\ClientsHh\Generated\Prompt\DisableAutomaticVacancyPublicationPrompt as BaseDisableAutomaticVacancyPublicationPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [DELETE] /vacancies/auto_publication.

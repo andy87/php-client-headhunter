@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Participant;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Participant;
 
-use Andy87\ClientsHh\Generated\Response\GetParticipantListResponse as BaseGetParticipantListResponse;
+use and_y87\ClientsHh\Generated\Response\GetParticipantListResponse as BaseGetParticipantListResponse;
 
 /**
  * Ответ HeadHunter API [GET] /common/chats/{chat_id}/participants.

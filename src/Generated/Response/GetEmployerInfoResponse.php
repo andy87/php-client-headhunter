@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response;
+namespace and_y87\ClientsHh\Generated\Response;
 
-use Andy87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}.
@@ -19,9 +19,9 @@ class GetEmployerInfoResponse extends AbstractResponse
 
     protected const NULLABLE_FIELDS = ['branded_description', 'branding', 'description', 'logo_urls', 'open_vacancies', 'type'];
 
-    protected const CASTS = ['applicant_services' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea::class, 'industries' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'insider_interviews' => [\Andy87\ClientsHh\Generated\Schema\Common\EmployersInsiderInterviews::class]];
+    protected const CASTS = ['applicant_services' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea::class, 'industries' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class], 'insider_interviews' => [\and_y87\ClientsHh\Generated\Schema\Common\EmployersInsiderInterviews::class]];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployerInfo::class;
+    protected const MODEL = \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployerInfo::class;
 
     /** @var bool|null Флаг, показывающий, прошел ли работодатель [IT аккредитацию](https://feedback.hh.ru/knowledge-base/article/00038) */
     public ?bool $accredited_it_employer = null;
@@ -29,11 +29,11 @@ class GetEmployerInfoResponse extends AbstractResponse
     /** @var string Ссылка на описание работодателя на сайте */
     public string $alternate_url;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices|null Response field applicant_services */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices $applicant_services = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices|null Response field applicant_services */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesEmployerApplicantServices $applicant_services = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea Информация о регионе работодателя */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea Информация о регионе работодателя */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea $area;
 
     /** @var string|null Строка с кодом HTML (возможно наличие `<script/>` и `<style/>`), которая является альтернативой стандартному описанию работодателя. HTML адаптирован для мобильных устройств и корректно отображается без поддержки Javascript.
 
@@ -48,8 +48,8 @@ class GetEmployerInfoResponse extends AbstractResponse
  */
     public ?string $branded_description = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Значение может быть `null`, если у работодателя отсутствует брендирование страницы */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $branding = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Значение может быть `null`, если у работодателя отсутствует брендирование страницы */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $branding = null;
 
     /** @var string|null Информация о стране работодателя */
     public ?string $country_code = null;
@@ -60,17 +60,17 @@ class GetEmployerInfoResponse extends AbstractResponse
     /** @var string Идентификатор работодателя */
     public string $id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName> Список отраслей работодателя. Элементы [справочника индустрий](https://api.hh.ru/openapi/redoc#tag/Obshie-spravochniki/operation/get-industries) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName> Список отраслей работодателя. Элементы [справочника индустрий](https://api.hh.ru/openapi/redoc#tag/Obshie-spravochniki/operation/get-industries) */
     public array $industries;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployersInsiderInterviews> Список интервью */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployersInsiderInterviews> Список интервью */
     public array $insider_interviews;
 
     /** @var bool|null Признак идентификации работодателя через ЕСИА */
     public ?bool $is_identified_by_esia = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls|null Ссылки на изображения логотипов работодателя разных размеров. `original` — это необработанный логотип, который может быть большого размера. Если изначально загруженный компанией логотип меньше, чем 240px и/или 90px по меньшей стороне, то в соответствующих ключах будут ссылки на изображения оригинального размера. Объект может быть `null`, если компания не загрузила логотип. Клиент должен предусмотреть возможность отсутствия логотипа по указанной ссылке (ответ с кодом `404 Not Found`). Если информация о работодателе используется для описания вакансии, у которой есть брендированный логотип, все ссылки ведут на него. Логотипы 90 и 240 присутствуют не во всех компаниях */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls $logo_urls = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls|null Ссылки на изображения логотипов работодателя разных размеров. `original` — это необработанный логотип, который может быть большого размера. Если изначально загруженный компанией логотип меньше, чем 240px и/или 90px по меньшей стороне, то в соответствующих ключах будут ссылки на изображения оригинального размера. Объект может быть `null`, если компания не загрузила логотип. Клиент должен предусмотреть возможность отсутствия логотипа по указанной ссылке (ответ с кодом `404 Not Found`). Если информация о работодателе используется для описания вакансии, у которой есть брендированный логотип, все ссылки ведут на него. Логотипы 90 и 240 присутствуют не во всех компаниях */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesLogoUrls $logo_urls = null;
 
     /** @var string Название работодателя */
     public string $name;

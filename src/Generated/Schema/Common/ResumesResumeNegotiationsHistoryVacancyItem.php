@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ResumesResumeNegotiationsHistoryVacancyItem.
@@ -17,7 +17,7 @@ class ResumesResumeNegotiationsHistoryVacancyItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['employer_state' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+    protected const CASTS = ['employer_state' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
 
     /** @var string Дата изменения состояния отклика/приглашения */
     public string $created_at;

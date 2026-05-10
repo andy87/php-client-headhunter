@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\Chats;
+namespace and_y87\ClientsHh\Generated\Provider\Chats;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetParticipantListPrompt;
-use Andy87\ClientsHh\Generated\Prompt\PutParticipantListPrompt;
-use Andy87\ClientsHh\Generated\Response\Chats\Participant\GetListResponse;
-use Andy87\ClientsHh\Generated\Response\Chats\Participant\PutListResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetParticipantListPrompt;
+use and_y87\ClientsHh\Generated\Prompt\PutParticipantListPrompt;
+use and_y87\ClientsHh\Generated\Response\Chats\Participant\GetListResponse;
+use and_y87\ClientsHh\Generated\Response\Chats\Participant\PutListResponse;
 
 /**
  * Группа методов "participant" раздела HeadHunter API "Чаты".

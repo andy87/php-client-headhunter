@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ResumesResumeNegotiationsHistoryVacancy.
@@ -17,7 +17,7 @@ class ResumesResumeNegotiationsHistoryVacancy extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancyItem::class]];
+    protected const CASTS = ['items' => [\and_y87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancyItem::class]];
 
     /** @var bool Признак того, что вакансия находится в архиве */
     public bool $archived;
@@ -28,7 +28,7 @@ class ResumesResumeNegotiationsHistoryVacancy extends AbstractSchemaModel
     /** @var string Уникальный идентификатор вакансии */
     public string $id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancyItem> Список последних изменений состояний откликов/приглашений по указанному резюме и данной вакансии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ResumesResumeNegotiationsHistoryVacancyItem> Список последних изменений состояний откликов/приглашений по указанному резюме и данной вакансии */
     public array $items;
 
     /** @var string URL, на который необходимо делать GET-запрос для получения [списка сообщений в отклике/приглашении](#tag/Otklikipriglasheniya-rabotodatelya/operation/get-negotiation-messages). Если `can_edit` равно `false`, значение поля должно игнорироваться */

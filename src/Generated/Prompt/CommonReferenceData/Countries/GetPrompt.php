@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\CommonReferenceData\Countries;
+namespace and_y87\ClientsHh\Generated\Prompt\CommonReferenceData\Countries;
 
-use Andy87\ClientsHh\Generated\Prompt\GetCountriesPrompt as BaseGetCountriesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetCountriesPrompt as BaseGetCountriesPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /areas/countries.

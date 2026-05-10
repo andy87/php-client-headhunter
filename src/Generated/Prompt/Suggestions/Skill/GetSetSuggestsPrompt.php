@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\Suggestions\Skill;
+namespace and_y87\ClientsHh\Generated\Prompt\Suggestions\Skill;
 
-use Andy87\ClientsHh\Generated\Prompt\GetSkillSetSuggestsPrompt as BaseGetSkillSetSuggestsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSkillSetSuggestsPrompt as BaseGetSkillSetSuggestsPrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /suggests/skill_set.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsObjectsStates.
@@ -17,7 +17,7 @@ class NegotiationsObjectsStates extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['sub_collections' => [\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsSubCollection::class]];
+    protected const CASTS = ['sub_collections' => [\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsSubCollection::class]];
 
     /** @var string Описание коллекции */
     public string $description;
@@ -31,7 +31,7 @@ class NegotiationsObjectsStates extends AbstractSchemaModel
     /** @var string Название коллекции */
     public string $name;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsSubCollection>|null Коллекция подстатусов откликов/приглашений для данной вакансии */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsNegotiationsSubCollection>|null Коллекция подстатусов откликов/приглашений для данной вакансии */
     public ?array $sub_collections = null;
 
     /** @var string URL, [GET-запрос на который](#tag/Otklikipriglasheniya-rabotodatelya/operation/get-negotiations) возвращает список откликов/приглашений коллекции

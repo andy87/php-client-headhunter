@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\ResumeReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\ResumeReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetSkillsPrompt;
-use Andy87\ClientsHh\Generated\Response\ResumeReferenceData\Skills\GetResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetSkillsPrompt;
+use and_y87\ClientsHh\Generated\Response\ResumeReferenceData\Skills\GetResponse;
 
 /**
  * Группа методов "skills" раздела HeadHunter API "Справочники".

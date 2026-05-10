@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacancyDraftVacancyDraftCreateProperties.
@@ -17,11 +17,11 @@ class VacancyDraftVacancyDraftCreateProperties extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['closed_for_applicants' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyClosedForApplicants::class];
+    protected const CASTS = ['closed_for_applicants' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyClosedForApplicants::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyClosedForApplicants|null Schema field closed_for_applicants */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyClosedForApplicants $closed_for_applicants = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyClosedForApplicants|null Schema field closed_for_applicants */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyClosedForApplicants $closed_for_applicants = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftSetterVacancyProperties|null Свойства вакансии, такие как тариф, анонимность и другие */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyDraftSetterVacancyProperties $vacancy_properties = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftSetterVacancyProperties|null Свойства вакансии, такие как тариф, анонимность и другие */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyDraftSetterVacancyProperties $vacancy_properties = null;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\ResumeDetails\Get;
+namespace and_y87\ClientsHh\Generated\Response\ResumeDetails\Get;
 
-use Andy87\ClientsHh\Generated\Response\GetResumeResponse as BaseGetResumeResponse;
+use and_y87\ClientsHh\Generated\Response\GetResumeResponse as BaseGetResumeResponse;
 
 /**
  * Ответ HeadHunter API [GET] /resumes/{resume_id}.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsAssessment.
@@ -17,7 +17,7 @@ class NegotiationsAssessment extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['actions' => [\Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAction::class]];
+    protected const CASTS = ['actions' => [\and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAction::class]];
 
     /** @var string Идентификатор */
     public string $id;
@@ -25,6 +25,6 @@ class NegotiationsAssessment extends AbstractSchemaModel
     /** @var string Название */
     public string $name;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\NegotiationsAction> Инструменты оценки */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\NegotiationsAction> Инструменты оценки */
     public array $actions;
 }

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation;
+namespace and_y87\ClientsHh\Generated\Response\EmployerNegotiations\Negotiation;
 
-use Andy87\ClientsHh\Generated\Response\GetNegotiationTestResultsResponse as BaseGetNegotiationTestResultsResponse;
+use and_y87\ClientsHh\Generated\Response\GetNegotiationTestResultsResponse as BaseGetNegotiationTestResultsResponse;
 
 /**
  * Ответ HeadHunter API [GET] /negotiations/{nid}/test/solution.

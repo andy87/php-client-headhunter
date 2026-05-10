@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider\SalaryReferenceData;
+namespace and_y87\ClientsHh\Generated\Provider\SalaryReferenceData;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetSalaryEmployeeLevelsPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSalaryIndustriesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSalaryProfessionalAreasPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetSalarySalaryAreasPrompt;
-use Andy87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetEmployeeLevelsResponse;
-use Andy87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetIndustriesResponse;
-use Andy87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetProfessionalAreasResponse;
-use Andy87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetSalaryAreasResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetSalaryEmployeeLevelsPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSalaryIndustriesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSalaryProfessionalAreasPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetSalarySalaryAreasPrompt;
+use and_y87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetEmployeeLevelsResponse;
+use and_y87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetIndustriesResponse;
+use and_y87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetProfessionalAreasResponse;
+use and_y87\ClientsHh\Generated\Response\SalaryReferenceData\Salary\GetSalaryAreasResponse;
 
 /**
  * Группа методов "salary" раздела HeadHunter API "Справочники Банка данных заработных плат".

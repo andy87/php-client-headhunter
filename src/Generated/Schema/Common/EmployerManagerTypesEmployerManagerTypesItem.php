@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter EmployerManagerTypesEmployerManagerTypesItem.
@@ -17,9 +17,9 @@ class EmployerManagerTypesEmployerManagerTypesItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['available_permissions' => [\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions::class]];
+    protected const CASTS = ['available_permissions' => [\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions> Список прав, которые можно дать данному типу менеджера */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions> Список прав, которые можно дать данному типу менеджера */
     public array $available_permissions;
 
     /** @var string Идентификатор типа менеджера */

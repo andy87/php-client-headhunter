@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter NegotiationsNegotiationCommonFields.
@@ -17,25 +17,25 @@ class NegotiationsNegotiationCommonFields extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['funnel_stage', 'test_result'];
 
-    protected const CASTS = ['actions' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions::class], 'employer_state' => \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState::class, 'tags' => [\Andy87\ClientsHh\Generated\Schema\Common\IncludesId::class], 'templates' => [\Andy87\ClientsHh\Generated\Schema\Common\VacancyTemplates::class]];
+    protected const CASTS = ['actions' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions::class], 'employer_state' => \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState::class, 'tags' => [\and_y87\ClientsHh\Generated\Schema\Common\IncludesId::class], 'templates' => [\and_y87\ClientsHh\Generated\Schema\Common\VacancyTemplates::class]];
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions>|null Возможные [действия по отклику/приглашению](#tag/Otklikipriglasheniya-rabotodatelya/operation/change-negotiation-action)
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyNegotiationActions>|null Возможные [действия по отклику/приглашению](#tag/Otklikipriglasheniya-rabotodatelya/operation/change-negotiation-action)
  */
     public ?array $actions = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState|null Schema field employer_state */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState $employer_state = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState|null Schema field employer_state */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState $employer_state = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage|null Информация об этапе воронки найма */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage $funnel_stage = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage|null Информация об этапе воронки найма */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployersFunnelStage $funnel_stage = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\IncludesId>|null Теги к работодательскому отклику */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\IncludesId>|null Теги к работодательскому отклику */
     public ?array $tags = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacancyTemplates>|null Шаблоны писем */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\VacancyTemplates>|null Шаблоны писем */
     public ?array $templates = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Результат выполнения [теста](#tag/Otklikipriglasheniya-rabotodatelya/operation/get-negotiation-test-results), прикрепленного к вакансии
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject|null Результат выполнения [теста](#tag/Otklikipriglasheniya-rabotodatelya/operation/get-negotiation-test-results), прикрепленного к вакансии
  */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $test_result = null;
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesNullableObject $test_result = null;
 }

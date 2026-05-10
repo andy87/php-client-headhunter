@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Prompt\ResumeReferenceData\Locales;
+namespace and_y87\ClientsHh\Generated\Prompt\ResumeReferenceData\Locales;
 
-use Andy87\ClientsHh\Generated\Prompt\GetLocalesForResumePrompt as BaseGetLocalesForResumePrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetLocalesForResumePrompt as BaseGetLocalesForResumePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [GET] /locales/resume.

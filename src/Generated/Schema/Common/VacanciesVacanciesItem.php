@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter VacanciesVacanciesItem.
@@ -17,19 +17,19 @@ class VacanciesVacanciesItem extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['archived', 'premium', 'salary_range', 'schedule', 'show_logo_in_search'];
 
-    protected const CASTS = ['accept_incomplete_resumes' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptIncompleteResumes::class, 'accept_labor_contract' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptLaborContract::class, 'accept_temporary' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptTemporary::class, 'address' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea::class, 'civil_law_contracts' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyCivilLawContractsCivilLawContractsOutput::class, 'contacts' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyContactsOutput::class, 'department' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment::class, 'employer' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesEmployerPublic::class, 'fly_in_fly_out_duration' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyFlyInFlyOutDurationFlyInFlyOutDurationOutput::class, 'insider_interview' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview::class, 'internship' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyInternship::class, 'metro_stations' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class, 'name' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyName::class, 'night_shifts' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyNightShifts::class, 'professional_roles' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput::class, 'relations' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyRelations::class, 'response_letter_required' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyResponseLetterRequired::class, 'response_url' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyResponseUrl::class, 'salary' => \Andy87\ClientsHh\Generated\Schema\Common\VacancySalary::class, 'show_contacts' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyShowContacts::class, 'sort_point_distance' => \Andy87\ClientsHh\Generated\Schema\Common\VacancySortPointDistance::class, 'type' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput::class, 'work_format' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkFormatWorkFormatOutput::class, 'work_schedule_by_days' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkScheduleByDaysWorkScheduleByDaysOutput::class, 'working_days' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingDaysOutput::class, 'working_hours' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingHoursWorkingHoursOutput::class, 'working_time_intervals' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeIntervalsOutput::class, 'working_time_modes' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeModesOutput::class, 'counters' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyCounters::class, 'employment' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyEmploymentOutput::class, 'employment_form' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyEmploymentFormOutput::class, 'experience' => \Andy87\ClientsHh\Generated\Schema\Common\VacancyExperienceOutput::class, 'snippet' => \Andy87\ClientsHh\Generated\Schema\Common\VacancySnippet::class];
+    protected const CASTS = ['accept_incomplete_resumes' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptIncompleteResumes::class, 'accept_labor_contract' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptLaborContract::class, 'accept_temporary' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptTemporary::class, 'address' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea::class, 'civil_law_contracts' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyCivilLawContractsCivilLawContractsOutput::class, 'contacts' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyContactsOutput::class, 'department' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment::class, 'employer' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesEmployerPublic::class, 'fly_in_fly_out_duration' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyFlyInFlyOutDurationFlyInFlyOutDurationOutput::class, 'insider_interview' => \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview::class, 'internship' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyInternship::class, 'metro_stations' => \and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation::class, 'name' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyName::class, 'night_shifts' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyNightShifts::class, 'professional_roles' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput::class, 'relations' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyRelations::class, 'response_letter_required' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyResponseLetterRequired::class, 'response_url' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyResponseUrl::class, 'salary' => \and_y87\ClientsHh\Generated\Schema\Common\VacancySalary::class, 'show_contacts' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyShowContacts::class, 'sort_point_distance' => \and_y87\ClientsHh\Generated\Schema\Common\VacancySortPointDistance::class, 'type' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput::class, 'work_format' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkFormatWorkFormatOutput::class, 'work_schedule_by_days' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkScheduleByDaysWorkScheduleByDaysOutput::class, 'working_days' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingDaysOutput::class, 'working_hours' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingHoursWorkingHoursOutput::class, 'working_time_intervals' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeIntervalsOutput::class, 'working_time_modes' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeModesOutput::class, 'counters' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyCounters::class, 'employment' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyEmploymentOutput::class, 'employment_form' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyEmploymentFormOutput::class, 'experience' => \and_y87\ClientsHh\Generated\Schema\Common\VacancyExperienceOutput::class, 'snippet' => \and_y87\ClientsHh\Generated\Schema\Common\VacancySnippet::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptIncompleteResumes Schema field accept_incomplete_resumes */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptIncompleteResumes $accept_incomplete_resumes;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptIncompleteResumes Schema field accept_incomplete_resumes */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptIncompleteResumes $accept_incomplete_resumes;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptLaborContract|null Schema field accept_labor_contract */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptLaborContract $accept_labor_contract = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptLaborContract|null Schema field accept_labor_contract */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptLaborContract $accept_labor_contract = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptTemporary|null Schema field accept_temporary */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyAcceptTemporary $accept_temporary = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptTemporary|null Schema field accept_temporary */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyAcceptTemporary $accept_temporary = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput|null Schema field address */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput $address = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput|null Schema field address */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyAddressRawOutput $address = null;
 
     /** @var string Ссылка на представление вакансии на сайте */
     public string $alternate_url;
@@ -40,26 +40,26 @@ class VacanciesVacanciesItem extends AbstractSchemaModel
     /** @var bool|null Находится ли данная вакансия в архиве */
     public ?bool $archived = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea Schema field area */
-    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesArea $area;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea Schema field area */
+    public \and_y87\ClientsHh\Generated\Schema\Common\IncludesArea $area;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyCivilLawContractsCivilLawContractsOutput|null Schema field civil_law_contracts */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyCivilLawContractsCivilLawContractsOutput $civil_law_contracts = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyCivilLawContractsCivilLawContractsOutput|null Schema field civil_law_contracts */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyCivilLawContractsCivilLawContractsOutput $civil_law_contracts = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyContactsOutput|null Schema field contacts */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyContactsOutput $contacts = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyContactsOutput|null Schema field contacts */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyContactsOutput $contacts = null;
 
     /** @var string|null Дата и время публикации вакансии */
     public ?string $created_at = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment Schema field department */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment $department;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment Schema field department */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsDepartment $department;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesEmployerPublic Schema field employer */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacanciesEmployerPublic $employer;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesEmployerPublic Schema field employer */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacanciesEmployerPublic $employer;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyFlyInFlyOutDurationFlyInFlyOutDurationOutput|null Schema field fly_in_fly_out_duration */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyFlyInFlyOutDurationFlyInFlyOutDurationOutput $fly_in_fly_out_duration = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyFlyInFlyOutDurationFlyInFlyOutDurationOutput|null Schema field fly_in_fly_out_duration */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyFlyInFlyOutDurationFlyInFlyOutDurationOutput $fly_in_fly_out_duration = null;
 
     /** @var bool Информация о наличии прикрепленного тестового задании к вакансии */
     public bool $has_test;
@@ -67,92 +67,92 @@ class VacanciesVacanciesItem extends AbstractSchemaModel
     /** @var string Идентификатор вакансии */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview|null Schema field insider_interview */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview $insider_interview = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview|null Schema field insider_interview */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacanciesObjectsInsiderInterview $insider_interview = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyInternship|null Schema field internship */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyInternship $internship = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyInternship|null Schema field internship */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyInternship $internship = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation|null Schema field metro_stations */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\IncludesMetroStation $metro_stations = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation|null Schema field metro_stations */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\IncludesMetroStation $metro_stations = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyName Schema field name */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyName $name;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyName Schema field name */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyName $name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyNightShifts|null Schema field night_shifts */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyNightShifts $night_shifts = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyNightShifts|null Schema field night_shifts */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyNightShifts $night_shifts = null;
 
     /** @var bool|null Является ли данная вакансия премиум-вакансией */
     public ?bool $premium = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput Schema field professional_roles */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput $professional_roles;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput Schema field professional_roles */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyProfessionalRolesOutput $professional_roles;
 
     /** @var string Дата и время публикации вакансии */
     public string $published_at;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyRelations Schema field relations */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyRelations $relations;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyRelations Schema field relations */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyRelations $relations;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyResponseLetterRequired Schema field response_letter_required */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyResponseLetterRequired $response_letter_required;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyResponseLetterRequired Schema field response_letter_required */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyResponseLetterRequired $response_letter_required;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyResponseUrl|null Schema field response_url */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyResponseUrl $response_url = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyResponseUrl|null Schema field response_url */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyResponseUrl $response_url = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySalary Schema field salary */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancySalary $salary;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySalary Schema field salary */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancySalary $salary;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput|null Schema field salary_range */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput $salary_range;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput|null Schema field salary_range */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancySalaryRangeSalaryRangeOutput $salary_range;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyScheduleOutput|null Schema field schedule */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyScheduleOutput $schedule = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyScheduleOutput|null Schema field schedule */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyScheduleOutput $schedule = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyShowContacts|null Schema field show_contacts */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyShowContacts $show_contacts = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyShowContacts|null Schema field show_contacts */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyShowContacts $show_contacts = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySortPointDistance|null Schema field sort_point_distance */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancySortPointDistance $sort_point_distance = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySortPointDistance|null Schema field sort_point_distance */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancySortPointDistance $sort_point_distance = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput Schema field type */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput $type;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput Schema field type */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancyTypeOutput $type;
 
     /** @var string URL вакансии */
     public string $url;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkFormatWorkFormatOutput|null Schema field work_format */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkFormatWorkFormatOutput $work_format = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkFormatWorkFormatOutput|null Schema field work_format */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkFormatWorkFormatOutput $work_format = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkScheduleByDaysWorkScheduleByDaysOutput|null Schema field work_schedule_by_days */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkScheduleByDaysWorkScheduleByDaysOutput $work_schedule_by_days = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkScheduleByDaysWorkScheduleByDaysOutput|null Schema field work_schedule_by_days */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkScheduleByDaysWorkScheduleByDaysOutput $work_schedule_by_days = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingDaysOutput|null Schema field working_days */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingDaysOutput $working_days = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingDaysOutput|null Schema field working_days */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingDaysOutput $working_days = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingHoursWorkingHoursOutput|null Schema field working_hours */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingHoursWorkingHoursOutput $working_hours = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingHoursWorkingHoursOutput|null Schema field working_hours */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingHoursWorkingHoursOutput $working_hours = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeIntervalsOutput|null Schema field working_time_intervals */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeIntervalsOutput $working_time_intervals = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeIntervalsOutput|null Schema field working_time_intervals */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeIntervalsOutput $working_time_intervals = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeModesOutput|null Schema field working_time_modes */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeModesOutput $working_time_modes = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeModesOutput|null Schema field working_time_modes */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyWorkingTimeModesOutput $working_time_modes = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyCounters|null Schema field counters */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyCounters $counters = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyCounters|null Schema field counters */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyCounters $counters = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyEmploymentOutput|null Schema field employment */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyEmploymentOutput $employment = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyEmploymentOutput|null Schema field employment */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyEmploymentOutput $employment = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyEmploymentFormOutput|null Schema field employment_form */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyEmploymentFormOutput $employment_form = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyEmploymentFormOutput|null Schema field employment_form */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyEmploymentFormOutput $employment_form = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancyExperienceOutput|null Schema field experience */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacancyExperienceOutput $experience = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancyExperienceOutput|null Schema field experience */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\VacancyExperienceOutput $experience = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacancySnippet Дополнительные текстовые снипеты (отрывки) по найденной вакансии. Если в тексте снипета встретилась поисковая фраза (параметр `text`), она будет подсвечена тегом `highlighttext` */
-    public \Andy87\ClientsHh\Generated\Schema\Common\VacancySnippet $snippet;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\VacancySnippet Дополнительные текстовые снипеты (отрывки) по найденной вакансии. Если в тексте снипета встретилась поисковая фраза (параметр `text`), она будет подсвечена тегом `highlighttext` */
+    public \and_y87\ClientsHh\Generated\Schema\Common\VacancySnippet $snippet;
 
     /** @var bool|null Отображать ли лого для вакансии в поисковой выдаче */
     public ?bool $show_logo_in_search = null;

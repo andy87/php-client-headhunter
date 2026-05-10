@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter MetroLineStation.
@@ -17,7 +17,7 @@ class MetroLineStation extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['line' => \Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLine::class];
+    protected const CASTS = ['line' => \and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLine::class];
 
     /** @var string Идентификатор станции */
     public string $id;
@@ -25,8 +25,8 @@ class MetroLineStation extends AbstractSchemaModel
     /** @var float Широта расположения станции */
     public float $lat;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLine Линия метро */
-    public \Andy87\ClientsHh\Generated\Schema\Common\MetroMetroLine $line;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLine Линия метро */
+    public \and_y87\ClientsHh\Generated\Schema\Common\MetroMetroLine $line;
 
     /** @var float Долгота расположения станции */
     public float $lng;

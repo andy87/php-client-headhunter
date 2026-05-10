@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter ErrorsChatsForbiddenDeleteErrors.
@@ -17,11 +17,11 @@ class ErrorsChatsForbiddenDeleteErrors extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = [];
 
-    protected const CASTS = ['errors' => [\Andy87\ClientsHh\Generated\Schema\Common\ErrorsChatsForbiddenDeleteError::class]];
+    protected const CASTS = ['errors' => [\and_y87\ClientsHh\Generated\Schema\Common\ErrorsChatsForbiddenDeleteError::class]];
 
     /** @var string Идентификатор запроса */
     public string $request_id;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\ErrorsChatsForbiddenDeleteError> Массив с данными ошибок */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\ErrorsChatsForbiddenDeleteError> Массив с данными ошибок */
     public array $errors;
 }

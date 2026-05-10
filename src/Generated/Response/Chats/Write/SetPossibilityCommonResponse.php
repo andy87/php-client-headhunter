@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Response\Chats\Write;
+namespace and_y87\ClientsHh\Generated\Response\Chats\Write;
 
-use Andy87\ClientsHh\Generated\Response\SetWritePossibilityCommonResponse as BaseSetWritePossibilityCommonResponse;
+use and_y87\ClientsHh\Generated\Response\SetWritePossibilityCommonResponse as BaseSetWritePossibilityCommonResponse;
 
 /**
  * Ответ HeadHunter API [PUT] /common/chats/{chat_id}/write_possibility.

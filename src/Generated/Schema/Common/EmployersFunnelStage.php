@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter EmployersFunnelStage.
@@ -17,14 +17,14 @@ class EmployersFunnelStage extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['substate'];
 
-    protected const CASTS = ['state' => \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState::class];
+    protected const CASTS = ['state' => \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState::class];
 
     /** @var string Идентификатор этапа воронки */
     public string $id;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState Schema field state */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployersEmployersState $state;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState Schema field state */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployersEmployersState $state;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployersFunnelSubstate|null Информация о подстатусе воронки найма */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployersFunnelSubstate $substate = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployersFunnelSubstate|null Информация о подстатусе воронки найма */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployersFunnelSubstate $substate = null;
 }

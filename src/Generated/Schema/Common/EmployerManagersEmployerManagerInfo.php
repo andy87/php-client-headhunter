@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Schema\Common;
+namespace and_y87\ClientsHh\Generated\Schema\Common;
 
-use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+use and_y87\ClientsHh\Schema\AbstractSchemaModel;
 
 /**
  * OpenAPI schema модель HeadHunter EmployerManagersEmployerManagerInfo.
@@ -17,13 +17,13 @@ class EmployerManagersEmployerManagerInfo extends AbstractSchemaModel
 
     protected const NULLABLE_FIELDS = ['creation_time', 'special_note_1', 'special_note_2', 'vacancies_count'];
 
-    protected const CASTS = ['additional_phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'area' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersArea::class, 'manager_type' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerType::class, 'permissions' => [\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions::class], 'phone' => \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
+    protected const CASTS = ['additional_phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class, 'area' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersArea::class, 'manager_type' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerType::class, 'permissions' => [\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions::class], 'phone' => \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone::class];
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone|null Дополнительный телефон менеджера */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $additional_phone = null;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersArea|null Schema field area */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersArea $area = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersArea|null Schema field area */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersArea $area = null;
 
     /** @var string|null Дата и время регистрации менеджера */
     public ?string $creation_time = null;
@@ -46,8 +46,8 @@ class EmployerManagersEmployerManagerInfo extends AbstractSchemaModel
     /** @var string Фамилия менеджера */
     public string $last_name;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerType|null Schema field manager_type */
-    public ?\Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerType $manager_type = null;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerType|null Schema field manager_type */
+    public ?\and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersManagerType $manager_type = null;
 
     /** @var string|null Отчество менеджера */
     public ?string $middle_name = null;
@@ -55,11 +55,11 @@ class EmployerManagersEmployerManagerInfo extends AbstractSchemaModel
     /** @var string|null Полное имя менеджера */
     public ?string $name = null;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions> Список [прав менеджера](#tag/Menedzhery-rabotodatelya/operation/get-employer-manager-types) */
+    /** @var array<int, \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagerTypesAvailablePermissions> Список [прав менеджера](#tag/Menedzhery-rabotodatelya/operation/get-employer-manager-types) */
     public array $permissions;
 
-    /** @var \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone Основной телефон менеджера */
-    public \Andy87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone;
+    /** @var \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone Основной телефон менеджера */
+    public \and_y87\ClientsHh\Generated\Schema\Common\EmployerManagersPhone $phone;
 
     /** @var string Должность менеджера */
     public string $position;

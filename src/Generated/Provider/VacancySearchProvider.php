@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Andy87\ClientsHh\Generated\Provider;
+namespace and_y87\ClientsHh\Generated\Provider;
 
-use Andy87\ClientsHh\BaseHhProvider;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesRelatedToVacancyPrompt;
-use Andy87\ClientsHh\Generated\Prompt\GetVacanciesSimilarToVacancyPrompt;
-use Andy87\ClientsHh\Generated\Response\GetVacanciesRelatedToVacancyResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacanciesResponse;
-use Andy87\ClientsHh\Generated\Response\GetVacanciesSimilarToVacancyResponse;
+use and_y87\ClientsHh\BaseHhProvider;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesRelatedToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Prompt\GetVacanciesSimilarToVacancyPrompt;
+use and_y87\ClientsHh\Generated\Response\GetVacanciesRelatedToVacancyResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacanciesResponse;
+use and_y87\ClientsHh\Generated\Response\GetVacanciesSimilarToVacancyResponse;
 
 /**
  * Provider раздела HeadHunter API "Поиск вакансий".
