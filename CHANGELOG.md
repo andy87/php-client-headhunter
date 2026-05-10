@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1 - 2026-05-10
+
+- Updated `andy87/php-client-sdk` dependency from `^0.5.0` to `^0.6.0`.
+
 ## 0.2.0 - 2026-05-10
 
 - Changed public PHP namespace to `and_y87\ClientsHh` to match the SDK namespace.
