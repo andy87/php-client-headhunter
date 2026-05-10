@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+/.github export-ignore
+/AGENTS.md export-ignore
+/hh-openapi.yml export-ignore
+/phpunit.xml export-ignore
+/tests export-ignore
+/tools export-ignore
