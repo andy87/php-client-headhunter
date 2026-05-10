@@ -4,3 +4,5 @@ vendor/
 .phpunit.cache/
 tools/*
 !tools/generate-hh-openapi.mjs
+
+.idea/
