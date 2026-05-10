@@ -13,19 +13,13 @@ use Andy87\PhpClientSdk\Response\AbstractResponse;
  */
 class GetCurrentUserInfoResponse extends AbstractResponse
 {
-    protected const FIELD_MAP = ['id' => 'id', 'email' => 'email'];
+    protected const FIELD_MAP = [];
 
-    protected const REQUIRED_FIELDS = ['id'];
+    protected const REQUIRED_FIELDS = [];
 
-    protected const NULLABLE_FIELDS = ['email'];
+    protected const NULLABLE_FIELDS = [];
 
     protected const CASTS = [];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\CurrentUserResponse::class;
-
-    /** @var string User ID. */
-    public string $id;
-
-    /** @var string|null User email. */
-    public ?string $email = null;
+    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\MeProfile::class;
 }

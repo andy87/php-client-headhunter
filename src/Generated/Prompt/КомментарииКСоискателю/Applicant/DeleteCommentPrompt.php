@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Andy87\ClientsHh\Generated\Prompt\КомментарииКСоискателю\Applicant;
+
+use Andy87\ClientsHh\Generated\Prompt\DeleteApplicantCommentPrompt as BaseDeleteApplicantCommentPrompt;
+
+/**
+ * Класс данных запроса HeadHunter API [DELETE] /applicant_comments/{applicant_id}/{comment_id}.
+ *
+ * @documentation https://api.hh.ru/openapi/redoc#operation/delete-applicant-comment
+ *
+ * @property string $applicant_id Идентификатор соискателя, который можно узнать из поля `owner` [в резюме](#tag/Prosmotr-rezyume/operation/get-resume)
+ * @property string $comment_id Идентификатор комментария, который будет удален. Его можно узнать в [списке комментариев](#tag/Kommentarii-k-soiskatelyu/operation/get-applicant-comments-list)
+ * @property string|null $host Доменное имя сайта (см. [Выбор сайта](#section/Obshaya-informaciya/Vybor-sajta))
+ * @property string|null $locale Идентификатор локали (см. [Локализация](#tag/Obshie-spravochniki/operation/get-locales))
+ * @property string|null $HH_User_Agent Название приложения и контактная почта разработчика (см. [Информация о клиенте](#section/Obshaya-informaciya/Trebovaniya-k-zaprosam))
+ */
+class DeleteCommentPrompt extends BaseDeleteApplicantCommentPrompt
+{
+}

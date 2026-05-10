@@ -21,7 +21,9 @@ const reserved = new Set([
     'use', 'var', 'while', 'xor', 'yield'
 ]);
 
-const responseInheritedProperties = new Set(['error', 'statusCode', 'headers', 'model']);
+const promptInheritedProperties = new Set(['raw']);
+const responseInheritedProperties = new Set(['error', 'statusCode', 'headers', 'model', 'raw']);
+const schemaInheritedProperties = new Set(['raw', 'schemaValue']);
 
 const methodNames = new Map();
 const classNames = new Map();
@@ -116,14 +118,22 @@ function validProperty(apiName) {
     return property;
 }
 
-function responseProperty(apiName) {
+function safeGeneratedProperty(apiName, inheritedProperties) {
     const property = validProperty(apiName);
 
-    if (responseInheritedProperties.has(property)) {
-        return `${property}Data`;
-    }
+    return inheritedProperties.has(property) ? `${property}Data` : property;
+}
 
-    return property;
+function promptProperty(apiName) {
+    return safeGeneratedProperty(apiName, promptInheritedProperties);
+}
+
+function responseProperty(apiName) {
+    return safeGeneratedProperty(apiName, responseInheritedProperties);
+}
+
+function schemaProperty(apiName) {
+    return safeGeneratedProperty(apiName, schemaInheritedProperties);
 }
 
 function uniqueClass(base) {
@@ -737,7 +747,7 @@ function buildPrompt(spec, op, meta) {
             continue;
         }
 
-        const property = validProperty(p.name);
+        const property = promptProperty(p.name);
         fieldMap[property] = p.in === 'path' ? pathPlaceholderName(meta.path, p.name) : p.name;
         descriptions[property] = p.description || `${p.in}-parameter ${p.name}`;
         propertySchemas[property] = p.schema || {};
@@ -756,7 +766,7 @@ function buildPrompt(spec, op, meta) {
         if (p.in === 'header') {
             headerFields.push(property);
         }
-        if (p.required) {
+        if (p.required && p.in !== 'header') {
             required.add(property);
         }
         if (schemaNullable(p.schema)) {
@@ -769,7 +779,7 @@ function buildPrompt(spec, op, meta) {
     const bodyRequired = new Set(schemaRequired(spec, bodySchema));
 
     for (const [apiName, schema] of Object.entries(bodyProps)) {
-        const property = validProperty(apiName);
+        const property = promptProperty(apiName);
         fieldMap[property] = apiName;
         descriptions[property] = schema.description || `Body field ${apiName}`;
         propertySchemas[property] = schema;
@@ -917,11 +927,11 @@ function buildSchemaModel(spec, slug, schemaName, schema) {
     const descriptions = {};
     const props = schemaProperties(spec, schema);
     const requiredApiNames = new Set(schemaRequired(spec, schema));
-    const required = [...requiredApiNames].map(validProperty);
+    const required = [...requiredApiNames].map(schemaProperty);
     const nullable = [];
 
     for (const [apiName, propSchema] of Object.entries(props)) {
-        const property = validProperty(apiName);
+        const property = schemaProperty(apiName);
         fieldMap[property] = apiName;
         descriptions[property] = propSchema.description || `Schema field ${apiName}`;
         const cast = schemaCast(spec, propSchema, slug);
@@ -1235,7 +1245,7 @@ function parseSpec(content) {
     } catch {
         const json = execFileSync('python3', ['-c', [
             'import json, sys, yaml',
-            'print(json.dumps(yaml.safe_load(sys.stdin.read())))',
+            'print(json.dumps(yaml.safe_load(sys.stdin.read()), default=str))',
         ].join('; ')], {
             input: source,
             encoding: 'utf8',

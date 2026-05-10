@@ -1,0 +1,30 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Andy87\ClientsHh\Generated\Schema\Common;
+
+use Andy87\ClientsHh\Schema\AbstractSchemaModel;
+
+/**
+ * OpenAPI schema модель HeadHunter _IncludesLanguageLevel.
+ */
+class IncludesLanguageLevel extends AbstractSchemaModel
+{
+    protected const FIELD_MAP = ['id' => 'id', 'name' => 'name', 'level' => 'level'];
+
+    protected const REQUIRED_FIELDS = ['level', 'id', 'name'];
+
+    protected const NULLABLE_FIELDS = [];
+
+    protected const CASTS = ['level' => \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName::class];
+
+    /** @var string Идентификатор */
+    public string $id;
+
+    /** @var string Название */
+    public string $name;
+
+    /** @var \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName Уровень владения. Возможные значения элементов приведены в поле `language_level` [справочника полей](#tag/Obshie-spravochniki/operation/get-dictionaries) */
+    public \Andy87\ClientsHh\Generated\Schema\Common\IncludesIdName $level;
+}

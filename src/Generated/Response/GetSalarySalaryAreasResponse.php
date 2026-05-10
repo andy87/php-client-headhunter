@@ -1,0 +1,25 @@
+<?php
+
+declare(strict_types=1);
+
+namespace Andy87\ClientsHh\Generated\Response;
+
+use Andy87\PhpClientSdk\Response\AbstractResponse;
+
+/**
+ * Ответ HeadHunter API [GET] /salary_statistics/dictionaries/salary_areas.
+ *
+ * @documentation https://api.hh.ru/openapi/redoc#operation/get-salary-salary-areas
+ */
+class GetSalarySalaryAreasResponse extends AbstractResponse
+{
+    protected const FIELD_MAP = [];
+
+    protected const REQUIRED_FIELDS = [];
+
+    protected const NULLABLE_FIELDS = [];
+
+    protected const CASTS = [];
+
+    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\DictionariesSalaryStatisticsAreaResponse::class;
+}

@@ -13,28 +13,46 @@ use Andy87\PhpClientSdk\Response\AbstractResponse;
  */
 class GetVacanciesResponse extends AbstractResponse
 {
-    protected const FIELD_MAP = ['items' => 'items', 'found' => 'found', 'page' => 'page', 'pages' => 'pages', 'per_page' => 'per_page'];
+    protected const FIELD_MAP = ['items' => 'items', 'found' => 'found', 'page' => 'page', 'pages' => 'pages', 'per_page' => 'per_page', 'clusters' => 'clusters', 'arguments' => 'arguments', 'alternate_url' => 'alternate_url', 'fixes' => 'fixes', 'suggests' => 'suggests'];
 
-    protected const REQUIRED_FIELDS = ['items', 'found'];
+    protected const REQUIRED_FIELDS = ['items', 'found', 'page', 'pages', 'per_page'];
 
-    protected const NULLABLE_FIELDS = [];
+    protected const NULLABLE_FIELDS = ['clusters', 'arguments', 'alternate_url'];
 
-    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\Vacancy::class]];
+    protected const CASTS = ['items' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesItem::class], 'clusters' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem::class], 'arguments' => [\Andy87\ClientsHh\Generated\Schema\Common\VacanciesArgumentItem::class], 'fixes' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesFixes::class, 'suggests' => \Andy87\ClientsHh\Generated\Schema\Common\VacanciesSuggests::class];
 
-    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacancySearchResponse::class;
+    protected const MODEL = \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesResponse::class;
 
-    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\Vacancy> Vacancy collection. */
+    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesVacanciesItem> Список вакансий */
     public array $items;
 
-    /** @var int Found vacancies count. */
+    /** @var int Найдено результатов */
     public int $found;
 
-    /** @var int|null Current page. */
-    public ?int $page = null;
+    /** @var int Номер страницы */
+    public int $page;
 
-    /** @var int|null Total pages. */
-    public ?int $pages = null;
+    /** @var int Всего страниц */
+    public int $pages;
 
-    /** @var int|null Items per page. */
-    public ?int $per_page = null;
+    /** @var int Результатов на странице */
+    public int $per_page;
+
+    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesClusterItem>|null Массив [кластеров поиска](#tag/Poisk-vakansij/Klastery-v-poiske-vakansij) */
+    public ?array $clusters = null;
+
+    /** @var array<int, \Andy87\ClientsHh\Generated\Schema\Common\VacanciesArgumentItem>|null Массив параметров поиска, переданных в запросе.
+
+Возвращается только если в запросе передан параметр `describe_arguments=true`. В массиве выдаются только те параметры, которые влияют на поиск вакансий. Неизвестные параметры игнорируются. Элемент списка с одним значением `argument` может повторяться несколько раз, если параметр имеет несколько значений
+ */
+    public ?array $arguments = null;
+
+    /** @var string|null Ссылка на вакансию */
+    public ?string $alternate_url = null;
+
+    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesFixes|null Response field fixes */
+    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesFixes $fixes = null;
+
+    /** @var \Andy87\ClientsHh\Generated\Schema\Common\VacanciesSuggests|null Response field suggests */
+    public ?\Andy87\ClientsHh\Generated\Schema\Common\VacanciesSuggests $suggests = null;
 }

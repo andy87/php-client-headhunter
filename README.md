@@ -42,7 +42,7 @@ $prompt = new GetVacanciesPrompt();
 $prompt->text = 'php developer';
 $prompt->per_page = 10;
 
-$response = $client->vacancies->getVacancies($prompt);
+$response = $client->provider('поискВакансий')->getVacancies($prompt);
 
 foreach ($response->items ?? [] as $vacancy) {
     echo $vacancy->name . PHP_EOL;
@@ -64,7 +64,7 @@ $client = new ApiClientHh([
     ],
 ]);
 
-$response = $client->currentUser->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
+$response = $client->provider('информацияОСоискателе')->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
 
 echo $response->id . PHP_EOL;
 ```

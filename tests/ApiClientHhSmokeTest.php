@@ -8,7 +8,6 @@ use Andy87\ClientsHh\ApiClientHh;
 use Andy87\ClientsHh\BaseHhProvider;
 use Andy87\ClientsHh\Generated\Prompt\GetCurrentUserInfoPrompt;
 use Andy87\ClientsHh\Generated\Prompt\GetVacanciesPrompt;
-use Andy87\ClientsHh\Generated\Provider\CurrentUserProvider;
 use Andy87\ClientsHh\Generated\ProviderRegistry;
 use Andy87\ClientsHh\HhConfig;
 use Andy87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
@@ -62,13 +61,13 @@ class ApiClientHhSmokeTest extends TestCase
     }
 
     /**
-     * Проверяет, что публичный Prompt не требует авторизации.
+     * Проверяет, что официальный OpenAPI помечает поиск вакансий global OAuth security.
      *
      * @return void
      */
-    public function testPublicPromptDoesNotRequireAuthorization(): void
+    public function testVacanciesPromptRequiresAuthorizationFromGlobalSecurity(): void
     {
-        self::assertFalse((new GetVacanciesPrompt())->requiresAuthorization());
+        self::assertTrue((new GetVacanciesPrompt())->requiresAuthorization());
     }
 
     /**
@@ -106,11 +105,12 @@ class ApiClientHhSmokeTest extends TestCase
             'accessToken' => 'test-token',
         ], $transport);
 
-        $provider = $client->provider('currentUser');
+        $provider = $client->provider('информацияОСоискателе');
 
-        self::assertInstanceOf(CurrentUserProvider::class, $provider);
+        self::assertTrue(method_exists($provider, 'getCurrentUserInfo'));
 
-        $provider->getCurrentUserInfo(new GetCurrentUserInfoPrompt());
+        $method = new \ReflectionMethod($provider, 'getCurrentUserInfo');
+        $method->invoke($provider, new GetCurrentUserInfoPrompt());
 
         self::assertCount(1, $requests);
         self::assertSame('Bearer test-token', $requests[0]->headers['Authorization'] ?? null);
