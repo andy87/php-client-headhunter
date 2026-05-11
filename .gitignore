@@ -5,3 +5,9 @@ vendor/
 tools/*
 
 .idea/
+
+AGENTS.md
+
+CHANGELOG.md
+
+hh-openapi.yml
