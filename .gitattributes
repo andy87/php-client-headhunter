@@ -3,9 +3,6 @@
 /.github export-ignore
 /.gitattributes export-ignore
 /.gitignore export-ignore
-/AGENTS.md export-ignore
-/hh-openapi.yml export-ignore
 /phpunit.xml export-ignore
 /tests export-ignore
-/tools export-ignore
 /composer.lock export-ignore
