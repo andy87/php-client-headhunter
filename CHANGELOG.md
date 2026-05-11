@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.7.0 - 2026-05-11
+
+- Updated `andy87/php-client-sdk` dependency to `0.7.0`.
+- Migrated SDK imports to the grouped namespace architecture.
+- Updated generated Prompt and Response DTO imports.
+- Updated OpenAPI generator templates for SDK `0.7.0`.
+- Updated tests and public documentation examples.
+- Removed stale SDK namespace references from project code, tests and documentation.
+
 ## 0.2.1 - 2026-05-10
 
 - Updated `andy87/php-client-sdk` dependency from `^0.5.0` to `^0.6.0`.
