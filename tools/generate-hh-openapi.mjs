@@ -782,8 +782,8 @@ function isBinarySchema(schema) {
 function promptPropertyOverrides(contentType, schema) {
     if (contentType === 'multipart/form-data' && isBinarySchema(schema)) {
         return {
-            type: '\\and_y87\\PhpClientSdk\\Http\\MultipartFile|string',
-            docType: '\\and_y87\\PhpClientSdk\\Http\\MultipartFile|string',
+            type: '\\and_y87\\PhpClientSdk\\Transport\\Http\\MultipartFile|string',
+            docType: '\\and_y87\\PhpClientSdk\\Transport\\Http\\MultipartFile|string',
         };
     }
 
@@ -908,7 +908,7 @@ function buildPrompt(spec, op, meta) {
 
     return classFile({
         namespace: `${namespace}\\Prompt`,
-        use: [`and_y87\\PhpClientSdk\\Prompt\\${promptBaseClass}`],
+        use: [`and_y87\\PhpClientSdk\\Request\\Prompt\\${promptBaseClass}`],
         className: meta.promptClass,
         extendsClass: promptBaseClass,
         docLines: operationClassDoc(meta, 'prompt'),
@@ -971,7 +971,7 @@ function buildResponse(spec, op, meta) {
 
     return classFile({
         namespace: `${namespace}\\Response`,
-        use: ['and_y87\\PhpClientSdk\\Response\\AbstractResponse'],
+        use: ['and_y87\\PhpClientSdk\\Response\\Model\\AbstractResponse'],
         className: meta.responseClass,
         extendsClass: 'AbstractResponse',
         docLines: operationClassDoc(meta, 'response'),

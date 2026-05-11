@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace and_y87\ClientsHh\Generated\Response;
 
-use and_y87\PhpClientSdk\Response\AbstractResponse;
+use and_y87\PhpClientSdk\Response\Model\AbstractResponse;
 
 /**
  * Ответ HeadHunter API [GET] /employers/{employer_id}/managers/{manager_id}/method_access.

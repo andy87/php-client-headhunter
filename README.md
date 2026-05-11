@@ -112,12 +112,13 @@ By default, `HhConfig::fromEnv()` reads:
 ## Runtime Options
 
 `ApiClientHh` supports shared runtime options from `andy87/php-client-sdk`: default request headers, event listeners, custom transport, retry policy, response decoding, and authorization resolver.
+When passing SDK objects directly, use the SDK 0.7 grouped namespaces, for example `and_y87\PhpClientSdk\Client\Event`, `and_y87\PhpClientSdk\Transport`, and `and_y87\PhpClientSdk\Security\Authorization`.
 
 ```php
 <?php
 
 use and_y87\ClientsHh\ApiClientHh;
-use and_y87\PhpClientSdk\Event\BeforeRequestEvent;
+use and_y87\PhpClientSdk\Client\Event\BeforeRequestEvent;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -148,4 +149,4 @@ Generated prompt DTOs are filled through public properties. Create a prompt obje
 
 ## Errors
 
-Transport, authorization, decoding, validation, and response hydration errors are raised by `andy87/php-client-sdk` exceptions. API error payloads are available through generated response DTO metadata and the SDK error object.
+Transport, authorization, decoding, validation, and response hydration errors are raised by `andy87/php-client-sdk` exceptions. API error payloads for HTTP error responses are available through generated response DTOs via `hasError()`, `getError()`, and `$response->error`. Response DTOs also expose HTTP metadata through `getStatusCode()`, `getHeaders()`, `getRawBody()`, and `getDecodedBody()`.

@@ -110,12 +110,13 @@ $client = new ApiClientHh(HhConfig::fromEnv());
 ## Runtime Options
 
 `ApiClientHh` поддерживает общие runtime-options из `andy87/php-client-sdk`: дефолтные заголовки, обработчики событий, пользовательский transport, retry policy, response decoder и authorization resolver.
+Если передаёте SDK-объекты напрямую, используйте grouped namespaces из SDK 0.7, например `and_y87\PhpClientSdk\Client\Event`, `and_y87\PhpClientSdk\Transport` и `and_y87\PhpClientSdk\Security\Authorization`.
 
 ```php
 <?php
 
 use and_y87\ClientsHh\ApiClientHh;
-use and_y87\PhpClientSdk\Event\BeforeRequestEvent;
+use and_y87\PhpClientSdk\Client\Event\BeforeRequestEvent;
 
 $client = new ApiClientHh([
     'accessToken' => 'your-oauth-access-token',
@@ -146,4 +147,4 @@ Generated Prompt DTO заполняются через публичные сво
 
 ## Ошибки
 
-Ошибки транспорта, авторизации, декодирования, валидации и гидрации response DTO выбрасываются исключениями `andy87/php-client-sdk`. API error payload доступен через metadata сгенерированного response DTO и SDK error object.
+Ошибки транспорта, авторизации, декодирования, валидации и гидрации response DTO выбрасываются исключениями `andy87/php-client-sdk`. API error payload для HTTP-ответов с ошибкой доступен через сгенерированный response DTO: `hasError()`, `getError()` и `$response->error`. HTTP-данные ответа доступны через `getStatusCode()`, `getHeaders()`, `getRawBody()` и `getDecodedBody()`.

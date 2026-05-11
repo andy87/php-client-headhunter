@@ -6,17 +6,17 @@ namespace and_y87\ClientsHh;
 
 use and_y87\ClientsHh\Generated\ProviderRegistry;
 use and_y87\ClientsHh\Generated\ProviderKey;
-use and_y87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
-use and_y87\PhpClientSdk\Auth\NullAuthorizationStrategy;
-use and_y87\PhpClientSdk\Config\ClientOptions;
-use and_y87\PhpClientSdk\Contracts\AuthorizationStrategyResolverInterface;
-use and_y87\PhpClientSdk\Contracts\AuthorizationStrategyInterface;
-use and_y87\PhpClientSdk\Contracts\HttpTransportInterface;
-use and_y87\PhpClientSdk\Event\AfterInitEvent;
-use and_y87\PhpClientSdk\Event\ClientEvents;
-use and_y87\PhpClientSdk\Http\NativeHttpTransport;
-use and_y87\PhpClientSdk\Http\TraceableTransport;
-use and_y87\PhpClientSdk\Runtime\ClientRuntime;
+use and_y87\PhpClientSdk\Security\Authorization\Strategy\BearerTokenAuthorizationStrategy;
+use and_y87\PhpClientSdk\Security\Authorization\Strategy\NullAuthorizationStrategy;
+use and_y87\PhpClientSdk\Client\Config\ClientOptions;
+use and_y87\PhpClientSdk\Contracts\Auth\AuthorizationStrategyResolverInterface;
+use and_y87\PhpClientSdk\Contracts\Auth\AuthorizationStrategyInterface;
+use and_y87\PhpClientSdk\Contracts\Http\HttpTransportInterface;
+use and_y87\PhpClientSdk\Client\Event\AfterInitEvent;
+use and_y87\PhpClientSdk\Client\Event\ClientEvents;
+use and_y87\PhpClientSdk\Transport\Native\NativeHttpTransport;
+use and_y87\PhpClientSdk\Transport\Trace\TraceableTransport;
+use and_y87\PhpClientSdk\Client\Runtime\ClientRuntime;
 
 /**
  * Главный клиент HeadHunter API с ленивым доступом к provider-разделам.

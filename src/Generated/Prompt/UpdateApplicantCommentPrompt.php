@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace and_y87\ClientsHh\Generated\Prompt;
 
-use and_y87\PhpClientSdk\Prompt\PrivatePrompt;
+use and_y87\PhpClientSdk\Request\Prompt\PrivatePrompt;
 
 /**
  * Класс данных запроса HeadHunter API [PUT] /applicant_comments/{applicant_id}/{comment_id}.

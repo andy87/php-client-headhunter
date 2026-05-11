@@ -13,11 +13,11 @@ use and_y87\ClientsHh\Generated\Provider\VacancySearchProvider;
 use and_y87\ClientsHh\Generated\ProviderKey;
 use and_y87\ClientsHh\Generated\ProviderRegistry;
 use and_y87\ClientsHh\HhConfig;
-use and_y87\PhpClientSdk\Auth\BearerTokenAuthorizationStrategy;
-use and_y87\PhpClientSdk\Auth\NullAuthorizationStrategy;
-use and_y87\PhpClientSdk\Http\HttpResponse;
-use and_y87\PhpClientSdk\Mock\CallbackMockResponseResolver;
-use and_y87\PhpClientSdk\Mock\MockTransport;
+use and_y87\PhpClientSdk\Security\Authorization\Strategy\BearerTokenAuthorizationStrategy;
+use and_y87\PhpClientSdk\Security\Authorization\Strategy\NullAuthorizationStrategy;
+use and_y87\PhpClientSdk\Transport\Http\HttpResponse;
+use and_y87\PhpClientSdk\Testing\Mock\CallbackMockResponseResolver;
+use and_y87\PhpClientSdk\Testing\Mock\MockTransport;
 use PHPUnit\Framework\TestCase;
 
 /**
